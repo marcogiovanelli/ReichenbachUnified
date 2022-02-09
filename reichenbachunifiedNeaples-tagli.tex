@@ -1,0 +1,107 @@
+One can think of $d\xn$ as the components of a (contravariant) vector $A^\tau$, $n$ numbers $A^\mu$ ($A^1, A^2, A^3, A^4) that we associate with some point $P$ and transform as per certain rules by the change of coordinates. In Euclidean geometry, it is always possible to introduce a Cartesian coordinate system in which two vectors are equal and parallel when they have the same components. However, this relation does not hold if we introduce curvilinear coordinates, \eg polar coordinates. Although parallel vectors are still parallel in the new coordinate system, the equality of the components of two parallel vectors attached to two different points in space is not preserved. \Eg consider two unit vectors $A^\tau$  and $A^{*\tau}$ on a plane pointing along the $x$ direction: one at the point at $(0,1)$ and another at $(1,0)$ in Cartesian coordinates. In this coordinate system, $A^\tau$  and $A^{*\tau}$ have the same components, \ie they are equal and parallel. However, in polar coordinates $r,\vartheta$ (where $r$ represents distance from the origin, and $\vartheta$ represents the angle that the point makes with the origin and the positive $x$-axis), $A^\tau$ has only a $r$ component, whereas $A^{*\tau}$ has only a $\vartheta$ component. Nevertheless, they are still equal and parallel. Indeed, the vector $A^*\tau$ can be obtained by displacing $A^\tau$ parallel to itself along a circle. In polar coordinates, the components $A^\tau$ change at each point even though its length and direction remain the same
+
+In Euclidean geometry, it is always possible to introduce a Cartesian coordinate system in which two vectors are equal and parallel when they have the same components. However, this relation does not hold if we introduce curvilinear coordinates, \eg polar coordinates. Consequently, vectors at different points can no longer be directly compared. If one displaces a vector to a neighboring point $dx_\nu$, one does not know whether the vector has remained the \scare{same} by simply examining its components. The \scare{connection} (\german{Zusammenhang}) from a point to another is lost. Because the affine geometry is the study of parallel lines, \citet{Weyl1918b} used to speak of the necessity of establishing an \scare{affine connection} (\german{affiner Zusammenhang}). However, because it is a relation of \scare{sameness} rather than parallelism that is relevant in this context, others, such as Reichenbach, prefer to speak of the operation of \scare{displacement} (\german{Verschiebung}), where the latter indicates the small coordinate difference $d\xn$ along which the vector is transferred. 
+
+
+To reinstate the \scare{connection} one requires to introduce a rule for comparing vectors at infinitesimally separated points. Given a vector $A^\tau$ at \xn in an arbitrary coordinate system, we need to determine the components of the vector $A^{\ast\tau}$ at $\xn+d\xn$ that is to be considered the \scare{same vector} as the given vector $A^\tau$. The vector $A^{\tau}$ at the point $P\left(x^{\nu}\right)$ and the vector $A^{\tau}+d A^{\tau}$ at the point $P^{\ast}\left(x^{\nu}+d x^{\nu}\right)$ are the \scare{same vector}, if they satisfy the condition:
+
+\begin{equation}\label{eq:affine}
+dA^\tau = \Gamma^\tau_{\mu\nu}A^{\mu} dx_\nu\,.
+\end{equation}
+%
+The quantity $\Gamma^\tau_{\mu\nu}$ is known as the affine connection or displacement. It has three indices, i.e., entails $\tau$ possible combinations of $\mu \times \nu$ coefficients, which can vary arbitrarily from point to point, i.e., in the general case, are functions of $x_\nu$. Because in general $\Gtmn \neq \Gtnm$, the \Gtmn has $n \times n^2$ coefficients. If a vector $A^\tau$ is given at the point $P$ with coordinates \xn, \cref{eq:affine} yields the unknown components of the vector $A^{\ast\tau}$ at $P^*$ with coordinates $\xn+dx_\nu$. Continuing this process $
+\xn+d\xn+d^{\ast} \xn+d^{\ast \ast} \xn \ldots$, we can parallel displace a vector from any given point to any other distant point. As is well known, the most characteristic feature of the operation of displacement is that if one parallel displaces $A^\tau$ along different paths, one gets, in general, a different vector $A^{\ast \tau}$ at a distant point:
+
+It is naturally to assume that is symmetric. The displacement allows to establish whether two vectors are the \scare{same}, i.e., having the same length and the same direction. However, it does not provide a measure of the length of differently directed vectors. For this purpose, the notion of dot product of two vectors must be introduced, which, taking the components of the two vectors, returns a single number. In particular, the squared length $l$ of a vector is given by the dot product of the vector with itself $l^2$. In an arbitrary coordinate system, the latter takes the form:
+
+\begin{equation}\label{eq:3}
+l^2=\gmn A^\mu A^\nu\,,
+\end{equation}
+%
+where the \gmn is the metric. If $A^\tau$ is considered to correspond to $dx_\nu$, \cref{eq:3} is nothing but \cref{eq:lineelement} and $l$ corresponds to $ds$. However, this notation is more general. One can take $A^\tau$ to be $dx^\nu/ds$, (where $ds$ is the \til interval, which is an element of the four-dimensional trajectory of a moving point), $l$ is the length of the four-velocity vector $u^\nu$. How much a vector varies, this is simple in the case that, covariant differentiation, a second term is necessary, that is that the covariant of the metric vanish
+
+
+By imposing this condition, one obtains 
+
+\begin{equation}\label{eq:riemannconnection}
+\Gtmn=-\christoffel{\mu}{\nu}{\tau} =
+\end{equation}
+%
+
+The components of \Gtmn have the same numerical values of the so-called Christoffel symbols of the second kind (up to a sign) because they are calculated from the metric \gmn and its first derivatives.
+
+
+
+
+%\cop{Yet it is incorrect to conclude, like Weyl and Haas, that mathematics and physics are but one discipline. The question concerning the validity of axioms for the physical world must be distinguished from that concerning possible axiomatic systems. It is the merit of the theory of relativity that it removed the question of the truth of geometry from mathematics and relegated it to physics. If now, from a general geometry, theorems are derived and asserted to be a necessary foundation of physics, the old mistake is repeated. This objection must be made to Weyl's generalization of the theory of relativity which abandons altogether}. 
+%
+%
+%\q{What is the length of a physical rod? It is defined by a large number of physical equations that are interpreted as length with the help of readings on geodetic instrumets. The definition results from a coordination of things to equations. 1--hus we are faced with the strange fact that in the reahn of cognition two sets are coordinated, one of which not only attains its order through this coordination, but whose elements are defined by 1neans of this coordination}
+%
+%\cop{Schlick is therefore right when he defines truth in terms of unique coördination. ${ }^{11}$ We always call a theory true when all chains of reasoning lead to the same number for the same phenomenon. This is the only criterion of truth; it is that criterion which, since the}. \cop{By means of which principles will a coördination of equations to physical reality become unique?}. \cop{There exist systems of coördinating principles which make the uniqueness of the coördination impossible; that is, there exist implicitly inconsistent systems.}.
+%
+%
+%\cop{When ever have discovered a coordinating principle used in physics, we can indicate a more general one of which the first is only a special case. We might now n1ake the attetnpt to call the more general principle a priori in the traditional sense and to ascribe eternal validity at least to this principle. But such a procedure fails because for the more general principle an even general one can be indicated; this hierarchy has no upper limit}.
+%
+
+
+
+%
+
+
+
+
+
+%%21 (p. 76). Hermann Weyl, Raurn-Zeit-Materie (Berlin: Springer, 1918), p. 227; Arthur Haas, " Die Physik als geometrische Notwendigkeit,'' NatltTwissenschaften} VIII, 7, pp. 121-140.
+%
+%%If, for instance, Weyl's generalization should turn out to be correct, a new subjective element \vill have appeared in the 1netric. Then the comparison of nvo s1nall n1easuring rods at two different space points also no longer contains the objective relation that it contains in Einstein's theory in spite of the dependence of the 1neasured relation upon the choice of the coordinates, but is only a subjective form of description, con1parable to the position of the coordinates.
+
+
+
+%Der erste Punkt betrifft Herrn Dr. Reichenbach, dem ich möglichst schnell zu Habilitation verhelfen möchte.[2] Er hat dazu eine Arbeit: „Die Bedeutung der Re- lativitätstheorie für den physikalischen Erkenntnisbegriff“ eingereicht. Er sagte mir, dass Sie die Arbeit schon gelesen hätten, sodass ich sie Ihnen nicht zu schicken brauchte.[3] Ich muss nun sagen, dass meine eigene Erfahrung nicht hinreicht, um die Arbeit genügend zu würdigen und ich glaube ferner, dass Ihr Urteil über die Ar- beit bei der Hochschule hier sehr viel wiegen wird, sodass ich für den glatten Ver- lauf der Habilitation Günstiges erhoffe. Es wäre das deswegen besonders wertvoll, weil die Arbeit doch zum grossen Teil philosophischen Charakters ist, Herr Rei- chenbach sich aber für Physik habilitieren soll. Nun glaube ich, dass auch Sie mit mir übereinstimmen werden darin, dass gerade solche Arbeiten auch für den Phy- siker bei der augenblicklichen Entwicklung in der Physik sehr nützlich sind, sodass seine Arbeit auch dem Herrn Reichenbach zur Habilitation inder Physik dienen kann.
+
+%The thesis was published after 15 June 1920 as Reichenbach 1920 (see Doc. 57). Stuttgart, Wiederholdstr. 13. d. 15. Juni 1920. Widmung Reichenbach attended Einstein's Ieerures in Berlin (see Doc. 57, note 2). That most of the discussion of the book, relativized constitutive \apr, however, one first by a philosophers of Weyl theory, and in particular was that is itself superior. \q{Philosophen eine Ahnung davon haben, dass mit Ihrer Theorie eine philosophische Tat getan ist, und dass in Ihren physikalischen Begriffsbildungen mehr Philosophie enthalten ist, als in allen vielbändigen Werken der Epigonen des grossen Kant.} \q{die tiefe Einsicht der Kanti- schen Philosophie von ihrem zeitgenössischen Beiwerk zu befreien} \cop{Der Wert der Rel.Th. für die Philosophie scheint mir der zu sein, dass sie die Zweifelhaftigkeit gewisser Begriffe dargethan hat, die auch in der Philosophie als Scheidemünzen anerkannt waren}. 
+
+%Weyl's presentation was Pauli and Einstein, was included the 4th edition of Raum, Zeit, Materie (Weyl, 1921a) finished in November 1920, to explain ?the discrepancy between the idea of congruent transfer and the behavior of measuring-rods and clocks and atoms? (Weyl, 1921a, 280; tr. 1922a, 308).
+
+
+
+%The mechanism of adjustment is the only way to explain the surprising fact that electrons and hydrogen nuclei always have the same mass and charge, and thus the very existence of identical atoms, along with the possibly that these atoms, under given external conditions, settle into identical crystalline structures, that we can use as rods.  Weyl thus had good reasons to claim that the only explanation for the fact that electrons always have the same charge, whatever their prehistory, might have been to assume that there is some field quantity of the dimension of a length (i.e., it is simply a number) to which the charge of the electrons ?adjust? themselves in a certain proportion. This was, after all, the general framework that, e.g. Mie (who also gave a talk at Bad Nauheim, Mie, 1920) had tried to realize without any success (cf. also footnote 5). A certain state of equilibrium of the negative (or positive) electricity would always be ?reestablished? whatever disturbance it may have experienced in the past, just as the 
+%magnetic needle always points north, despite what may have happened to it previously. 
+
+
+%Reichenbach's criticism, Erwin Freundlich at about the same time. There was indeed, that the theory could was either refuted, by assuming the physical measuing rod, behave differently from ideal ones, which follow the geometry of \st. 
+
+%Indeed, a few days later \cop{Einstein wrote to Cassirer a few days later, that the meaning of the $ds$}, how the coordination of his objection against Weyl. That was meaningless without rods and clocks 
+
+
+%Weyl's presentation was Pauli and Einstein, was included the 4th edition of Raum, Zeit, Materie (Weyl, 1921a) finished in November 1920, to explain ?the discrepancy between the idea of congruent transfer and the behavior of measuring-rods and clocks and atoms? (Weyl, 1921a, 280; tr. 1922a, 308).
+
+
+
+%The mechanism of adjustment is the only way to explain the surprising fact that electrons and hydrogen nuclei always have the same mass and charge, and thus the very existence of identical atoms, along with the possibly that these atoms, under given external conditions, settle into identical crystalline structures, that we can use as rods.  Weyl thus had good reasons to claim that the only explanation for the fact that electrons always have the same charge, whatever their prehistory, might have been to assume that there is some field quantity of the dimension of a length (i.e., it is simply a number) to which the charge of the electrons ?adjust? themselves in a certain proportion. This was, after all, the general framework that, e.g. Mie (who also gave a talk at Bad Nauheim, Mie, 1920) had tried to realize without any success (cf. also footnote 5). A certain state of equilibrium of the negative (or positive) electricity would always be ?reestablished? whatever disturbance it may have experienced in the past, just as the 
+%magnetic needle always points north, despite what may have happened to it previously. 
+
+
+%Reichenbach's criticism, Erwin Freundlich at about the same time. There was indeed, that the theory could was either refuted, by assuming the physical measuing rod, behave differently from ideal ones, which follow the geometry of \st. 
+
+The importance of this formalism for \gr was to which was the key content of the theory. Let's conisder the four-velocity of a particle $u^\tau=d\xn/d\ap$. By parallel-displacing a vector $u^\tau$ indicating the direction of a curve $\xn(\ap)$ at any of its points, one can define a special class of curves, the straightest lines. The operation of parallel transporting a vector $u^\tau$ along a curve $x(\ap)$ is expressed by the condition that the covariant derivatives of $u^\tau$ with respect to the parameter \ap vanish along the curve: $\frac{d u^{\tau}}{d \ap}-\Gtmn u^{\mu} \frac{d x^\nu}{d\ap}=0$. The vector $u^\tau$ indicates the direction of the curve $x_\nu(\ap)$ at each point if its components are proportional to the increments $dx_\nu$ along the curve, \ie if $u^\tau=d\xn/d\ap$. The curve traced by the parallel displacement of $u^\tau$ along its own direction $d\xn/d\ap$ is the straightest curve. According to special relativity, a freely movable body not subjected to external forces moves, according to the special theory of relativity, in a straight line and uniformly with respect to an inertial coordinate system $K$:
+
+\begin{equation}\label{eq:geodesicelectro}
+\frac{d^{2} x_{\tau}}{d s^{2}} = 0
+\end{equation}
+
+If \ap is the so-called \scare{proper time}, $u^\tau$ as the velocity four-vector of a particle, and $\frac{d {u^\tau}}{d\ap}$ its acceleration. If now consider from the of a we can, that this is ultimately. If chose a suitable coordinate system that the right had sight of the equation vanish. Then if we introduce new space-time co-ordinates $x_{1}, x_{2}, x_{3}, x_{4}$, by means of any substitution we choose, the go in this new system will no longer be constants, but functions of space and time.
+
+\begin{equation*}
+\frac{d {u^\tau}}{d\ap} - \Gtmn u^{\mu} u^\nu =0 
+\end{equation*}
+ 
+According to the equivalence principle $K$ and $K'$ is however, indistinguisblae from $K$. All fall with the same velocity, thus the non vanisihig of the \gmn. If the $\Gamma_{\mu \nu}^{\tau}$ vanish, then the point moves uniformly in a straight line. These quantities therefore condition the deviation of the motion from uniformity. They are the components of the gravitational field.
+
+
+\begin{equation}\label{eq:riemanntensorgamma}
+R_{\mu \nu \sigma}^{\tau}(\Gamma)=\frac{\partial \Gamma_{\mu \nu}^{\tau}}{\partial x^{\sigma}}-\frac{\partial \Gamma_{\mu \sigma}^{\tau}}{\partial x^{\nu}}+\Gamma_{\alpha \nu}^{\tau} \Gamma_{\mu \sigma}^{\alpha}-\Gamma_{\alpha \sigma}^{\tau} \Gamma_{\mu\sigma}^{\alpha}\,, = 0
+\end{equation}
+%
+In the general case how, so that without changing its components. The physical hypothesis on which general relativity is based, on the fundamental idea that valid also in the case in which does not vanish. This difference, curvature of space. The vector would not return with the same components.
