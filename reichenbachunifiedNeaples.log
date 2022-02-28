@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.1.19)  28 FEB 2022 12:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.1.19)  28 FEB 2022 14:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1857,13 +1857,6 @@ Package biblatex Info: ... file 'reichenbachunifiedNeaples.bbl' found.
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                Einstein1921?
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
 (biblatex)                Giovanelli2022
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
@@ -1958,7 +1951,12 @@ LaTeX Warning: cref reference format for label type `' undefined on input line
 120.
 
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 137.
+ine 120.
+Package marginnote Info: Margin note 3.1 is on absolute page 3 on input line 12
+0.
+Package marginnote Info: right page because not two side mode on input line 120
+.
+Package marginnote Info: xpos seems to be 193.43973pt on input line 120.
 [3]
 <parallelverschiebungDOUB.png, id=57, 1858.945pt x 1421.31pt>
 
@@ -1981,144 +1979,111 @@ Package marginnote Info: Margin note 5.1 is on absolute page 5 on input line 18
 1.
 Package marginnote Info: right page because not two side mode on input line 181
 .
-Package marginnote Info: xpos seems to be 160.43326pt on input line 181.
+Package marginnote Info: xpos seems to be 113.36166pt on input line 181.
  [5]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 203.
- [6]
-
-LaTeX Warning: Citation 'Dongen2007' on page 7 undefined on input line 214.
-
-[7] [8] [9]
+ [6] [7] [8] [9]
 LaTeX Font Info:    Trying to load font information for U+euf on input line 270
 .
- (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/ueuf.fd
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
-)
-[10]
+) [10]
 Package marginnote Info: Margin note 11.1 is on absolute page 11 on input line 
 281.
 Package marginnote Info: right page because not two side mode on input line 281
 .
-Package marginnote Info: xpos seems to be 216.54787pt on input line 281.
- [11] [12]
+Package marginnote Info: xpos seems to be 218.49228pt on input line 281.
+ [11]
+[12]
 Package marginnote Info: Margin note 13.1 is on absolute page 13 on input line 
 300.
 Package marginnote Info: right page because not two side mode on input line 300
 .
-Package marginnote Info: xpos seems to be 509.4866pt on input line 300.
+Package marginnote Info: xpos seems to be 410.49583pt on input line 300.
 Package marginnote Info: Margin note 13.2 is on absolute page 13 on input line 
 304.
 Package marginnote Info: right page because not two side mode on input line 304
 .
-Package marginnote Info: xpos seems to be 280.71881pt on input line 304.
-Package marginnote Info: Margin note 13.3 is on absolute page 13 on input line 
+Package marginnote Info: xpos seems to be 237.50525pt on input line 304.
+Package marginnote Info: Margin note 13.3 is on absolute page 14 on input line 
 304.
 Package marginnote Info: right page because not two side mode on input line 304
 .
-Package marginnote Info: xpos seems to be 321.49324pt on input line 304.
- [13]
-Package marginnote Info: Margin note 14.1 is on absolute page 14 on input line 
+Package marginnote Info: xpos seems to be 119.24338pt on input line 304.
+ [13] [14]
+Package marginnote Info: Margin note 15.1 is on absolute page 15 on input line 
 318.
 Package marginnote Info: right page because not two side mode on input line 318
 .
 Package marginnote Info: xpos seems to be 231.65102pt on input line 318.
- [14]
-Package marginnote Info: Margin note 15.1 is on absolute page 15 on input line 
+Package marginnote Info: Margin note 15.2 is on absolute page 15 on input line 
 361.
 Package marginnote Info: right page because not two side mode on input line 361
 .
-Package marginnote Info: xpos seems to be 311.3338pt on input line 361.
+Package marginnote Info: xpos seems to be 338.61629pt on input line 361.
+Package marginnote Info: Margin note 15.3 is on absolute page 15 on input line 
+363.
 Package marginnote Info: right page because not two side mode on input line 363
 .
-Package marginnote Info: xpos seems to be \@mn@currxpos  on input line 363.
+Package marginnote Info: xpos seems to be 442.3933pt on input line 363.
  [15]
+Package marginnote Info: Margin note 16.1 is on absolute page 16 on input line 
+379.
 Package marginnote Info: right page because not two side mode on input line 379
 .
-Package marginnote Info: xpos seems to be \@mn@currxpos  on input line 379.
+Package marginnote Info: xpos seems to be 480.2119pt on input line 379.
  [16] [17]
 Package marginnote Info: Margin note 18.1 is on absolute page 18 on input line 
 415.
 Package marginnote Info: right page because not two side mode on input line 415
 .
-Package marginnote Info: xpos seems to be 459.91045pt on input line 415.
+Package marginnote Info: xpos seems to be 523.59824pt on input line 415.
+Package marginnote Info: Margin note 18.2 is on absolute page 18 on input line 
+415.
 Package marginnote Info: right page because not two side mode on input line 415
 .
-Package marginnote Info: xpos seems to be \@mn@currxpos  on input line 415.
+Package marginnote Info: xpos seems to be 405.04776pt on input line 415.
+Package marginnote Info: Margin note 18.3 is on absolute page 19 on input line 
+430.
 Package marginnote Info: right page because not two side mode on input line 430
 .
-Package marginnote Info: xpos seems to be \@mn@currxpos  on input line 430.
+Package marginnote Info: xpos seems to be 523.59824pt on input line 430.
  [18] [19]
+Package marginnote Info: Margin note 20.1 is on absolute page 20 on input line 
+468.
 Package marginnote Info: right page because not two side mode on input line 468
 .
-Package marginnote Info: xpos seems to be \@mn@currxpos  on input line 468.
+Package marginnote Info: xpos seems to be 446.35793pt on input line 468.
+Package marginnote Info: Margin note 20.2 is on absolute page 20 on input line 
+468.
 Package marginnote Info: right page because not two side mode on input line 468
 .
-Package marginnote Info: xpos seems to be \@mn@currxpos  on input line 468.
- [20]
-
-LaTeX Warning: Reference `fu' on page 1 undefined on input line 476.
-
-
-LaTeX Warning: Reference `iu' on page 1 undefined on input line 483.
-
-Package marginnote Info: Margin note 21.1 is on absolute page 21 on input line 
+Package marginnote Info: xpos seems to be 316.26974pt on input line 468.
+ [20] [21]
+Package marginnote Info: Margin note 22.1 is on absolute page 22 on input line 
 495.
 Package marginnote Info: right page because not two side mode on input line 495
 .
-Package marginnote Info: xpos seems to be 231.4378pt on input line 495.
-[21]
-Package marginnote Info: Margin note 22.1 is on absolute page 22 on input line 
+Package marginnote Info: xpos seems to be 184.97935pt on input line 495.
+Package marginnote Info: Margin note 22.2 is on absolute page 23 on input line 
 514.
 Package marginnote Info: right page because not two side mode on input line 514
 .
-Package marginnote Info: xpos seems to be 206.18825pt on input line 514.
- [22]
-
-LaTeX Warning: Citation 'Lanczos1931' on page 23 undefined on input line 518.
-
-
-LaTeX Warning: Citation 'Einstein1932c' on page 23 undefined on input line 518.
-
-
-
-LaTeX Warning: Citation 'Einstein1933c' on page 23 undefined on input line 518.
-
-
-
-LaTeX Warning: Citation 'Einstein1934b' on page 23 undefined on input line 518.
-
-
-
-LaTeX Warning: Citation 'Einstein1933d' on page 23 undefined on input line 518.
-
-
-[23]
-
-LaTeX Warning: Citation 'Ryckman2014' on page 24 undefined on input line 520.
-
+Package marginnote Info: xpos seems to be 446.52113pt on input line 514.
+ [22] [23]
+Package marginnote Info: Margin note 24.1 is on absolute page 24 on input line 
+520.
 Package marginnote Info: right page because not two side mode on input line 520
 .
-Package marginnote Info: xpos seems to be \@mn@currxpos  on input line 520.
-
-LaTeX Warning: Citation 'Reichenbach1944' on page 24 undefined on input line 53
-1.
-
-
-LaTeX Warning: Citation 'Einstein1944b' on page 24 undefined on input line 531.
-
-
-
-LaTeX Warning: Citation 'Einstein1945' on page 24 undefined on input line 535.
-
-
-LaTeX Warning: Citation 'Einstein1945-04' on page 24 undefined on input line 53
-5.
-
-[24]
+Package marginnote Info: xpos seems to be 500.2154pt on input line 520.
+ [24]
+Package marginnote Info: Margin note 25.1 is on absolute page 25 on input line 
+541.
 Package marginnote Info: right page because not two side mode on input line 541
 .
-Package marginnote Info: xpos seems to be \@mn@currxpos  on input line 541.
+Package marginnote Info: xpos seems to be 163.9649pt on input line 541.
  [25] [26]
 Overfull \hbox (1.96089pt too wide) in paragraph at lines 548--548
 [][]\T1/lmr/m/n/8 Kaluza, Theodor (1921). ^^P  Zum Unität-sprob-lem der Physik.
@@ -2126,34 +2091,26 @@ Overfull \hbox (1.96089pt too wide) in paragraph at lines 548--548
 haften\T1/lmr/m/n/8 ,|
  []
 
-[27]
+[27] [28]
 
 Package nag Warning: 1 complaints in total.
 
-[28] (./reichenbachunifiedNeaples.aux)
+[29] (./reichenbachunifiedNeaples.aux)
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                reichenbachunifiedNeaples
-(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'reichenbachunifiedNeaples.run.xml'.
 \openout1 = `reichenbachunifiedNeaples.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 50460 strings out of 479304
- 1086337 string characters out of 5867281
- 2099341 words of memory out of 5000000
- 66728 multiletter control sequences out of 15000+600000
- 478163 words of font info for 83 fonts, out of 8000000 for 9000
+ 50502 strings out of 479304
+ 1087401 string characters out of 5867281
+ 2107665 words of memory out of 5000000
+ 66770 multiletter control sequences out of 15000+600000
+ 475161 words of font info for 82 fonts, out of 8000000 for 9000
  1162 hyphenation exceptions out of 8191
- 117i,15n,116p,4988b,4643s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 117i,15n,116p,4989b,4643s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
 texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/20
 20/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2020/texmf-dist/
@@ -2179,10 +2136,10 @@ cal/texlive/2020/texmf-dist/fonts/type1/public/lm/lmri8.pfb></usr/local/texlive
 -dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2020/texmf-dist/font
 s/type1/public/lm/lmtt10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/pu
 blic/lm/lmtt9.pfb>
-Output written on reichenbachunifiedNeaples.pdf (28 pages, 575632 bytes).
+Output written on reichenbachunifiedNeaples.pdf (29 pages, 576119 bytes).
 PDF statistics:
- 230 PDF objects out of 1000 (max. 8388607)
- 158 compressed objects within 2 object streams
+ 233 PDF objects out of 1000 (max. 8388607)
+ 160 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  114 words of extra memory for PDF output out of 10000 (max. 10000000)
 
