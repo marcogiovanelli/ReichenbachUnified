@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.1.19)  2 MAR 2022 00:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.1.19)  2 MAR 2022 09:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -891,7 +891,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
 \Hy@SavedSpaceFactor=\count321
-Package hyperref Info: Option `draft' set `true' on input line 4338.
+Package hyperref Info: Option `final' set `true' on input line 4338.
 Package hyperref Info: Hyper figures OFF on input line 4464.
 Package hyperref Info: Link nesting OFF on input line 4469.
 Package hyperref Info: Hyper index ON on input line 4472.
@@ -1777,16 +1777,23 @@ lations-basic-dictionary')
 Package translations Info: loading dictionary `translations-basic-dictionary' f
 or `german'. on input line 66.
 LaTeX Info: Redefining \microtypecontext on input line 66.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+LaTeX Info: Redefining \showhyphens on input line 66.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
 
-
-Package microtype Warning: `draft' option active.
-(microtype)                Disabling all micro-typographic extensions.
-(microtype)                This might lead to different line and page breaks.
-
-
-Package hyperref Warning: Draft mode on.
-
+(/usr/local/texlive/2020/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
 Package hyperref Info: Link coloring OFF on input line 66.
+
 (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -1802,9 +1809,14 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 66.
 LaTeX Info: Redefining \pageref on input line 66.
 LaTeX Info: Redefining \nameref on input line 66.
+ (./reichenbachunifiedNeaples.out) (./reichenbachunifiedNeaples.out)
+\@outlinefile=\write7
+\openout7 = `reichenbachunifiedNeaples.out'.
+
 Package biblatex Info: Trying to load language 'american'...
 Package biblatex Info: ... file 'american.lbx' found.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/lbx/american.lbx
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/lbx/american.lbx
 File: american.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
@@ -1853,15 +1865,7 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'reichenbachunifiedNeaples.bbl' found.
 
-(./reichenbachunifiedNeaples.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Giovanelli2022
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
+(./reichenbachunifiedNeaples.bbl)
 Package biblatex Info: Reference section=0 on input line 66.
 Package biblatex Info: Reference segment=0 on input line 66.
 
@@ -1881,6 +1885,10 @@ LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 6
 (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 7
 5.
 
@@ -1923,11 +1931,17 @@ LaTeX Font Info:    Trying to load font information for U+msa on input line 84.
 (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
+(/usr/local/texlive/2020/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
 LaTeX Font Info:    Trying to load font information for U+msb on input line 84.
 
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 85.
@@ -1940,162 +1954,180 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 Package enumitem Warning: Negative labelwidth. This does not make much
 (enumitem)                sense, on input line 94.
 
-[2]
-
-LaTeX Warning: cref reference format for label type `' undefined on input line 
-101.
-
-
-LaTeX Warning: cref reference format for label type `' undefined on input line 
-101.
-
-
-LaTeX Warning: cref reference format for label type `' undefined on input line 
-101.
-
-[3]
-<parallelverschiebungDOUB.png, id=56, 1858.945pt x 1421.31pt>
+[2] [3]
+<parallelverschiebungDOUB.png, id=222, 1858.945pt x 1421.31pt>
+File: parallelverschiebungDOUB.png Graphic file (type png)
+<use parallelverschiebungDOUB.png>
+Package pdftex.def Info: parallelverschiebungDOUB.png  used on input line 120.
+(pdftex.def)             Requested size: 223.06378pt x 170.54984pt.
 
 
 Package nag Warning: `center' environment in figure.
-(nag)                Maybe you want \centering instead on input line 121.
+(nag)                Maybe you want \centering instead on input line 123.
 
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 128.
-Package marginnote Info: Margin note 4.1 is on absolute page 4 on input line 12
-8.
-Package marginnote Info: right page because not two side mode on input line 128
-.
-Package marginnote Info: xpos seems to be 71.13188pt on input line 128.
-[4]
-Package marginnote Info: Margin note 5.1 is on absolute page 5 on input line 13
-5.
-Package marginnote Info: right page because not two side mode on input line 135
-.
-Package marginnote Info: xpos seems to be 71.13188pt on input line 135.
-Package marginnote Info: Margin note 5.2 is on absolute page 5 on input line 13
-6.
-Package marginnote Info: right page because not two side mode on input line 136
-.
-Package marginnote Info: xpos seems to be 255.46957pt on input line 136.
- [5]
-Package marginnote Info: Margin note 6.1 is on absolute page 6 on input line 14
-0.
-Package marginnote Info: right page because not two side mode on input line 140
-.
-Package marginnote Info: xpos seems to be 184.2154pt on input line 140.
+[4 </Users/marco/Library/texmf/tex/latex/local/Latex-Styles/graph/parallelversc
+hiebungDOUB.png>] [5]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 149.
- [6]
-Package marginnote Info: Margin note 7.1 is on absolute page 7 on input line 15
-1.
-Package marginnote Info: right page because not two side mode on input line 151
+(Font)              <9> on input line 151.
+ [6] [7] [8]
+LaTeX Font Info:    Trying to load font information for U+euf on input line 192
 .
-Package marginnote Info: xpos seems to be 284.0826pt on input line 151.
-Package marginnote Info: Margin note 7.2 is on absolute page 7 on input line 15
-3.
-Package marginnote Info: right page because not two side mode on input line 153
-.
-Package marginnote Info: xpos seems to be 428.75645pt on input line 153.
- [7]
-Overfull \hbox (0.36003pt too wide) in paragraph at lines 163--166
-[]\T1/lmr/m/n/10 Reichenbach sent around copies of his \T1/lmr/m/it/10 Rel-a-ti
-v-ität-s-the-o-rie und Erken-nt-nis apri-ori \T1/lmr/m/n/10 ([]Rei-chen-bach, 1
-920b).|
- []
 
-[8] [9]
-LaTeX Font Info:    Trying to load font information for U+euf on input line 190
-.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/ueuf.fd
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
 )
-[10]
-Package marginnote Info: Margin note 11.1 is on absolute page 11 on input line 
-200.
-Package marginnote Info: right page because not two side mode on input line 200
-.
-Package marginnote Info: xpos seems to be 151.68716pt on input line 200.
- [11] [12] [13] [14] [15]
-Package marginnote Info: Margin note 16.1 is on absolute page 16 on input line 
-251.
-Package marginnote Info: right page because not two side mode on input line 251
-.
-Package marginnote Info: xpos seems to be 137.99332pt on input line 251.
- [16] [17] [18]
-Package marginnote Info: Margin note 19.1 is on absolute page 20 on input line 
-298.
-Package marginnote Info: right page because not two side mode on input line 298
-.
-Package marginnote Info: xpos seems to be 497.8257pt on input line 298.
- [19] [20]
-Package marginnote Info: Margin note 21.1 is on absolute page 21 on input line 
-317.
-Package marginnote Info: right page because not two side mode on input line 317
-.
-Package marginnote Info: xpos seems to be 181.56987pt on input line 317.
- [21] [22]
-Overfull \hbox (1.338pt too wide) in paragraph at lines 350--351
-\T1/lmr/m/n/10 volume, Ein-stein re-for-mu-lated this line of ar-gu-ment by sta
-g-ing a di-a-logue be-tween Reichenbach-Helmholtz,|
- []
+(/usr/local/texlive/2020/texmf-dist/tex/latex/microtype/mt-euf.cfg
+File: mt-euf.cfg 2006/07/03 v1.1 microtype config. file: AMS Euler Fraktur (RS)
 
-[23] [24] [25]
-Overfull \hbox (1.96089pt too wide) in paragraph at lines 363--363
-[][]\T1/lmr/m/n/8 Kaluza, Theodor (1921). ^^P  Zum Unität-sprob-lem der Physik.
-^^Q \T1/lmr/m/it/8 Sit-zungs-be-rich-te der Preuÿis-chen Akademie der Wis-sensc
-haften\T1/lmr/m/n/8 ,|
- []
+) [9]
+[10] [11] [12] [13]
+<1926ReichenbachNote.png, id=602, 567.11874pt x 715.67375pt>
+File: 1926ReichenbachNote.png Graphic file (type png)
+<use 1926ReichenbachNote.png>
+Package pdftex.def Info: 1926ReichenbachNote.png  used on input line 240.
+(pdftex.def)             Requested size: 226.84348pt x 286.26442pt.
 
-[26] [27]
 
-Package nag Warning: 1 complaints in total.
+Package nag Warning: `center' environment in figure.
+(nag)                Maybe you want \centering instead on input line 242.
 
-[28] (./reichenbachunifiedNeaples.aux)
+[14 </Users/marco/Library/texmf/tex/latex/local/Latex-Styles/graph/1926Reichenb
+achNote.png>]
 
-LaTeX Warning: There were undefined references.
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\citetitle' on input line 262.
+
+[15] [16] [17]
+<1928ReichebachTele.png, id=698, 1059.96pt x 1334.9875pt>
+File: 1928ReichebachTele.png Graphic file (type png)
+<use 1928ReichebachTele.png>
+Package pdftex.def Info: 1928ReichebachTele.png  used on input line 296.
+(pdftex.def)             Requested size: 317.99045pt x 400.49934pt.
+ [18 </Users/marco/Library/texmf/tex/latex/local/Latex-Styles/graph/1928Reicheb
+achTele.png (PNG copy)>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<let>-command' on input line 306.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\bbl@hymapsel' on input line 306.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\tw@' on input line 306.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 306.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\bbl@language@stack' on input line 306.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\aftergroup' on input line 306.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 306.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\languagename' on input line 306.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 306.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\bbl@language@stack' on input line 306.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<let>-command' on input line 306.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\bbl@ifrestoring' on input line 306.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<let>-command' on input line 306.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\bbl@ifrestoring' on input line 306.
+
+[19] [20] [21] [22] [23] [24] [25] [26]
+
+Package nag Warning: 2 complaints in total.
+
+[27] (./reichenbachunifiedNeaples.aux)
+Package rerunfilecheck Info: File `reichenbachunifiedNeaples.out' has not chang
+ed.
+(rerunfilecheck)             Checksum: 45CDA32A627EB622592C75A99F93C088;935.
+
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
 
 Package logreq Info: Writing requests to 'reichenbachunifiedNeaples.run.xml'.
 \openout1 = `reichenbachunifiedNeaples.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 50464 strings out of 479304
- 1086660 string characters out of 5867281
- 2045204 words of memory out of 5000000
- 66732 multiletter control sequences out of 15000+600000
- 475161 words of font info for 82 fonts, out of 8000000 for 9000
+ 51058 strings out of 479304
+ 1093314 string characters out of 5867281
+ 2049656 words of memory out of 5000000
+ 66586 multiletter control sequences out of 15000+600000
+ 501906 words of font info for 323 fonts, out of 8000000 for 9000
  1162 hyphenation exceptions out of 8191
- 117i,15n,116p,5233b,4643s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
-texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/20
-20/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2020/texmf-dist/
-fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/
-dvips/lm/lm-mathex.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/l
-m-ts1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/euler
-/eufm10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmb10.pfb
-></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/loc
-al/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive
-/2020/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2020/texmf
--dist/fonts/type1/public/lm/lmmi7.pfb></usr/local/texlive/2020/texmf-dist/fonts
-/type1/public/lm/lmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/publ
-ic/lm/lmmi9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr10
-.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/
-local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texli
-ve/2020/texmf-dist/fonts/type1/public/lm/lmr5.pfb></usr/local/texlive/2020/texm
-f-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2020/texmf-dist/fonts
-/type1/public/lm/lmr7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/publi
-c/lm/lmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr9.pf
-b></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/lo
-cal/texlive/2020/texmf-dist/fonts/type1/public/lm/lmri8.pfb></usr/local/texlive
-/2020/texmf-dist/fonts/type1/public/lm/lmri9.pfb></usr/local/texlive/2020/texmf
--dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2020/texmf-dist/font
-s/type1/public/lm/lmtt10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/pu
-blic/lm/lmtt9.pfb>
-Output written on reichenbachunifiedNeaples.pdf (28 pages, 565969 bytes).
+ 117i,10n,116p,5292b,4647s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{cite.0@SN} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.0@WPWB} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.0@EA} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.0@CPAE} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.0@HR} has been referenced but does not exist, 
+replaced by a fixed one
+
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/te
+xlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2020
+/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2020/texmf-dist/fo
+nts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dv
+ips/lm/lm-mathex.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-
+ts1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/euler/e
+ufm10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmb10.pfb><
+/usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local
+/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2
+020/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2020/texmf-d
+ist/fonts/type1/public/lm/lmmi7.pfb></usr/local/texlive/2020/texmf-dist/fonts/t
+ype1/public/lm/lmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public
+/lm/lmmi9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr10.p
+fb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/lo
+cal/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive
+/2020/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2020/texmf-
+dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2020/texmf-dist/fonts/t
+ype1/public/lm/lmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/
+lm/lmr9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmri10.pf
+b></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmri8.pfb></usr/loc
+al/texlive/2020/texmf-dist/fonts/type1/public/lm/lmri9.pfb></usr/local/texlive/
+2020/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2020/texmf
+-dist/fonts/type1/public/lm/lmtt9.pfb>
+Output written on reichenbachunifiedNeaples.pdf (27 pages, 4046566 bytes).
 PDF statistics:
- 230 PDF objects out of 1000 (max. 8388607)
- 158 compressed objects within 2 object streams
- 0 named destinations out of 1000 (max. 500000)
- 114 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1079 PDF objects out of 1200 (max. 8388607)
+ 986 compressed objects within 10 object streams
+ 236 named destinations out of 1000 (max. 500000)
+ 41688 words of extra memory for PDF output out of 42996 (max. 10000000)
 
