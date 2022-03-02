@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.1.19)  28 FEB 2022 14:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.1.19)  2 MAR 2022 00:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1655,7 +1655,7 @@ ng of objects, relative to a reference object or in absolute terms
 \enitdp@W=\count527
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 65
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 66
 .
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/t1lmr.fd
@@ -1664,22 +1664,22 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 (./reichenbachunifiedNeaples.aux)
 \openout1 = `reichenbachunifiedNeaples.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1717,17 +1717,17 @@ LaTeX Font Info:    ... okay on input line 65.
 
 \c@mv@tabular=\count528
 \c@mv@boldtabular=\count529
-Package nag Info: pgf.sty is broken: disabling dollar check on input line 65.
+Package nag Info: pgf.sty is broken: disabling dollar check on input line 66.
 Package nag Info: Command \frontmatter not defined, skipping amendment on input
- line 65.
+ line 66.
 Package nag Info: Command \mainmatter not defined, skipping amendment on input 
-line 65.
+line 66.
 Package nag Info: Command \backmatter not defined, skipping amendment on input 
-line 65.
+line 66.
 Package nag Info: Command \RaggedLeft not defined, skipping amendment on input 
-line 65.
+line 66.
 Package nag Info: Command \RaggedRight not defined, skipping amendment on input
- line 65.
+ line 66.
 (/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count530
@@ -1750,9 +1750,9 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \degres on input line 65.
-LaTeX Info: Redefining \dots on input line 65.
-LaTeX Info: Redefining \up on input line 65.
+LaTeX Info: Redefining \degres on input line 66.
+LaTeX Info: Redefining \dots on input line 66.
+LaTeX Info: Redefining \up on input line 66.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/translations/translations-basic-d
 ictionary-english.trsl
@@ -1765,9 +1765,9 @@ File: translations-basic-dictionary-french.trsl (french translation file `trans
 lations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `french'. on input line 65.
+or `french'. on input line 66.
 Package translations Info: no dictionary file `translations-basic-dictionary-la
-tin.trsl' found. on input line 65.
+tin.trsl' found. on input line 66.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/translations/translations-basic-d
 ictionary-german.trsl
@@ -1775,8 +1775,8 @@ File: translations-basic-dictionary-german.trsl (german translation file `trans
 lations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `german'. on input line 65.
-LaTeX Info: Redefining \microtypecontext on input line 65.
+or `german'. on input line 66.
+LaTeX Info: Redefining \microtypecontext on input line 66.
 
 
 Package microtype Warning: `draft' option active.
@@ -1786,7 +1786,7 @@ Package microtype Warning: `draft' option active.
 
 Package hyperref Warning: Draft mode on.
 
-Package hyperref Info: Link coloring OFF on input line 65.
+Package hyperref Info: Link coloring OFF on input line 66.
 (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -1799,9 +1799,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count536
 )
-LaTeX Info: Redefining \ref on input line 65.
-LaTeX Info: Redefining \pageref on input line 65.
-LaTeX Info: Redefining \nameref on input line 65.
+LaTeX Info: Redefining \ref on input line 66.
+LaTeX Info: Redefining \pageref on input line 66.
+LaTeX Info: Redefining \nameref on input line 66.
 Package biblatex Info: Trying to load language 'american'...
 Package biblatex Info: ... file 'american.lbx' found.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/lbx/american.lbx
@@ -1829,7 +1829,7 @@ Package biblatex Info: ... file 'latin.lbx' not found.
 
 
 Package biblatex Warning: Language 'latin' not supported.
-(biblatex)                Using dummy definitions on input line 65.
+(biblatex)                Using dummy definitions on input line 66.
 
 Package biblatex Info: Trying to load language 'german'...
 Package biblatex Info: ... file 'german.lbx' found.
@@ -1862,240 +1862,196 @@ Package biblatex Warning: The following entry could not be found
 (biblatex)                LaTeX afterwards.
 
 )
-Package biblatex Info: Reference section=0 on input line 65.
-Package biblatex Info: Reference segment=0 on input line 65.
+Package biblatex Info: Reference section=0 on input line 66.
+Package biblatex Info: Reference segment=0 on input line 66.
 
 isodate: babel.sty has been loaded
 Package nag Info: Command \caption@xlabel not defined, skipping amendment on in
-put line 65.
+put line 66.
 Package nag Info: Command \captionabove not defined, skipping amendment on inpu
-t line 65.
+t line 66.
 Package nag Info: Command \captionbelow not defined, skipping amendment on inpu
-t line 65.
+t line 66.
 Package nag Info: Command \hc@caption not defined, skipping amendment on input 
-line 65.
+line 66.
 Package nag Info: Command \topcaption not defined, skipping amendment on input 
-line 65.
+line 66.
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 6
-6.
+7.
 (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 7
-4.
+5.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 7
-7.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 8
+4.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 7
-7.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 8
+4.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-77.
+84.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-77.
+84.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 77.
+(Font)              <10> on input line 84.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 77.
+(Font)              <7> on input line 84.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 77.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 77.
+(Font)              <5> on input line 84.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 84.
 
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 77.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 84.
 
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 100.
+(Font)              <8> on input line 85.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 100.
+(Font)              <6> on input line 85.
  [1
 
 {/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
 Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 113.
-
-
-Overfull \hbox (2.97284pt too wide) in paragraph at lines 115--116
-[]\T1/lmr/m/n/10 Reichenbach ob-served that Weyl's|
- []
+(enumitem)                sense, on input line 94.
 
 [2]
 
 LaTeX Warning: cref reference format for label type `' undefined on input line 
-120.
+101.
 
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 120.
-Package marginnote Info: Margin note 3.1 is on absolute page 3 on input line 12
-0.
-Package marginnote Info: right page because not two side mode on input line 120
-.
-Package marginnote Info: xpos seems to be 193.43973pt on input line 120.
+
+LaTeX Warning: cref reference format for label type `' undefined on input line 
+101.
+
+
+LaTeX Warning: cref reference format for label type `' undefined on input line 
+101.
+
 [3]
-<parallelverschiebungDOUB.png, id=57, 1858.945pt x 1421.31pt>
+<parallelverschiebungDOUB.png, id=56, 1858.945pt x 1421.31pt>
 
 
 Package nag Warning: `center' environment in figure.
-(nag)                Maybe you want \centering instead on input line 146.
+(nag)                Maybe you want \centering instead on input line 121.
 
-Package marginnote Info: Margin note 4.1 is on absolute page 4 on input line 15
-3.
-Package marginnote Info: right page because not two side mode on input line 153
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
+ine 128.
+Package marginnote Info: Margin note 4.1 is on absolute page 4 on input line 12
+8.
+Package marginnote Info: right page because not two side mode on input line 128
 .
-Package marginnote Info: xpos seems to be 380.98712pt on input line 153.
-Package marginnote Info: Margin note 4.2 is on absolute page 4 on input line 15
-3.
-Package marginnote Info: right page because not two side mode on input line 153
-.
-Package marginnote Info: xpos seems to be 267.8891pt on input line 153.
+Package marginnote Info: xpos seems to be 71.13188pt on input line 128.
 [4]
-Package marginnote Info: Margin note 5.1 is on absolute page 5 on input line 18
-1.
-Package marginnote Info: right page because not two side mode on input line 181
+Package marginnote Info: Margin note 5.1 is on absolute page 5 on input line 13
+5.
+Package marginnote Info: right page because not two side mode on input line 135
 .
-Package marginnote Info: xpos seems to be 113.36166pt on input line 181.
+Package marginnote Info: xpos seems to be 71.13188pt on input line 135.
+Package marginnote Info: Margin note 5.2 is on absolute page 5 on input line 13
+6.
+Package marginnote Info: right page because not two side mode on input line 136
+.
+Package marginnote Info: xpos seems to be 255.46957pt on input line 136.
  [5]
+Package marginnote Info: Margin note 6.1 is on absolute page 6 on input line 14
+0.
+Package marginnote Info: right page because not two side mode on input line 140
+.
+Package marginnote Info: xpos seems to be 184.2154pt on input line 140.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 203.
- [6] [7] [8] [9]
-LaTeX Font Info:    Trying to load font information for U+euf on input line 270
+(Font)              <9> on input line 149.
+ [6]
+Package marginnote Info: Margin note 7.1 is on absolute page 7 on input line 15
+1.
+Package marginnote Info: right page because not two side mode on input line 151
 .
+Package marginnote Info: xpos seems to be 284.0826pt on input line 151.
+Package marginnote Info: Margin note 7.2 is on absolute page 7 on input line 15
+3.
+Package marginnote Info: right page because not two side mode on input line 153
+.
+Package marginnote Info: xpos seems to be 428.75645pt on input line 153.
+ [7]
+Overfull \hbox (0.36003pt too wide) in paragraph at lines 163--166
+[]\T1/lmr/m/n/10 Reichenbach sent around copies of his \T1/lmr/m/it/10 Rel-a-ti
+v-ität-s-the-o-rie und Erken-nt-nis apri-ori \T1/lmr/m/n/10 ([]Rei-chen-bach, 1
+920b).|
+ []
 
-(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/ueuf.fd
+[8] [9]
+LaTeX Font Info:    Trying to load font information for U+euf on input line 190
+.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
-) [10]
+)
+[10]
 Package marginnote Info: Margin note 11.1 is on absolute page 11 on input line 
-281.
-Package marginnote Info: right page because not two side mode on input line 281
+200.
+Package marginnote Info: right page because not two side mode on input line 200
 .
-Package marginnote Info: xpos seems to be 218.49228pt on input line 281.
- [11]
-[12]
-Package marginnote Info: Margin note 13.1 is on absolute page 13 on input line 
-300.
-Package marginnote Info: right page because not two side mode on input line 300
-.
-Package marginnote Info: xpos seems to be 410.49583pt on input line 300.
-Package marginnote Info: Margin note 13.2 is on absolute page 13 on input line 
-304.
-Package marginnote Info: right page because not two side mode on input line 304
-.
-Package marginnote Info: xpos seems to be 237.50525pt on input line 304.
-Package marginnote Info: Margin note 13.3 is on absolute page 14 on input line 
-304.
-Package marginnote Info: right page because not two side mode on input line 304
-.
-Package marginnote Info: xpos seems to be 119.24338pt on input line 304.
- [13] [14]
-Package marginnote Info: Margin note 15.1 is on absolute page 15 on input line 
-318.
-Package marginnote Info: right page because not two side mode on input line 318
-.
-Package marginnote Info: xpos seems to be 231.65102pt on input line 318.
-Package marginnote Info: Margin note 15.2 is on absolute page 15 on input line 
-361.
-Package marginnote Info: right page because not two side mode on input line 361
-.
-Package marginnote Info: xpos seems to be 338.61629pt on input line 361.
-Package marginnote Info: Margin note 15.3 is on absolute page 15 on input line 
-363.
-Package marginnote Info: right page because not two side mode on input line 363
-.
-Package marginnote Info: xpos seems to be 442.3933pt on input line 363.
- [15]
+Package marginnote Info: xpos seems to be 151.68716pt on input line 200.
+ [11] [12] [13] [14] [15]
 Package marginnote Info: Margin note 16.1 is on absolute page 16 on input line 
-379.
-Package marginnote Info: right page because not two side mode on input line 379
+251.
+Package marginnote Info: right page because not two side mode on input line 251
 .
-Package marginnote Info: xpos seems to be 480.2119pt on input line 379.
- [16] [17]
-Package marginnote Info: Margin note 18.1 is on absolute page 18 on input line 
-415.
-Package marginnote Info: right page because not two side mode on input line 415
+Package marginnote Info: xpos seems to be 137.99332pt on input line 251.
+ [16] [17] [18]
+Package marginnote Info: Margin note 19.1 is on absolute page 20 on input line 
+298.
+Package marginnote Info: right page because not two side mode on input line 298
 .
-Package marginnote Info: xpos seems to be 523.59824pt on input line 415.
-Package marginnote Info: Margin note 18.2 is on absolute page 18 on input line 
-415.
-Package marginnote Info: right page because not two side mode on input line 415
+Package marginnote Info: xpos seems to be 497.8257pt on input line 298.
+ [19] [20]
+Package marginnote Info: Margin note 21.1 is on absolute page 21 on input line 
+317.
+Package marginnote Info: right page because not two side mode on input line 317
 .
-Package marginnote Info: xpos seems to be 405.04776pt on input line 415.
-Package marginnote Info: Margin note 18.3 is on absolute page 19 on input line 
-430.
-Package marginnote Info: right page because not two side mode on input line 430
-.
-Package marginnote Info: xpos seems to be 523.59824pt on input line 430.
- [18] [19]
-Package marginnote Info: Margin note 20.1 is on absolute page 20 on input line 
-468.
-Package marginnote Info: right page because not two side mode on input line 468
-.
-Package marginnote Info: xpos seems to be 446.35793pt on input line 468.
-Package marginnote Info: Margin note 20.2 is on absolute page 20 on input line 
-468.
-Package marginnote Info: right page because not two side mode on input line 468
-.
-Package marginnote Info: xpos seems to be 316.26974pt on input line 468.
- [20] [21]
-Package marginnote Info: Margin note 22.1 is on absolute page 22 on input line 
-495.
-Package marginnote Info: right page because not two side mode on input line 495
-.
-Package marginnote Info: xpos seems to be 184.97935pt on input line 495.
-Package marginnote Info: Margin note 22.2 is on absolute page 23 on input line 
-514.
-Package marginnote Info: right page because not two side mode on input line 514
-.
-Package marginnote Info: xpos seems to be 446.52113pt on input line 514.
- [22] [23]
-Package marginnote Info: Margin note 24.1 is on absolute page 24 on input line 
-520.
-Package marginnote Info: right page because not two side mode on input line 520
-.
-Package marginnote Info: xpos seems to be 500.2154pt on input line 520.
- [24]
-Package marginnote Info: Margin note 25.1 is on absolute page 25 on input line 
-541.
-Package marginnote Info: right page because not two side mode on input line 541
-.
-Package marginnote Info: xpos seems to be 163.9649pt on input line 541.
- [25] [26]
-Overfull \hbox (1.96089pt too wide) in paragraph at lines 548--548
+Package marginnote Info: xpos seems to be 181.56987pt on input line 317.
+ [21] [22]
+Overfull \hbox (1.338pt too wide) in paragraph at lines 350--351
+\T1/lmr/m/n/10 volume, Ein-stein re-for-mu-lated this line of ar-gu-ment by sta
+g-ing a di-a-logue be-tween Reichenbach-Helmholtz,|
+ []
+
+[23] [24] [25]
+Overfull \hbox (1.96089pt too wide) in paragraph at lines 363--363
 [][]\T1/lmr/m/n/8 Kaluza, Theodor (1921). ^^P  Zum Unität-sprob-lem der Physik.
 ^^Q \T1/lmr/m/it/8 Sit-zungs-be-rich-te der Preuÿis-chen Akademie der Wis-sensc
 haften\T1/lmr/m/n/8 ,|
  []
 
-[27] [28]
+[26] [27]
 
 Package nag Warning: 1 complaints in total.
 
-[29] (./reichenbachunifiedNeaples.aux)
+[28] (./reichenbachunifiedNeaples.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -2104,13 +2060,13 @@ Package logreq Info: Writing requests to 'reichenbachunifiedNeaples.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 50502 strings out of 479304
- 1087401 string characters out of 5867281
- 2107665 words of memory out of 5000000
- 66770 multiletter control sequences out of 15000+600000
+ 50464 strings out of 479304
+ 1086660 string characters out of 5867281
+ 2045204 words of memory out of 5000000
+ 66732 multiletter control sequences out of 15000+600000
  475161 words of font info for 82 fonts, out of 8000000 for 9000
  1162 hyphenation exceptions out of 8191
- 117i,15n,116p,4989b,4643s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 117i,15n,116p,5233b,4643s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
 texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/20
 20/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2020/texmf-dist/
@@ -2136,10 +2092,10 @@ cal/texlive/2020/texmf-dist/fonts/type1/public/lm/lmri8.pfb></usr/local/texlive
 -dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2020/texmf-dist/font
 s/type1/public/lm/lmtt10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/pu
 blic/lm/lmtt9.pfb>
-Output written on reichenbachunifiedNeaples.pdf (29 pages, 576119 bytes).
+Output written on reichenbachunifiedNeaples.pdf (28 pages, 565969 bytes).
 PDF statistics:
- 233 PDF objects out of 1000 (max. 8388607)
- 160 compressed objects within 2 object streams
+ 230 PDF objects out of 1000 (max. 8388607)
+ 158 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  114 words of extra memory for PDF output out of 10000 (max. 10000000)
 
