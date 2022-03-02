@@ -1,15 +1,12 @@
 # Fdb version 3
-["biber reichenbachuftp"] 1646208752 "reichenbachuftp.bcf" "reichenbachuftp.bbl" "reichenbachuftp" 1646208859
+["biber reichenbachuftp"] 1646208752 "reichenbachuftp.bcf" "reichenbachuftp.bbl" "reichenbachuftp" 1646210650
   "/Users/marco/Library/texmf/bibtex/bib/Biblatex/biblatex.bib" 1646176559 1849500 e6a90fbe9a264681174aa583d94312b7 ""
   "/Users/marco/Library/texmf/bibtex/bib/Biblatex/cvb.bib" 1646203837 26156 83d607109b614f560b7e27d5cd82ddd8 ""
-  "reichenbachuftp.bcf" 1646208858 137825 92951419b2d491c610ad53f2f5b070f3 "pdflatex"
+  "reichenbachuftp.bcf" 1646210648 137825 92951419b2d491c610ad53f2f5b070f3 "pdflatex"
   (generated)
   "reichenbachuftp.bbl"
   "reichenbachuftp.blg"
-["pdflatex"] 1646208816 "reichenbachuftp.tex" "reichenbachuftp.pdf" "reichenbachuftp" 1646208859
-  "/Users/marco/Library/texmf/tex/latex/local/Latex-Styles/graph/1926ReichenbachNote.png" 1646207850 1651681 695b5498837ef574ef2aa927de63e7a2 ""
-  "/Users/marco/Library/texmf/tex/latex/local/Latex-Styles/graph/1928ReichebachTele.png" 1626301230 272752 591afb1814e3d5140845d8fe41399ad3 ""
-  "/Users/marco/Library/texmf/tex/latex/local/Latex-Styles/graph/parallelverschiebungDOUB.png" 1645545729 1998116 a6db71c29dc1c7c9192e28c5763dff18 ""
+["pdflatex"] 1646210615 "reichenbachuftp.tex" "reichenbachuftp.pdf" "reichenbachuftp" 1646210650
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1254269338 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc" 1202520719 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1202520719 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
@@ -357,6 +354,8 @@
   "/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1611082877 5154538 fc1a1d199e0b2968105492b98466c4b6 ""
   "/usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1611082934 2569148 8fcba2b5f161193de970b8b9e2ef76d1 ""
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
+  "1926ReichenbachNote.png" 1646207850 1651681 695b5498837ef574ef2aa927de63e7a2 ""
+  "1928ReichebachTele.png" 1626301230 272752 591afb1814e3d5140845d8fe41399ad3 ""
   "ano.sty" 1593358770 680 67d55188b9cbfd5923637c89d6aaf085 ""
   "aut.sty" 1594455158 1414 5fdfade4790a03479a8f5747a97a049f ""
   "bib.sty" 1637930979 19516 0bf8a229262371ad2f1e2aa92df18a0d ""
@@ -369,13 +368,14 @@
   "i.sty" 1594973516 3876 3e818ee14903dfcc28c0c581338cfb16 ""
   "mat.sty" 1641290133 9185 4a6645d0e97de6e1428b7b07298b2cb5 ""
   "notate.sty" 1634413030 4034 f76c87af4c0c0f96d52a10d3f95f600d ""
+  "parallelverschiebungDOUB.png" 1645545729 1998116 a6db71c29dc1c7c9192e28c5763dff18 ""
   "q.sty" 1645535787 23785 1697d71dd8f104b263d4a2e7b768757b ""
   "ref.sty" 1644010295 3963 81b0f7c3c96e1730ea5aedac2d26162d ""
-  "reichenbachuftp.aux" 1646208857 65656 7f3579110140fe3ca6e67bb0ce81bcf8 "pdflatex"
+  "reichenbachuftp.aux" 1646210648 65659 083c315ba5fa12b5c0e351148be2a4aa "pdflatex"
   "reichenbachuftp.bbl" 1646208769 212303 a428089b8c6dea578d4a3fd652717e9d "biber reichenbachuftp"
-  "reichenbachuftp.out" 1646208858 935 45cda32a627eb622592c75a99f93c088 "pdflatex"
-  "reichenbachuftp.run.xml" 1646208858 2618 40a4ef1b25b261ba6daf94839f7a7833 "pdflatex"
-  "reichenbachuftp.tex" 1646208430 163022 192af5ce630245bb47442476e9204bb2 ""
+  "reichenbachuftp.out" 1646210648 935 45cda32a627eb622592c75a99f93c088 "pdflatex"
+  "reichenbachuftp.run.xml" 1646210648 2618 40a4ef1b25b261ba6daf94839f7a7833 "pdflatex"
+  "reichenbachuftp.tex" 1646210500 163023 beb68ae37a99223f40f720733e895e9e ""
   "sec.sty" 1577568191 2604 3177e785fc94ba4ae113c4706538bdd4 ""
   (generated)
   "reichenbachuftp.aux"

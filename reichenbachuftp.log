@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.1.19)  2 MAR 2022 09:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.1.19)  2 MAR 2022 09:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1947,17 +1947,16 @@ Package enumitem Warning: Negative labelwidth. This does not make much
 File: parallelverschiebungDOUB.png Graphic file (type png)
 <use parallelverschiebungDOUB.png>
 Package pdftex.def Info: parallelverschiebungDOUB.png  used on input line 120.
-(pdftex.def)             Requested size: 223.06378pt x 170.54984pt.
+(pdftex.def)             Requested size: 297.43727pt x 227.41425pt.
 
 
 Package nag Warning: `center' environment in figure.
 (nag)                Maybe you want \centering instead on input line 123.
 
-[4 </Users/marco/Library/texmf/tex/latex/local/Latex-Styles/graph/parallelversc
-hiebungDOUB.png>] [5]
+[4 <./parallelverschiebungDOUB.png>] [5]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 151.
- [6] [7] [8]
+ [6] [7] [8] [9]
 LaTeX Font Info:    Trying to load font information for U+euf on input line 192
 .
 
@@ -1967,8 +1966,8 @@ File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
 (/usr/local/texlive/2020/texmf-dist/tex/latex/microtype/mt-euf.cfg
 File: mt-euf.cfg 2006/07/03 v1.1 microtype config. file: AMS Euler Fraktur (RS)
 
-) [9]
-[10] [11] [12] [13]
+) [10]
+[11] [12] [13]
 <1926ReichenbachNote.png, id=602, 567.11874pt x 715.67375pt>
 File: 1926ReichenbachNote.png Graphic file (type png)
 <use 1926ReichenbachNote.png>
@@ -1979,8 +1978,7 @@ Package pdftex.def Info: 1926ReichenbachNote.png  used on input line 240.
 Package nag Warning: `center' environment in figure.
 (nag)                Maybe you want \centering instead on input line 242.
 
-[14 </Users/marco/Library/texmf/tex/latex/local/Latex-Styles/graph/1926Reichenb
-achNote.png>]
+[14 <./1926ReichenbachNote.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\citetitle' on input line 262.
@@ -1990,9 +1988,8 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 File: 1928ReichebachTele.png Graphic file (type png)
 <use 1928ReichebachTele.png>
 Package pdftex.def Info: 1928ReichebachTele.png  used on input line 296.
-(pdftex.def)             Requested size: 317.99045pt x 400.49934pt.
- [18 </Users/marco/Library/texmf/tex/latex/local/Latex-Styles/graph/1928Reicheb
-achTele.png (PNG copy)>]
+(pdftex.def)             Requested size: 264.98935pt x 333.74606pt.
+ [18 <./1928ReichebachTele.png (PNG copy)>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\<let>-command' on input line 306.
@@ -2063,7 +2060,7 @@ Package logreq Info: Writing requests to 'reichenbachuftp.run.xml'.
 Here is how much of TeX's memory you used:
  51081 strings out of 479304
  1091454 string characters out of 5867281
- 2050898 words of memory out of 5000000
+ 2050901 words of memory out of 5000000
  66614 multiletter control sequences out of 15000+600000
  501644 words of font info for 321 fonts, out of 8000000 for 9000
  1162 hyphenation exceptions out of 8191
@@ -2106,7 +2103,7 @@ b></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmri8.pfb></usr/loc
 al/texlive/2020/texmf-dist/fonts/type1/public/lm/lmri9.pfb></usr/local/texlive/
 2020/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2020/texmf
 -dist/fonts/type1/public/lm/lmtt9.pfb>
-Output written on reichenbachuftp.pdf (27 pages, 4046632 bytes).
+Output written on reichenbachuftp.pdf (27 pages, 4046849 bytes).
 PDF statistics:
  1079 PDF objects out of 1200 (max. 8388607)
  986 compressed objects within 10 object streams
