@@ -1,0 +1,87 @@
+\usepackage[ddmmyyyy]{datetime}
+\usepackage[american]{isodate}
+
+% Customizing datetime
+%\makeatletter
+%\providecommand{\shortmonthnameamerican}[1][\month]{
+%\@orgargctr=#1\relax
+%\ifcase\@orgargctr
+%\PackageError{datetime}{Invalid Month number \the\@orgargctr}{Month numbers should go from 1 to 12}
+%\or Jan.
+%\or Feb.
+%\or Mar.
+%\or Apr.
+%\or May\s
+%\or June
+%\or July
+%\or Aug.
+%\or Sep.
+%\or Oct.
+%\or Nov.
+%\or Dec.
+%\else
+%\PackageError{datetime}{Invalid Month number \the\@orgargctr}{Month numbers should go from 1 to 12}
+%\fi}
+%%\let\shortmonthnameenglish\shortmonthnameenglish
+%\makeatother
+
+\newdateformat{damoye}{\ordinaldate{\THEDAY} \monthname[\THEMONTH] \THEYEAR}
+\newdateformat{damo}{\ordinaldate{\THEDAY}   \monthname[\THEMONTH]}
+\newdateformat{moye}{\monthname[\THEMONTH] of \THEYEAR}
+\newdateformat{damoam}{\monthname[\THEMONTH]\xspace\THEDAY}
+\newdateformat{daam}{\THEDAY}
+\newdateformat{moyeam}{\monthname[\THEMONTH] of \THEYEAR}
+\newdateformat{ye}{\THEYEAR}
+\newdateformat{mo}{\monthname[\THEMONTH]}
+\newdateformat{gershort}{\twodigit{\THEDAY}.twodigit{\THEMONTH}.THEYEAR}
+\newdateformat{short}{\twodigit{\THEDAY}-\twodigit{\THEMONTH}-\THEYEAR}
+\newdateformat{am}{\monthname[\THEMONTH]\xspace\THEDAY,\xspace\THEYEAR}
+\newdateformat{amer}{\monthname[\THEMONTH] \xspace \THEDAY,\xspace\THEYEAR}
+\newdateformat{ger}{\THEDAY.xspace\monthname[\THEMONTH]\xspace\THEYEAR}
+\newdateformat{br}{\monthname[\THEMONTH]\xspace\THEDAY,\xspace\THEYEAR}
+\newdateformat{shortam}{\twodigit{\THEMONTH}/\twodigit{\THEDAY}/\THEYEAR}
+\newdateformat{roma}{\twodigit{\THEDAY}-\rom{\twodigit{\THEMONTH}}-\THEYEAR}
+
+\renewcommand{\shortmonthname}{%
+  \ifcase\THEMONTH
+  \or Jan.\
+  % 1
+  \or Feb.\
+  % 2
+  \or Mar.\
+  % 3
+  \or Apr.\
+  % 4
+  \or May
+  % 5
+  \or Jun.\
+  % 6
+  \or Jul.\
+  % 7
+  \or Aug.\
+  % 8
+  \or Sep.\
+  % 9
+  \or Oct.\
+  % 10
+  \or Nov.\
+  % 11
+  \or Dec.\
+  % 12
+  \fi}
+\makeatletter
+
+\newdateformat{shortbr}{\twodigit{\twodigit{\THEDAY}/\THEMONTH}/\THEYEAR}
+%\newdateformat{shortmoam}{\THEDAY\xspace\shortmonthname[\THEMONTH]. \THEYEAR}
+\newdateformat{shortmoam}{\shortmonthname\THEDAY,\xspace\THEYEAR}
+\newdateformat{shortmobr}{\shortmonthname[\THEDAY,\xspace\THEMONTH].\xspace\THEYEAR}
+
+\DeclareDocumentCommand\dateh{mmm}{}
+%\DeclareDocumentCommand\date{mmm}{\am\formatdate{#1}{#2}{#3}}
+\DeclareDocumentCommand\datef{mmm}{\am\formatdate{#1}{#2}{#3}}
+\DeclareDocumentCommand\dateg{mmm}{\ger\formatdate{#1}{#2}{#3}}
+\DeclareDocumentCommand\dated{mmm}{\daam\formatdate{#1}{0}{0}}
+\DeclareDocumentCommand\datedm{mmm}{\damoam\formatdate{#1}{#2}{0}}
+\DeclareDocumentCommand\datemy{mmm}{\moyeam\formatdate{0}{#2}{#3}}
+\DeclareDocumentCommand\datey{mmm}{\ye\formatdate{0}{0}{#3}}
+\DeclareDocumentCommand\datem{mmm}{\mo\formatdate{0}{#2}{0}}

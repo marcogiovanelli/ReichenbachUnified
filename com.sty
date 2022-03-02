@@ -1,0 +1,322 @@
+\makeatletter%
+\long\def\@makefntext#1{%
+  \parindent 1em\noindent \hb@xt@ 1.8em{\hss\@makefnmark}#1.}
+\makeatother
+ 
+\newenvironment{Zusammefassung}
+\end{Zusammefassung}
+
+
+\usepackage[super]{nth}
+
+
+\usepackage{soul}	
+\usepackage{lipsum}
+
+
+\makeatletter
+\newcommand*{\rom}[1]{\expandafter\@slowromancap\romannumeral #1@}
+\makeatother	
+
+\newcommand*{\me}{\IfLanguageName{german}{; meine Hervorhebung}{; my emphasis}}
+
+\newcommand*{\sm}{\IfLanguageName{german}{; meine Hervorhebung}{; slightly modified}}
+
+
+
+%\newcommand*{\repri}{\IfLanguageName{german}{\autocap{n}eu gedruckt\xspace}{\autocap{r}epr.\xspace}}
+
+%\newcommand*{\rev}[1]{\IfLanguageName{german}{\autocap{b}espr. von \citeatp{#1}}{\autocap{r}ev. of \citeatp{#1}}}
+%\newcommand{\me}{; my emphasis}	
+\newcommand{\tm}{; translation modified}	
+
+
+\renewcommand{\slash}{/\penalty\exhyphenpenalty\hspace{0pt}}
+\newcommand{\slashs}[2]{#1\slash #2}
+
+\renewcommand{\th}{thermodynamics\xspace}
+\newcommand{\Th}{thermodynamics\xspace}
+\newcommand{\spti}{spacetime\xspace}
+%\renewcommand{\st}{spacetime\xspace}
+\newcommand{\sts}{spacetimes\xspace}
+\newcommand{\wl}{worldline\xspace}
+\newcommand{\Wl}{Worldline\xspace}
+\newcommand{\cs}{coordinate system\xspace}
+\newcommand{\css}{coordinate systems\xspace}
+
+\newcommand{\Cs}{Coordinate system\xspace}
+\newcommand{\Css}{Coordinate systems\xspace}
+
+
+
+\newcommand{\rt}{\autocap{r}elativity theory\xspace}
+\newcommand{\Rt}{Relativity theory\xspace}
+\newcommand{\Qm}{Quantum mechanics\xspace}
+\newcommand{\qm}{quantum mechanics\xspace}
+\newcommand{\Qth}{Quantum theory\xspace}
+\newcommand{\qth}{quantum theory\xspace}
+
+
+\newcommand{\ET}{\german{Entwurf} Theory\xspace}
+\newcommand{\gr}{\autocap{g}eneral relativity\xspace}
+\newcommand{\Gr}{General relativity\xspace}
+
+\newcommand{\sr}{\autocap{s}pecial relativity\xspace}
+\newcommand{\Sr}{Special relativity\xspace}
+\newcommand{\intro}{\section*{Introduction}}
+\newcommand{\concl}{\section*{Conclusion}}%
+\newcommand{\akn}{\section*{Acknowledgments}}%
+%\addcontentsline{toc}{section}{Conclusion}%
+\newcommand{\footnoteh}[1]{}
+
+\newcommand{\footnotew}[1]{((#1))}
+\newcommand{\textelph}[1]{\textelp{}}
+
+
+%\renewcommand{\ul}[1]{#1}
+\newcommand{\uft}{unified field theory\xspace}
+\newcommand{\ufts}{unified field theories\xspace}
+\newcommand{\uftp}{unified field theory\hyp{}project\xspace}
+
+
+\newcommand{\dfg}{}
+\newcommand{\rac}{rods and clocks\xspace}
+\newcommand{\Rac}{Rods and clocks\xspace}
+\newcommand{\rach}{rods-and-clocks\xspace}
+\newcommand{\Rach}{Rods-and-clocks\xspace}
+\newcommand{\pgr}{\prg}
+\newcommand{\gc}{general covariance\xspace}
+\newcommand{\Gc}{General covariance\xspace}
+\newcommand{\set}{stress-energy tensor\xspace}
+\newcommand{\Set}{Stress-energy tensor\xspace}
+\newcommand{\SET}{Stress-Energy Tensor\xspace}
+\newcommand{\grc}{general-relativistic\xspace}
+\newcommand{\Grc}{General-relativistic\xspace}
+\newcommand{\src}{special-relativistic\xspace}
+\newcommand{\Src}{Special-relativistic\xspace}
+
+\newcommand{\pgrc}{pre-general-relativistic\xspace}
+\newcommand{\Pgrc}{Pre-general-relativistic\xspace}
+
+
+\newcommand{\prg}{pre-general-relativistic\xspace}
+\newcommand{\Prg}{Pre-general-relativistic\xspace}
+%\newcommand{\prg}{pre-general-relativistic\xspace}
+%\newcommand{\Prg}{Pre-general-relativistic\xspace}
+%\newcommand{\project}{******\xspace}
+
+%\renewcommand{\qi}{\qih}
+\newcommand{\pca}{point\hyp{}coincidence argument\xspace}
+\newcommand{\pc}{point\hyp{}coincidences\xspace}
+
+\newcommand{\PCA}{Point\hyp{}Coincidence Argument\xspace}
+
+
+%\renewcommand{\ul}{\emph}
+\usepackage{comment}
+%\renewcommand{\qt}{\qh}
+%\renewcommand{\qi}{\qih}
+\newcommand{\PZ}{\jt{Physikalische Zeitschrift}\xspace}
+\newcommand{\pemo}{\latin{perpetuum mobile}\xspace}
+\newcommand{\wv}{worldview\xspace}
+
+\newcommand{\rp}{relativity principle\xspace}
+\newcommand{\GDNA}{\german{Gesellschaft Deutscher Naturforscher und \"{A}rzte}\xspace}
+\newcommand{\DPG}{\german{Deutsche Physikalische Gesellschaft}\xspace}
+\newcommand{\NFV}{\german{Naturforscherversammlung}\xspace}
+\newcommand{\VDNA}{\german{Versammlung deutscher Naturforscher und \"{A}rzte}\xspace} 
+
+\newcommand{\ESC}[3]{#1, Sec.~#2, Doc.~#3}
+
+\newcommand{\lt}{Lorentz transformations\xspace}
+\newcommand{\ME}{Maxwell's equations\xspace}
+\newcommand{\MES}{Maxwell equations}
+
+\newcommand{\Ed}{Electrodynamics\xspace}
+\newcommand{\ed}{electrodynamics\xspace}
+
+
+\newcommand{\lc}{Lorentz covariance\xspace}
+\newcommand{\bp}{Boltzmann's principle\xspace}
+\newcommand{\BP}{Boltzmann's principle\xspace}
+
+\newcommand{\SN}{\cite{SN}}
+
+
+%\newcommand{\el}{\ensuremath{\mathfrak{e}}}
+%\newcommand{\ma}{\ensuremath{\mathfrak{h}}}
+%\newcommand{\polar}{\ensuremath{\varphi,\,\vartheta,\,r}}
+
+
+\newcommand{\hook}[1]{$\langle$#1$\rangle$}
+
+%\renewcommand{\ul}[1]{\#1}
+
+
+
+
+
+
+
+
+\renewcommand{\mktextquote}[6]{%
+  %
+\iflanguage{german}{\IfLanguageName{german}{\color{black}}{\color{red}}\IfLanguageName{german}{}{[}#1#2#3\IfLanguageName{german}{}{]}#4#6#5}{\color{black}#1#2#4#5#3#6}% ADDED
+ %
+}
+	
+%	[#1#2#3]
+\renewcommand{\mkblockquote}[4]{%
+  \iflanguage{german}{\color{red}\footnotesize[#1#2#4]#3}{\color{black}\small#1#2#4#3.}% ADDED
+}
+
+%\vspace{5pt}
+ %copy and 
+
+
+\ifoptiondraft{\newcommand{\cop}[1]{\color{red}{#1}\color{black}\xspace}}{\newcommand{\cop}[1]{\color{black}{#1}\color{black}\xspace}}
+
+\ifoptiondraft{\newcommand{\new}[1]{\color{blue}{#1}\color{black}\xspace}}{\newcommand{\new}[1]{\color{black}{#1}\color{black}\xspace}}
+
+\ifoptiondraft{\renewcommand{\check}[1]{\color{orange}{#1}\color{black}\xspace}}{\renewcommand{\check}[1]{\color{black}{#1}\color{black}\xspace}}
+
+
+%\newcommand{\new}[1]{\color{blue}{#1}\color{black}\xspace}
+
+
+
+
+%\renewcommand{\cite}{\citealp}
+
+%
+
+\newcommand{\art}{\enquote*}
+\newcommand{\bt}{\textit} %book title
+\newcommand{\artt}{\textit} %article titme title
+%\renewcommand{\at}{\enquote*} % article title
+\newcommand{\jt}{\textit} % jorunal title
+\newcommand{\ct}{\enquote*}
+
+\newcommand{\trh}[2][]{}
+\newcommand{\footnotep}[1]{\footnote{#1}} %footnote with endpoint see next
+
+
+
+\makeatletter%
+\@ifclassloaded{beamer}{}{
+
+\long\def\@makefntext#1{%
+  \parindent 1em\noindent \hb@xt@ 1.8em{\hss\@makefnmark}#1.}
+}
+
+ \makeatother
+
+ 
+ 
+%\renewcommand{\mytr}[2][]{\blockquote{\color{black}{#2}}}
+
+%\ifblockquote{ (\unspace#1)}{}}}\
+
+%\renewcommand{\tr}[2][]{\blockquote{\color{black}{#2}\ifblockquote{ (\unspace#1)}{}}}
+ %
+\newcommand{\orger}{\foreignblockquote{german}}
+\newcommand{\orig}{\foreignblockquote{german}}
+\newcommand{\orfr}{\foreignblockquote{french}}
+\newcommand{\oreng}{\blockquote}
+
+\newcommand{\apr}{\latin{a priori}\xspace}
+\newcommand{\apo}{\latin{a posteriori}\xspace}
+\newcommand{\origf}[2][]{\xspace}
+\newcommand{\origh}[2][]{\xspace}
+\newcommand{\origins}[1]{\textins{\german{#1}}}
+\newcommand{\originsg}[1]{\textins{\german{#1}}}
+\newcommand{\originsf}[1]{\textins{\french{#1}}}
+\newcommand{\originsi}[1]{\textins{\italian{#1}}}
+
+%\newcommand{\originsg}[1]{\textins{\german{#1}}}
+%\newcommand{\origh}[1][]{\orig{#1}}
+%\newcommand{\origf}[1][]{\orig{#1}}
+%\newcommand{\origh}[2][]{\unspace\footnote{\orig{#2}}}
+%\newcommand{\origins}[2][]{\unspace}
+
+\newcommand{\ala}{\french{\`{a} la}\xspace}
+\newcommand{\tr}{\blockquote}
+\newcommand{\mytr}{\blockquote}
+
+\newcommand{\inqu}[1]{{~\unspace,'' #1, ``}}
+\newcommand{\latin}[1]{\textit{\selectlanguage{latin}#1}}
+\newcommand{\german}[1]{\textit{\selectlanguage{german}#1}}
+\newcommand{\french}[1]{\textit{\selectlanguage{french}#1}}
+%\newcommand{\scare}{\enquote*}
+\newcommand{\gre}[1]{{\fontfamily{cmr}\selectlanguage{polutonikogreek}#1}}
+
+\newcommand{\italian}{\textit}
+
+
+
+%\newcommand{\orword}[1]{[#1]}
+
+
+%\renewcommand{\footnote}[1]{\footnote{#1}.}
+
+%
+\newcommand{\myemph}[1]{\emph{\color{black}#1}}
+\newcommand{\cemph}[1]{\textbf{#1}}
+\newcommand{\bo}[1]{\bfseries{#1}\mdseries}
+
+\newcommand{\ls}{\textls}
+\newcommand{\lse}{\emph}
+
+%
+\newcommand{\co}[2][]{\todo[color=red, #1]{#2}}
+\newcommand{\mco}[2][]{\todo[color=green, #1]{#2}}
+\makeatother
+
+\newcommand{\hide}[2][]{\unspace}
+
+
+
+%\newcommand{\tr}[2]{\blockquote{#2}}
+%\newcommand{\mytr}[2]{\blockquote{#2}}
+
+%%\newcommand{\cit}[4]{\blockquote{#1} [#2] \citep[#3]{#4}}
+%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%DIF PREAMBLE EXTENSION ADDED BY LATEXDIFF
+%DIF UNDERLINE PREAMBLE
+\RequirePackage[normalem]{ulem}
+\RequirePackage{color}\definecolor{RED}{rgb}{1,0,0}\definecolor{BLUE}{rgb}{0,0,1}
+\providecommand{\DIFadd}[1]{{\protect\color{blue}\uwave{#1}}}
+\providecommand{\DIFdel}[1]{{\protect\color{red}\sout{#1}}}
+%DIF SAFE PREAMBLE
+\providecommand{\DIFaddbegin}{}
+\providecommand{\DIFaddend}{}
+\providecommand{\DIFdelbegin}{}
+\providecommand{\DIFdelend}{}
+%DIF FLOATSAFE PREAMBLE
+\providecommand{\DIFaddFL}[1]{\DIFadd{#1}}
+\providecommand{\DIFdelFL}[1]{\DIFdel{#1}}
+\providecommand{\DIFaddbeginFL}{}
+\providecommand{\DIFaddendFL}{}
+\providecommand{\DIFdelbeginFL}{}
+\providecommand{\DIFdelendFL}{}
+%DIF END PREAMBLE EXTENSION ADDED BY LATEXDIFF
+
+
+
+%%%%%%%%%%%anonymize%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\makeatletter
+%\newif\if@anonymize
+%
+%%\@anonymizetrue    % Uncomment to hide text
+%\@anonymizefalse  % Uncomment to show text
+%
+%\if@anonymize
+%\renewcommand{\anonymize}[1]{[citation removed]}
+%\else
+%  \newcommand{\anonymize}[1]{#1}
+%\fi
+%\makeatother

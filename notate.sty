@@ -1,0 +1,126 @@
+\usepackage{stackengine}
+\usepackage{scalerel}
+\usepackage{graphicx,amsmath}
+%\parskip \baselineskip
+\def\myupbracefill#1{\rotatebox{90}{\stretchto{\{}{#1}}}
+\def\rlwd{.5pt}
+\def\myupbracefillon#1{\rotatebox{-90}{\stretchto{\{}{#1}}}
+\def\rlwd{.5pt}
+
+
+\newcommand{\texts}[1]{\text{\footnotesize{#1}}}
+
+
+
+\newcommand\notate[4][B]{%
+  \if B#1\else\def\myupbracefill##1{}\fi%
+  \def\useanchorwidth{T}%
+  \setbox0=\hbox{$\displaystyle#2$}%
+  \def\stackalignment{c}\stackunder[-6pt]{%
+    \def\stackalignment{c}\stackunder[-1.5pt]{%
+      \stackunder[2pt]{\strut $\displaystyle#2$}{\myupbracefill{\wd0}}}{%
+    \rule{\rlwd}{#3\baselineskip}}}{%
+  \strut\kern9pt$\rightarrow$\smash{\rlap{$~\displaystyle#4$}}}%
+}
+
+\newcommand\notateon[4][B]{%
+  \if B#1\else\def\myupbracefillon##1{}\fi%
+  \def\useanchorwidth{T}%
+  \setbox0=\hbox{$\displaystyle#2$}%
+  \def\stackalignment{c}\stackon[-6pt]{%
+    \def\stackalignment{c}\stackon[-1.5pt]{%
+      \stackon[2pt]{\strut $\displaystyle#2$}{\myupbracefillon{\wd0}}}{%
+    \rule{\rlwd}{#3\baselineskip}}}{%
+  \strut\kern9pt$\rightarrow$\smash{\rlap{$~\displaystyle#4$}}}%
+}
+
+
+
+\newcommand\notatel[4][B]{%
+  \if B#1\else\def\myupbracefill##1{}\fi%
+  \def\useanchorwidth{T}%
+  \setbox0=\hbox{$\displaystyle#2$}%
+  \def\stackalignment{c}\stackunder[-6pt]{%
+    \def\stackalignment{c}\stackunder[-1.5pt]{%
+      \stackunder[2pt]{\strut $\displaystyle#2$}{\myupbracefill{\wd0}}}{%
+    \rule{\rlwd}{#3\baselineskip}}}{%
+  \smash{\llap{$~\displaystyle#4$}}$\leftarrow$\strut\kern9pt}%
+}%  
+
+
+\newcommand\notateonl[4][B]{%
+  \if B#1\else\def\myupbracefillon##1{}\fi%
+  \def\useanchorwidth{T}%
+  \setbox0=\hbox{$\displaystyle#2$}%
+  \def\stackalignment{c}\stackon[-6pt]{%
+    \def\stackalignment{c}\stackon[-1.5pt]{%
+      \stackon[2pt]{\strut $\displaystyle#2$}{\myupbracefillon{\wd0}}}{%
+    \rule{\rlwd}{#3\baselineskip}}}{%
+  \smash{\llap{$~\displaystyle#4$}}$\leftarrow$\strut\kern9pt}%
+}
+
+
+\newcommand\notater[4][B]{%
+  \if B#1\else\def\myupbracefill##1{}\fi%
+  \def\useanchorwidth{T}%
+  \setbox0=\hbox{$\displaystyle#2$}%
+  \def\stackalignment{c}\stackunder[-6pt]{%
+    \def\stackalignment{c}\stackunder[-1.5pt]{%
+      \stackunder[2pt]{\strut $\displaystyle#2$}{\myupbracefill{\wd0}}}{%
+    \rule{\rlwd}{#3\baselineskip}}}{%
+  \strut\kern9pt$\rightarrow$\smash{\rlap{$~\displaystyle#4$}}}%
+}
+
+  \newcommand\notateor[4][B]{%
+  \if B#1\else\def\myupbracefillon##1{}\fi%
+  \def\useanchorwidth{T}%
+  \setbox0=\hbox{$\displaystyle#2$}%
+  \def\stackalignment{c}\stackon[-6pt]{%
+    \def\stackalignment{c}\stackon[-1.5pt]{%
+      \stackon[2pt]{\strut $\displaystyle#2$}{\myupbracefillon{\wd0}}}{%
+    \rule{\rlwd}{#3\baselineskip}}}{%
+  \strut\kern9pt$\rightarrow$\smash{\rlap{$~\displaystyle#4$}}}%
+}
+
+  \newcommand\notateol[4][B]{%
+  \if B#1\else\def\myupbracefillon##1{}\fi%
+  \def\useanchorwidth{T}%
+  \setbox0=\hbox{$\displaystyle#2$}%
+  \def\stackalignment{c}\stackon[-6pt]{%
+    \def\stackalignment{c}\stackon[-1.5pt]{%
+      \stackon[2pt]{\strut $\displaystyle#2$}{\myupbracefillon{\wd0}}}{%
+    \rule{\rlwd}{#3\baselineskip}}}{%
+  \smash{\llap{$~\displaystyle#4$}}$\leftarrow$\strut\kern9pt}%
+}
+
+
+\newcommand\notateur[4][B]{%
+  \if B#1\else\def\myupbracefill##1{}\fi%
+  \def\useanchorwidth{T}%
+  \setbox0=\hbox{$\displaystyle#2$}%
+  \def\stackalignment{c}\stackunder[-6pt]{%
+    \def\stackalignment{c}\stackunder[-1.5pt]{%
+      \stackunder[2pt]{\strut $\displaystyle#2$}{\myupbracefill{\wd0}}}{%
+    \rule{\rlwd}{#3\baselineskip}}}{%
+  \strut\kern9pt$\rightarrow$\smash{\rlap{$~\displaystyle#4$}}}%
+}
+
+
+\newcommand\notateh[4]{#1\xspace}%
+
+\newcommand\notateul[4][B]{%
+  \if B#1\else\def\myupbracefill##1{}\fi%
+  \def\useanchorwidth{T}%
+  \setbox0=\hbox{$\displaystyle#2$}%
+  \def\stackalignment{c}\stackunder[-6pt]{%
+    \def\stackalignment{c}\stackunder[-1.5pt]{%
+      \stackunder[2pt]{\strut $\displaystyle#2$}{\myupbracefill{\wd0}}}{%
+    \rule{\rlwd}{#3\baselineskip}}}{%
+ \smash{\llap{$~\displaystyle#4$}}$\leftarrow$\strut\kern9pt}%
+}
+
+
+%\newcommand{\notateur}{}
+%\newcommand{\notateol}{}
+
+

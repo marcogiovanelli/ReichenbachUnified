@@ -1,0 +1,91 @@
+%\newenvironment{frontmatter}{}{\maketitle}
+
+
+
+
+\renewenvironment{abstract}{\setlength{\parindent}{\z@}
+      \hrule
+      \footnotesize\vskip 10pt}{%
+      \vskip 10pt
+      \hrule
+      \vskip 20pt}
+   
+
+\newenvironment{abstracts}{\vspace{-0.1cm}\begin{spacing}{1}\footnotesize\itshape\noindent}
+{\end{spacing}\ignorespacesafterend\vspace{-0.2cm}}
+ 
+   
+ \newcommand{\sep}{\unskip~\textbullet~}%
+
+\newenvironment{keywords}{%
+  
+\footnotesize  \noindent\textit{Keywords: }
+  \raggedright                         % Keywords are not justified.
+  }
+%\def\endkeyword{\par \egroup}   
+   
+\newcommand{\maybe@addperiod}[1]{%
+  #1\@addpunct{.}%
+}
+
+\usepackage[explicit]{titlesec}
+
+\titleformat{\part}
+  {\normalfont}{\normalsize\bfseries\boldmath{Part \thepart}}{1em}{\normalsize\bfseries\boldmath{#1}}
+
+%\titleformat{\section}
+ % {\normalfont}{\normalsize\bfseries\boldmath{\thepart.\thesection}}{1em}{\normalsize\bfseries\boldmath{#1}}
+
+
+
+\renewcommand\section{\@startsection{section}{1}{\z@}%
+           {-18\p@ \@plus 6\p@ \@minus 3\p@}%
+           {9\p@ \@plus 6\p@ \@minus 3\p@}%
+           {\normalsize\bfseries\boldmath}}
+           
+         
+
+\renewcommand\subsection{\@startsection{subsection}{2}{\z@}%
+           {-12\p@ \@plus 6\p@ \@minus 3\p@}%
+           {4\p@ \@plus 6\p@ \@minus 3\p@}%
+           {\normalfont\normalsize\itshape}}
+
+\renewcommand\subsubsection{\@startsection{subsubsection}{3}{\z@}%
+     {12\p@ \@plus 6\p@ \@minus 3\p@}%
+   {\p@}%
+  {\normalfont\normalsize}}
+           
+          
+\renewcommand\paragraph{\@startsection{paragraph}{4}{\z@}%
+                                    {3.25ex \@plus1ex \@minus.2ex}%
+                                    {-1em}%
+                                    {\normalfont\normalsize\itshape\maybe@addperiod}}%
+                                    
+       
+
+
+%\newbox\absbox
+%\renewenvironment{abstract}{\global\setbox\absbox=\vbox\bgroup
+%  \hsize=\textwidth\def\baselinestretch{1}%
+%  \noindent\unskip\textbf{Abstract}
+% \par\medskip\noindent\unskip\ignorespaces}
+% {\egroup}
+  
+  
+%%  \newbox\keybox
+%%\def\keyword{%
+%%  \def\sep{\unskip, }%
+%% \def\MSC{\@ifnextchar[{\@MSC}{\@MSC[2000]}}
+%%  \def\@MSC[##1]{\par\leavevmode\hbox {\it ##1~MSC:\space}}%
+%%  \def\PACS{\par\leavevmode\hbox {\it PACS:\space}}%
+%%  \def\JEL{\par\leavevmode\hbox {\it JEL:\space}}%
+%%  \global\setbox\keybox=\vbox\bgroup\hsize=\textwidth
+%%  \normalsize\normalfont\def\baselinestretch{1}
+%%  \parskip\z@
+%%  \noindent\textit{Keywords: }
+%%  \raggedright                         % Keywords are not justified.
+%%  \ignorespaces}
+%%\def\endkeyword{\par \egroup}
+%%
+%
+%

@@ -1,0 +1,25 @@
+\usepackage{aut}
+
+\makeatletter
+\@ifclasswith{article}{submitted}{%
+\newcommand{\anonymize}[1]{[citation removed]}
+\newcommand{\acitep}[1]{[citation removed]}
+\newcommand{\acite}[1]{[citation removed]}
+\newcommand{\ascite}[1]{[citation removed]}
+\newcommand{\ascitep}[1]{[citation removed]}
+  \newcommand{\aScite}[1]{[citation removed]} 
+ }{%
+ \newcommand{\anonymize}[1]{#1}
+\newcommand{\acitep}[1]{\citep{#1}}
+\newcommand{\acite}[1]{\cite{#1}}
+\newcommand{\ascite}[1]{\scite{#1}}
+\newcommand{\ascitep}[1]{\scitep{#1}}
+  \newcommand{\aScite}[1]{\Scite{#1}} 
+  }
+\makeatother
+
+
+\makeatletter
+\newif\ifhbonecolumn
+\@ifclasswith{article}{submitted}{\author{}}{\torinos}
+\makeatother

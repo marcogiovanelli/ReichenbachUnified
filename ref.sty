@@ -1,0 +1,134 @@
+\usepackage{url} 
+\usepackage{amsmath} 
+
+
+
+
+\usepackage[citebordercolor=b,linkbordercolor=b]{hyperref} 
+
+\hypersetup{
+         %window fit to page when opened
+    %pdfstartview=,    % fits the width of the page to the window
+    %pdftitle={\@title},    % title
+   %pdfauthor={Marco Giovanelli},     % author
+   %pdfsubject={Subject},   % subject of the document
+    %pdfcreator={Creator},   % creator of the document
+    %pdfproducer={Producer}, % producer of the document
+    %pdfkeywords={keyword1, key2, key3}, % list of keywords
+    %pdfnewwindow=true,      % links in new PDF window
+      %colorlinks=false,       % false: boxed links; true: colored links
+  linkcolor=b, 
+     linkbordercolor=b,       % color of internal links (change box color with linkbordercolor)
+    citecolor=b,        % color of links to bibliography
+    %filecolor=magenta,      % color of file links
+    %urlcolor=winered           % color of external links
+    setpagesize=false,
+}
+
+%\makeatother
+
+\usepackage{cleveref}
+
+\newcommand{\ensurecomma}{%
+  \@ifnextchar,{}{,\xspace}}
+
+
+
+\newcommand\Eg{{E.g.}\ensurecomma}
+\newcommand\eg{{e.g.}\ensurecomma}
+\newcommand\ie{{i.e.}\ensurecomma}
+
+\newcommand\thatis{{that is}\ensurecomma}
+\newcommand\cf{{cf.\@}\xspace}
+\newcommand\Cf{{Cf.\@}\xspace}
+\newcommand*{\cfeg}{cf., e.g.\ensurecomma}
+\newcommand*{\Cfeg}{Cf., e.g.\ensurecomma}
+\newcommand*{\seg}{see, e.g.\ensurecomma}
+\newcommand*{\Seg}{See, e.g.\ensurecomma}
+
+
+\newcommand{\sa}[1]{see above \cref{#1}}
+\newcommand{\sbe}[1]{see below \cref{#1}}
+\newcommand{\Sa}[1]{See above \cref{#1}}
+\newcommand{\Sb}[1]{see below \cref{#1}}
+
+\newcommand{\scite}[1]{see \cite{#1}}
+\newcommand{\scites}[1]{see \cites{#1}}
+\newcommand{\scitep}[1]{(see \cite{#1})}
+\newcommand{\scitepp}[1]{(see \cites{#1})}
+
+\newcommand{\segcite}[1]{\seg \cite{#1}}
+\newcommand{\segcites}[1]{\seg \cites{#1}}
+\newcommand{\segcitep}[1]{(\seg \cite{#1})}
+\newcommand{\segcitepp}[1]{(\seg \cites{#1})}
+
+
+\newcommand{\Scite}[1]{See \cite{#1}}
+\newcommand{\Scites}[1]{See \cites{#1}}
+\newcommand{\Segcite}[1]{\Seg \cite{#1}}
+\newcommand{\Segcites}[1]{\Seg \eg, \cites{#1}}
+
+\newcommand{\Scitep}[1]{(\Seg \cite{#1})}
+\newcommand{\Scitepp}[1]{(See \cites{#1})}
+\newcommand{\Segcitep}[1]{(\Seg \cite{#1})}
+\newcommand{\Segcitepp}[1]{(\Seg \cites{#1})}
+
+
+
+\newcommand{\cfa}[1]{see above \refs{#1}}
+\newcommand{\cfb}[1]{see below \refs{#1}}
+\newcommand{\Cfa}[1]{\Cf above \refs{#1}}
+\newcommand{\Cfb}[1]{\Cf below \refs{#1}}
+\newcommand{\cff}[1]{see \fsref{#1}}
+\newcommand{\Cff}[1]{\Cf \fsref{#1}}
+
+\newcommand{\cfcite}[1]{see \cite{#1}}
+\newcommand{\cfcites}[1]{see \cites{#1}}
+\newcommand{\cfegcite}[1]{\cfeg \cite{#1}}
+\newcommand{\cfegcites}[1]{\cfeg \eg, \cites{#1}}
+\newcommand{\cfcitep}[1]{(\cfeg \cite{#1})}
+\newcommand{\cfcitepp}[1]{(see \cites{#1})}
+\newcommand{\cfegcitep}[1]{(\cfeg \cite{#1})}
+\newcommand{\cfegcitepp}[1]{(\cfeg \cites{#1})}
+
+\newcommand{\Cfcite}[1]{\Cf \cite{#1}}
+\newcommand{\Cfcites}[1]{\Cf \cites{#1}}
+\newcommand{\Cfegcite}[1]{\cfeg \cite{#1}}
+\newcommand{\Cfegcites}[1]{\Cfeg \cites{#1}}
+
+
+
+
+
+%\newcommand{\eg}{e.g.,{}}
+%\newcommand{\Eg}{E.g.,{}}
+%\newcommand{\ie}{i.e.,{}}
+
+\makeatletter
+\newcommand{\etc}{\@ifnextchar.{, etc}{, etc.\xspace}}
+\makeatother
+
+
+
+\newcommand{\fref}[1]{fn.~\ref{#1} on p.~\pageref{#1}}
+\newcommand{\fsref}[1]{fn.~\ref{#1}}
+\newcommand{\pref}[1]{p.~\pageref{#1}}
+\newcommand{\sref}[1]{sec.~\ref{#1}}
+\newcommand{\Sref}[1]{sec.~\ref{#1}}
+\newcommand{\chref}[1]{ch.~\ref{#1}}
+\newcommand{\Chref}[1]{Ch.~\ref{#1}}
+
+%\newcommand{\eqref}[1]{eq.~\ref{#1}}
+\newcommand{\eqpref}[1]{eq.~\ref{#1} on p.~\pageref{#1}}
+
+\newcommand{\refs}[1]{sec.~\ref{#1}}
+\newcommand{\Refs}[1]{Sec.~\ref{#1}}
+\newcommand{\refsp}[1]{(sec.~\ref{#1})}
+\newcommand{\refssp}[2]{(secc.~\ref{#1}, \ref{#2})}
+\newcommand{\refsssp}[3]{(secc.~\ref{#1}, \ref{#2}, \ref{#3})}
+
+\newcommand{\secref}[1]{sec.~\ref{#1}}
+\newcommand{\Secref}[1]{Sec.~\ref{#1}}
+\newcommand{\secrefp}[1]{(sec.~\ref{#1})}
+
+

@@ -1,0 +1,311 @@
+\usepackage{amsfonts}   % if you want the fonts
+\usepackage{amssymb}
+\usepackage[]{mathtools}
+\usepackage{nicefrac}
+%\numberwithin{equation}{section}
+\usepackage{forest}
+\usepackage{centernot}
+\usepackage{tabularx}
+%\usepackage{commath}
+%\renewcommand{\theequation}{\roman{equation}}
+
+
+
+\makeatletter
+\newenvironment{nbytwosubequations}{%
+  \refstepcounter{equation}%
+  \protected@edef\theparentequation{\theequation}%
+  \setcounter{parentequation}{\value{equation}}%
+  \setcounter{equation}{0}%
+  \def\theequation{%
+    \theparentequation\alph{equation}%
+    \addtocounter{equation}{1},\alph{equation}%
+  }%
+  \ignorespaces
+}{%
+  \setcounter{equation}{\value{parentequation}}%
+  \ignorespacesafterend
+}
+\makeatother
+
+
+
+\newcommand{\FS}{\german{Fl\"achensatz}\xspace}
+
+\newcommand{\elset}{\vec{T}_\ele}
+\newcommand{\meset}{\vec{T}_\mec}
+\newcommand{\geset}{\vec{T}}
+
+
+
+
+\newcommand{\LC}{Lorentz coordinates\xspace}
+\newcommand{\EC}{Einstein coordinates\xspace}
+\newcommand{\DC}{Droste coordinates\xspace}
+\newcommand{\SC}{Schwarzschild coordinates\xspace}
+\newcommand{\PC}{Painlevé coordinates\xspace}
+\newcommand{\LCS}{Lorentz \cs}
+\newcommand{\ECS}{Einstein \cs}
+\newcommand{\DCS}{Droste \cs}
+\newcommand{\SCS}{Schwarzschild \cs}
+\newcommand{\PCS}{Painlevé \cs}
+
+
+
+
+\newcommand{\pr}{^{\prime}}
+\newcommand{\const}{\text{const.}}
+\newcommand{\sfrac}[2]{\nicefrac{#1}{#2}}
+\newcommand{\hfrac}[2]{\ensuremath{{#1}/{#2}}\xspace}
+\newcommand{\xyzt}{\ensuremath{x,y,z,t}\xspace}
+\newcommand{\xyztpr}{\ensuremath{x', y',z',t'}\xspace}
+\newcommand{\xyztprime}{\ensuremath{x', y',z',t'}\xspace}
+\newcommand{\xyz}{\ensuremath{x,y,z}\xspace}
+\newcommand{\xyzpr}{\ensuremath{x', y', z'}\xspace}
+\newcommand{\xyzprime}{\ensuremath{x', y', z'}\xspace}
+\newcommand{\xxx}{\ensuremath{x_1,x_2,x_3}\xspace}
+\newcommand{\xxxpr}{\ensuremath{x'_1,x'_2,x'_3}\xspace}
+\newcommand{\xxxx}{\ensuremath{x_1, x_2, x_3, x_4}\xspace}
+\newcommand{\dxxxx}{\ensuremath{dx_1, dx_2, dx_3, dx_4}\xspace}
+\newcommand{\xxxxpr}{\ensuremath{x'_1, x'_2, x'_3, x'_4}\xspace}
+\newcommand{\dxxxxpr}{\ensuremath{dx'_1, dx'_2, dx'_3, dx'_4}\xspace}
+
+\newcommand{\impliesf}{\ensuremath{\color{fore}{\mathbf{\implies}}}}
+\newcommand{\impliesc}{\ensuremath{\color{title}{\mathbf{\implies}}}}
+
+\newcommand{\fff}{\ensuremath{\color{fore}{\mathbf{\iff}}}}
+\newcommand{\iffc}{\ensuremath{\color{title}{\mathbf{\iff}}}}
+
+
+
+
+\newcommand{\pd}[2]{\ensuremath{\frac{\partial#1}{\partial#2}}}
+\newcommand{\pdh}[2]{\ensuremath{\partial{#1}/\partial{#2}}}
+
+\newcommand{\pds}[2]{\ensuremath{\partial_{#2}{#1}}}
+
+\newcommand{\ele}{\ensuremath{\mathsc{em}}}
+\newcommand{\mec}{\ensuremath{\mathsc{me}}}
+\newcommand{\ext}{\ensuremath{\mathsc{ext}}}
+\newcommand{\self}{\ensuremath{\mathsc{self}}}
+
+
+\newcommand{\gmn}{\ensuremath{g_{\mu\nu}}\xspace}
+\newcommand{\gmnprime}{\ensuremath{g_{\mu\nu}}\xspace}
+\newcommand{\gmnpr}{\ensuremath{g'_{\mu\nu}}\xspace}
+\newcommand{\fmn}{\ensuremath{\varphi_{\mu\nu}}\xspace}
+\newcommand{\fmnpr}{\ensuremath{\varphi'_{\mu\nu}}\xspace}
+\newcommand{\fm}{\ensuremath{\varphi_{\mu}}\xspace}
+\newcommand{\Fmn}{\ensuremath{F_{\mu\nu}}\xspace}
+\newcommand{\xn}{\ensuremath{x_{\nu}}\xspace}
+\newcommand{\xnpr}{\ensuremath{x'_{\nu}}\xspace}
+
+\newcommand{\Tmn}{\ensuremath{T_{\mu\nu}}\xspace}
+
+\newcommand{\Gtmn}{\ensuremath{\Gamma^\tau_{\mu\nu}}\xspace}
+\newcommand{\Gtnm}{\ensuremath{\Gamma^\tau_{\nu\mu}}\xspace}
+\newcommand{\gtmn}{\ensuremath{\gamma^\tau_{\mu\nu}}\xspace}
+\newcommand{\tmn}{^\tau_{\mu\nu}}
+\newcommand{\tnm}{^\tau_{\nu\mu}}
+\newcommand{\mn}{_{\mu\nu}}
+\newcommand{\nm}{_{\nu\mu}}
+\newcommand{\mnu}{^{\mu\nu}}
+\newcommand{\nmu}{^{\nu\mu}}
+
+\newcommand{\ik}{\ensuremath{_{ik}}\xspace}
+\newcommand{\ije}{\ensuremath{_{ij}}\xspace}
+%\renewcommand{\ij}{\ensuremath{_{ij}}\xspace}
+\newcommand{\gik}{\ensuremath{g_{ik}}\xspace}
+\newcommand{\Tik}{\ensuremath{T_{ik}}\xspace}
+
+\newcommand{\christoffel}[3]{\ensuremath{\begin{Bmatrix} #1 #2 \\ #3 \end{Bmatrix}}}
+\newcommand{\christoffelinv}[3]{\ensuremath{\begin{Bmatrix} #3 \\ #1 #2   \end{Bmatrix}}}
+
+ \newcommand{\lineel}{\ensuremath{ds^2=\gmn dx_\mu dx_\nu}\xspace}
+
+\newcommand{\primes}{^{\prime}}
+\newcommand{\slfrac}[2]{\left.#1\middle/#2\right.}
+
+\newcommand{\norm}[1]{\lVert#1\rVert}
+
+\newcommand{\kf}{\sqrt{1- v^2/c^2}}
+\newcommand{\kfv}{{\sqrt{1- \frac{v^2}{c^2}}}}
+
+\newcommand{\gammafactor}{\ensuremath{\frac{1}{{\sqrt{1- \frac{v^2}{c^2}}}}}}
+\newcommand{\kappafactor}{\ensuremath{{\sqrt{1- \frac{v^2}{c^2}}}}}
+\newcommand{\betafactor}{\ensuremath{\frac{v}{c}}}
+\newcommand{\gammafactorbeta}{\ensuremath{\frac{1}{{\sqrt{1- \beta^2}}}}}
+\newcommand{\kappafactorbeta}{\ensuremath{{\sqrt{1- \beta^2}}}}
+
+
+\newcommand{\kfb}{\sqrt{1- \beta^2}}
+\newcommand{\frackfb}[1]{\frac{#1}{\kfb}}
+
+
+
+\newcommand{\lfv}{\frac{1}{\sqrt{1- \frac{v^2}{c^2}}}}
+
+\newcommand{\lf}{\ensuremath{1/\sqrt{1- v^2/c^2}}\xspace}
+\newcommand{\lfb}{\ensuremath{1/\sqrt{1- \beta^2}}\xspace}
+\newcommand{\lfbv}{\ensuremath{\frac{1}{\sqrt{1- \beta^2}}}\xspace}
+
+\newcommand{\lfa}{\ensuremath{\gamma}}
+\newcommand{\vca}{\ensuremath{\beta}}
+\newcommand{\kfa}{\ensuremath{\kappa}}
+
+
+
+\newcommand{\Mt}{\ensuremath{m_{\tra}}\xspace}
+\newcommand{\Mut}{\ensuremath{\mu_{\tra}}\xspace}
+\newcommand{\Ml}{\ensuremath{m_{\lon}}\xspace}
+\newcommand{\Mul}{\ensuremath{\mu_{\lon}}\xspace}
+\newcommand{\Me}{\ensuremath{m_\ele}\xspace}
+\newcommand{\Em}{\ensuremath{\energy_\ele}\xspace}
+\newcommand{\Pm}{\ensuremath{\momentum_\ele}\xspace}
+
+
+\newcommand{\Kr}{\ensuremath{K}\xspace}
+\newcommand{\Km}{\ensuremath{K'}\xspace}
+\newcommand{\Kfr}{\ensuremath{K''}\xspace}
+
+
+
+\newcommand{\unimod}{\ensuremath{\sqrt{-g}=1}\xspace}
+
+
+\newcommand{\El}{\ensuremath{\mathfrak{E}}\xspace}
+\newcommand{\Ma}{\ensuremath{\mathfrak{H}}\xspace}
+
+
+\newcommand{\el}{\ensuremath{\mathfrak{e}}\xspace}
+\newcommand{\ma}{\ensuremath{\mathfrak{h}}\xspace}
+
+
+
+\newcommand{\polar}{\ensuremath{\varphi,\vartheta,r}\xspace}
+
+\newcommand{\polarprime}{\ensuremath{\varphi',\vartheta',r'}\xspace}
+
+\newcommand{\polarpr}{\ensuremath{\varphi',\vartheta',r'}\xspace}
+
+
+\newcommand{\angular}{\ensuremath{\varphi,\vartheta}\xspace}
+
+\newcommand{\polart}{\ensuremath{\varphi,\vartheta,r,t}\xspace}
+
+\newcommand{\polartpr}{\ensuremath{\varphi',\vartheta',r',t'}\xspace}
+
+
+\newcommand{\polartprime}{\ensuremath{\varphi',\vartheta',r',t'}\xspace}
+
+\newcommand{\mathsc}[1]{{\normalfont\textsc{#1}}}
+%\newmdenv[skipabove=20pt,skipbelow=20pt,leftmargin=10pt,rightmargin=10pt,linecolor=black]{abox}
+%\newcommand{\xyzprime}{\ensuremath{x',y',x'}\xspace}
+
+
+\newcommand{\boltzmann}{\ensuremath{S=k\log{W}\xspace}}
+
+
+\newcommand{\rite}{\ensuremath{R_{\mu \nu \sigma}^{\tau}}\xspace}
+\newcommand{\ritea}{\ensuremath{R_{\mu \nu \sigma}^{\tau}(\Gamma)}\xspace}
+\newcommand{\riteg}{\ensuremath{R_{\mu \nu \sigma}^{\tau} (g)}\xspace}
+\newcommand{\nonmetr}{\ensuremath{K_{\mu \nu, \sigma}}\xspace}
+
+
+
+\newcommand*\diff{
+   \mathop{}\nobreak
+   \mskip-\thinmuskip\nobreak
+   \mathrm{d}
+}
+
+
+\makeatletter
+\providecommand*{\dif}%
+   {\@ifnextchar^{\DIfF}{\DIfF^{}}}
+\def\DIfF^#1{%
+   \mathop{\mathrm{\mathstrut d}}%
+      \nolimits^{#1}\gobblespace
+}
+\def\gobblespace{%
+   \futurelet\diffarg\opspace}
+\def\opspace{%
+   \let\DiffSpace\!%
+   \ifx\diffarg(%
+      \let\DiffSpace\relax
+   \else
+      \ifx\diffarg\[%
+         \let\DiffSpace\relax
+      \else
+         \ifx\diffarg\{%
+            \let\DiffSpace\relax
+         \fi\fi\fi\DiffSpace}
+\makeatother
+
+
+
+\newcommand{\energy}{\ensuremath{W}}
+\newcommand{\energyd}{\ensuremath{w}}
+
+\newcommand{\energye}{\ensuremath{W}_\ele}
+\newcommand{\energyde}{\ensuremath{w}_\ele}
+
+\newcommand{\work}{\ensuremath{A}}
+
+
+\newcommand{\momentumm}{\ensuremath{\vec{G}_\mec}}
+\newcommand{\momentumdm}{\ensuremath{\vec{g}_\mec}}
+\newcommand{\lagr}{\ensuremath{L}}
+\newcommand{\lagrm}{\ensuremath{L}_\mec}
+\newcommand{\lagre}{\ensuremath{L}_\ele}
+
+
+\newcommand{\momentum}{\ensuremath{\vec{G}}}
+\newcommand{\momentums}{\ensuremath{G}}
+\newcommand{\momentumd}{\ensuremath{\vec{g}}}
+\newcommand{\momentumds}{\ensuremath{g}}
+
+
+\newcommand{\momentume}{\ensuremath{\vec{G}_\ele}}
+\newcommand{\momentumse}{\ensuremath{\vec{G}_\ele}}
+\newcommand{\momentumde}{\ensuremath{\vec{g}_\ele}}
+\newcommand{\momentumdse}{\ensuremath{g}_\ele}
+
+\newcommand{\poynting}{\ensuremath{\vec{S}}}
+\newcommand{\force}{\ensuremath{\vec{F}}}
+\newcommand{\forces}{\ensuremath{F}}
+\newcommand{\forced}{\ensuremath{\vec{f}}}
+\newcommand{\forceds}{\ensuremath{f}}
+\newcommand{\velocity}{\ensuremath{\vec{v}}}
+\newcommand{\velocitys}{\ensuremath{v}}
+
+
+\newcommand{\welec}{\frac{1}{2}\frac{e^{2}}{a}}
+\newcommand{\tra}{\perp}
+\newcommand{\lon}{\parallel}
+
+\newcommand{\GMG}{G\"ottingen Mathematische Gesellschaft\xspace}
+
+\newcommand{\els}{E}
+\newcommand{\mas}{B}
+
+\newcommand{\angularmomentume}{\vec{L}_\ele}
+\newcommand{\angularmomentumm}{\vec{L}_\mec}
+\newcommand{\angularmomentum}{\vec{L}_\mec}
+
+\newcommand{\torque}{\vec{T}}
+
+\newcommand{\ms}{\ensuremath{\sigma_{ij}}}
+\newcommand{\et}{\ensuremath{s_{ij}}}
+\newcommand{\minkforce}{\vec{K}}
+\newcommand{\minkforced}{\vec{k}}
+
+\newcommand{\gauss}{\ensuremath{ds^{2}=E dp^{2}+2 F dp dp+G dq^{2}}}
+
+
+
+%\mathcode`*=\string"8000
+%\begingroup
+%\catcode`*=\active
+%\xdef*{\noexpand\textup{\string*}}
+%\endgroup
