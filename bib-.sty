@@ -37,7 +37,6 @@
 %\setlength\bibitemsep{0cpt}
 
 
-
 \begin{filecontents}{biblatex-dm.cfg}
 \DeclareDatamodelEntrytypes{sb}
 \DeclareDatamodelEntrytypes{aea}
@@ -62,50 +61,34 @@
 
 
 
-%\usepackage[
-%               %style=chicago,
-%               date=year,
-%%               datelabel=yearonly,
-%                %natbib=true,
-%                %giveninits=true,
-%		%style=numeric,
-%		%style=authoryear-comp,
-%		style=chicago-authordate,
-%		bibencoding=utf8,
-%		url=true,
-%		doi=false,
-%		isbn=false,
-%		%mergedate=true,
-%		maxbibnames=3,
-%		maxcitenames=3,
-%		ibidtracker=true, 
-%		idemtracker=true,
-%		%uniquelist=1,
-%		%autolang=other,
-%		%sorting=none
-%		sorting=nyt,
-%		indexing=true,
-%		%uniquename=false,
-%		%dashed=false
-%		mincrossrefs=50
-%		]{biblatex}
+\usepackage[
+               %style=chicago,
+               date=year,
+%               datelabel=yearonly,
+                %natbib=true,
+                %giveninits=true,
+		%style=numeric,
+		style=authoryear-comp,
+		%style=chicago-authordate,
+		bibencoding=utf8,
+		url=true,
+		doi=false,
+		isbn=false,
+		mergedate=true,
+		maxbibnames=3,
+		maxcitenames=3,
+		ibidtracker=true, 
+		idemtracker=true,
+		%uniquelist=1,
+		%autolang=other,
+		%sorting=none
+		sorting=nyt,
+		indexing=true,
+		uniquename=false,
+		%dashed=false
+		mincrossrefs=50
+		]{biblatex}
 
-
-
-\usepackage[authordate,backend=biber,bibencoding=utf8,cmslos=false,shorthandfull,noibid,ibidtracker=false,autocite=plain,doi=false,isbn=false,]{biblatex-chicago}
-
-%\DeclareSourcemap{
-%  \maps[datatype=bibtex]{
-%    \map{
-%      \step[fieldset=shorthand, null]
-%      \step[fieldsource=options,match={skipbib=true},replace={skipbib=false}]
-%    }
-%  }
-%}
-
-
-
-\setlength{\bibitemsep}{0em}
 \DeclareFieldFormat{postnote}{#1}% no postnote prefix in "normal" citation commands
 \DeclareFieldFormat{multipostnote}{#1}% no postnote prefix in "multicite" commands
 \DeclareFieldFormat{pages}{#1}
@@ -122,8 +105,6 @@
 \DeclareDelimFormat{compcitedelim}{\addcomma\space}
 \DeclareDelimFormat{multicitedelim}{\addcomma\space}
 \DeclareDelimFormat{nameyeardelim}{\addcomma\space}
-
-
 
 \DeclareLabeldate{%
   \field{date}
@@ -330,7 +311,7 @@
 
 \DeclareBibliographyDriver{sb}{%
 \usebibmacro{bibindex}%
-%\usebibmacro{begentry}%
+\usebibmacro{begentry}%
 \usebibmacro{author/editor}%
 \setunit{\labelnamepunct}\newblock
 \usebibmacro{title}%
@@ -349,7 +330,7 @@
 
 \DeclareBibliographyDriver{newspaper}{%
 \usebibmacro{bibindex}%
-%\usebibmacro{begentry}%
+\usebibmacro{begentry}%
 \usebibmacro{author/editor}%
 \setunit{\labelnamepunct}\newblock
 \usebibmacro{title}
@@ -387,7 +368,7 @@
 
 \DeclareBibliographyDriver{aea}{%
 \usebibmacro{bibindex}%
-%\usebibmacro{begentry}%
+\usebibmacro{begentry}%
 \usebibmacro{author/editor}
 \setunit{\labelnamepunct}\newblock
 \printfield{title}%

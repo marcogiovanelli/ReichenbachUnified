@@ -18,9 +18,6 @@
 \newcommand*{\rom}[1]{\expandafter\@slowromancap\romannumeral #1@}
 \makeatother	
 
-\newcommand*{\me}{\IfLanguageName{german}{; meine Hervorhebung}{; my emphasis}}
-
-\newcommand*{\sm}{\IfLanguageName{german}{; meine Hervorhebung}{; slightly modified}}
 
 
 
@@ -159,16 +156,16 @@
 
 
 
-\renewcommand{\mktextquote}[6]{%
-  %
-\iflanguage{german}{\IfLanguageName{german}{\color{black}}{\color{red}}\IfLanguageName{german}{}{[}#1#2#3\IfLanguageName{german}{}{]}#4#6#5}{\color{black}#1#2#4#5#3#6}% ADDED
- %
-}
+%\renewcommand{\mktextquote}[6]{%
+%  %
+%\iflanguage{german}{\IfLanguageName{german}{\color{black}}{\color{red}}\IfLanguageName{german}{}{[}#1#2#3\IfLanguageName{german}{}{]}#4#6#5}{\color{black}#1#2#4#5#3#6}% ADDED
+% %
+%}
 	
-%	[#1#2#3]
-\renewcommand{\mkblockquote}[4]{%
-  \iflanguage{german}{\color{red}\footnotesize[#1#2#4]#3}{\color{black}\small#1#2#4#3.}% ADDED
-}
+%%	[#1#2#3]
+%\renewcommand{\mkblockquote}[4]{%
+%  \iflanguage{german}{\color{red}\footnotesize[#1#2#4]#3}{\color{black}\small#1#2#4#3.}% ADDED
+%}
 
 %\vspace{5pt}
  %copy and 
@@ -219,19 +216,17 @@
 
 %\renewcommand{\tr}[2][]{\blockquote{\color{black}{#2}\ifblockquote{ (\unspace#1)}{}}}
  %
-\newcommand{\orger}{\foreignblockquote{german}}
-\newcommand{\orig}{\foreignblockquote{german}}
-\newcommand{\orfr}{\foreignblockquote{french}}
-\newcommand{\oreng}{\blockquote}
+%\newcommand{\orger}{\foreignblockquote{german}}
+%\newcommand{\orig}{\foreignblockquote{german}}
+%\newcommand{\orfr}{\foreignblockquote{french}}
+%\newcommand{\oreng}{\blockquote}
 
 \newcommand{\apr}{\latin{a priori}\xspace}
 \newcommand{\apo}{\latin{a posteriori}\xspace}
+\newcommand{\ala}{\french{\`{a} la}\xspace}
 \newcommand{\origf}[2][]{\xspace}
 \newcommand{\origh}[2][]{\xspace}
-\newcommand{\origins}[1]{\textins{\german{#1}}}
-\newcommand{\originsg}[1]{\textins{\german{#1}}}
-\newcommand{\originsf}[1]{\textins{\french{#1}}}
-\newcommand{\originsi}[1]{\textins{\italian{#1}}}
+
 
 %\newcommand{\originsg}[1]{\textins{\german{#1}}}
 %\newcommand{\origh}[1][]{\orig{#1}}
@@ -239,9 +234,9 @@
 %\newcommand{\origh}[2][]{\unspace\footnote{\orig{#2}}}
 %\newcommand{\origins}[2][]{\unspace}
 
-\newcommand{\ala}{\french{\`{a} la}\xspace}
-\newcommand{\tr}{\blockquote}
-\newcommand{\mytr}{\blockquote}
+%\newcommand{\ala}{\french{\`{a} la}\xspace}
+%\newcommand{\tr}{\blockquote}
+%\newcommand{\mytr}{\blockquote}
 
 \newcommand{\inqu}[1]{{~\unspace,'' #1, ``}}
 \newcommand{\latin}[1]{\textit{\selectlanguage{latin}#1}}
@@ -274,13 +269,6 @@
 
 \newcommand{\hide}[2][]{\unspace}
 
-
-
-%\newcommand{\tr}[2]{\blockquote{#2}}
-%\newcommand{\mytr}[2]{\blockquote{#2}}
-
-%%\newcommand{\cit}[4]{\blockquote{#1} [#2] \citep[#3]{#4}}
-%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

@@ -25,11 +25,12 @@
   \datalist[list]{shorthand:shorthand/global//global/global}
     \entry{CPAE}{book}{skipbib=true}
       \name{author}{1}{}{%
-        {{hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
+        {{un=0,uniquepart=base,hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
            family={Einstein},
            familyi={E\bibinitperiod},
            given={Albert},
-           giveni={A\bibinitperiod}}}%
+           giveni={A\bibinitperiod},
+           givenun=0}}%
       }
       \true{moreeditor}
       \name{editor}{1}{}{%
@@ -104,11 +105,12 @@
     \endentry
     \entry{WPWB}{book}{skipbib=true}
       \name{author}{1}{}{%
-        {{hash=092601d1e9e8519accb07c37a0611492}{%
+        {{un=0,uniquepart=base,hash=092601d1e9e8519accb07c37a0611492}{%
            family={Pauli},
            familyi={P\bibinitperiod},
            given={Wolfgang},
-           giveni={W\bibinitperiod}}}%
+           giveni={W\bibinitperiod},
+           givenun=0}}%
       }
       \name{editor}{1}{}{%
         {{hash=d03ecf7614d5c0f67291b937f821f9ac}{%
@@ -152,14 +154,15 @@
       \field{dateera}{ce}
     \endentry
   \enddatalist
-  \datalist[entry]{nyt/global//global/global}
+  \datalist[entry]{cms/global//global/global}
     \entry{Afriat2009}{article}{}
       \name{author}{1}{}{%
-        {{hash=42318b00e1fc73e7ab47e435aa135fbc}{%
+        {{un=0,uniquepart=base,hash=42318b00e1fc73e7ab47e435aa135fbc}{%
            family={Afriat},
            familyi={A\bibinitperiod},
            given={Alexander},
-           giveni={A\bibinitperiod}}}%
+           giveni={A\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{42318b00e1fc73e7ab47e435aa135fbc}
       \strng{fullhash}{42318b00e1fc73e7ab47e435aa135fbc}
@@ -198,11 +201,12 @@
     \endentry
     \entry{Debever1979}{collection}{}
       \name{editor}{1}{}{%
-        {{hash=c404b0e0c09702126b85cb846be6f79e}{%
+        {{un=0,uniquepart=base,hash=c404b0e0c09702126b85cb846be6f79e}{%
            family={Debever},
            familyi={D\bibinitperiod},
            given={Robert},
-           giveni={R\bibinitperiod}}}%
+           giveni={R\bibinitperiod},
+           givenun=0}}%
       }
       \list{location}{1}{%
         {Princeton}%
@@ -227,17 +231,15 @@
       \field{title}{Élie {C}artan~-~{A}lbert {E}instein}
       \field{year}{1979}
       \field{dateera}{ce}
-      \verb{file}
-      \verb :Debever, Robert (ed.) - Elie Cartan-Albert Einstein. Letters on Absolute Parallelism 1929-1932.pdf:PDF
-      \endverb
     \endentry
     \entry{Dirac1928}{article}{}
       \name{author}{1}{}{%
-        {{hash=59342ede3a101402b34939644b51ad06}{%
+        {{un=0,uniquepart=base,hash=59342ede3a101402b34939644b51ad06}{%
            family={Dirac},
            familyi={D\bibinitperiod},
            given={Paul\bibnamedelimb Adrien\bibnamedelima Maurice},
-           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{59342ede3a101402b34939644b51ad06}
       \strng{fullhash}{59342ede3a101402b34939644b51ad06}
@@ -266,11 +268,12 @@
     \endentry
     \entry{Dirac1928b}{article}{}
       \name{author}{1}{}{%
-        {{hash=59342ede3a101402b34939644b51ad06}{%
+        {{un=0,uniquepart=base,hash=59342ede3a101402b34939644b51ad06}{%
            family={Dirac},
            familyi={D\bibinitperiod},
            given={Paul\bibnamedelimb Adrien\bibnamedelima Maurice},
-           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{59342ede3a101402b34939644b51ad06}
       \strng{fullhash}{59342ede3a101402b34939644b51ad06}
@@ -298,52 +301,14 @@
       \field{pages}{351\bibrangedash 361}
       \range{pages}{11}
     \endentry
-    \entry{Dongen2007}{article}{}
-      \name{author}{1}{}{%
-        {{hash=ff229612bd56cb25798c189c61b46696}{%
-           family={Dongen},
-           familyi={D\bibinitperiod},
-           given={Jeroen},
-           giveni={J\bibinitperiod},
-           prefix={van},
-           prefixi={v\bibinitperiod}}}%
-      }
-      \list{publisher}{2}{%
-        {Springer Science}%
-        {Business Media {LLC}}%
-      }
-      \strng{namehash}{ff229612bd56cb25798c189c61b46696}
-      \strng{fullhash}{ff229612bd56cb25798c189c61b46696}
-      \strng{bibnamehash}{ff229612bd56cb25798c189c61b46696}
-      \strng{authorbibnamehash}{ff229612bd56cb25798c189c61b46696}
-      \strng{authornamehash}{ff229612bd56cb25798c189c61b46696}
-      \strng{authorfullhash}{ff229612bd56cb25798c189c61b46696}
-      \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Physics in Perspective}
-      \field{month}{6}
-      \field{number}{2}
-      \field{title}{Reactionaries and Einstein's Fame: {“}german Scientists for the Preservation of Pure Science,{”} Relativity, and the Bad Nauheim Meeting}
-      \field{volume}{9}
-      \field{year}{2007}
-      \field{dateera}{ce}
-      \field{pages}{212\bibrangedash 230}
-      \range{pages}{19}
-      \verb{doi}
-      \verb 10.1007/s00016-006-0318-y
-      \endverb
-    \endentry
     \entry{Dongen2004}{article}{}
       \name{author}{1}{}{%
-        {{hash=ff229612bd56cb25798c189c61b46696}{%
+        {{un=0,uniquepart=base,hash=ff229612bd56cb25798c189c61b46696}{%
            family={Dongen},
            familyi={D\bibinitperiod},
            given={Jeroen\bibnamedelima van},
-           giveni={J\bibinitperiod\bibinitdelim v\bibinitperiod}}}%
+           giveni={J\bibinitperiod\bibinitdelim v\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{ff229612bd56cb25798c189c61b46696}
       \strng{fullhash}{ff229612bd56cb25798c189c61b46696}
@@ -367,24 +332,19 @@
       \field{dateera}{ce}
       \field{pages}{219\bibrangedash 254}
       \range{pages}{36}
-      \verb{file}
-      \verb :Dongen, Jeroen van - Einstein's Methodology, Semivectors and the Unification of Electrons and Protons.pdf:PDF
-      \endverb
     \endentry
-    \entry{Dongen2010}{book}{}
+    \entry{Dongen2007}{article}{}
       \name{author}{1}{}{%
-        {{hash=ff229612bd56cb25798c189c61b46696}{%
+        {{un=0,uniquepart=base,hash=ff229612bd56cb25798c189c61b46696}{%
            family={Dongen},
            familyi={D\bibinitperiod},
            given={Jeroen\bibnamedelima van},
-           giveni={J\bibinitperiod\bibinitdelim v\bibinitperiod}}}%
+           giveni={J\bibinitperiod\bibinitdelim v\bibinitperiod},
+           givenun=0}}%
       }
-      \list{location}{2}{%
-        {Cambridge}%
-        {New York}%
-      }
-      \list{publisher}{1}{%
-        {Cambridge University Press}%
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media {LLC}}%
       }
       \strng{namehash}{ff229612bd56cb25798c189c61b46696}
       \strng{fullhash}{ff229612bd56cb25798c189c61b46696}
@@ -399,31 +359,73 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{journaltitle}{Physics in Perspective}
+      \field{month}{6}
+      \field{number}{2}
+      \field{title}{Reactionaries and Einstein's Fame: {“}german Scientists for the Preservation of Pure Science,{”} Relativity, and the Bad Nauheim Meeting}
+      \field{volume}{9}
+      \field{year}{2007}
+      \field{dateera}{ce}
+      \field{pages}{212\bibrangedash 230}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1007/s00016-006-0318-y
+      \endverb
+    \endentry
+    \entry{Dongen2010}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ff229612bd56cb25798c189c61b46696}{%
+           family={Dongen},
+           familyi={D\bibinitperiod},
+           given={Jeroen\bibnamedelima van},
+           giveni={J\bibinitperiod\bibinitdelim v\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{2}{%
+        {Cambridge}%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{ff229612bd56cb25798c189c61b46696}
+      \strng{fullhash}{ff229612bd56cb25798c189c61b46696}
+      \strng{bibnamehash}{ff229612bd56cb25798c189c61b46696}
+      \strng{authorbibnamehash}{ff229612bd56cb25798c189c61b46696}
+      \strng{authornamehash}{ff229612bd56cb25798c189c61b46696}
+      \strng{authorfullhash}{ff229612bd56cb25798c189c61b46696}
+      \field{extraname}{3}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
       \field{langid}{english}
       \field{title}{{E}instein's Unification}
       \field{year}{2010}
       \field{dateera}{ce}
-      \verb{file}
-      \verb :Dongen, Jeroen van - Einstein's Unification.pdf:PDF
-      \endverb
     \endentry
     \entry{Dyson1920}{article}{}
       \name{author}{3}{}{%
-        {{hash=2633466eb47d8c2ae2c86298c8f0f88c}{%
+        {{un=0,uniquepart=base,hash=2633466eb47d8c2ae2c86298c8f0f88c}{%
            family={Dyson},
            familyi={D\bibinitperiod},
            given={Frank\bibnamedelima Watson},
-           giveni={F\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
-        {{hash=2693038413e48e3756c127fb9a6baebb}{%
+           giveni={F\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2693038413e48e3756c127fb9a6baebb}{%
            family={Eddington},
            familyi={E\bibinitperiod},
            given={Arthur\bibnamedelima Stanley},
-           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-        {{hash=4201d29bb5832495ceb6a2df1010134d}{%
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4201d29bb5832495ceb6a2df1010134d}{%
            family={Davidson},
            familyi={D\bibinitperiod},
            given={Charles\bibnamedelima Rundle},
-           giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+           giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{f96e230a7dd29de23b5964df95604314}
       \strng{fullhash}{f96e230a7dd29de23b5964df95604314}
@@ -446,17 +448,15 @@
       \field{dateera}{ce}
       \field{pages}{291\bibrangedash 333}
       \range{pages}{43}
-      \verb{file}
-      \verb :Dyson, Frank Watson and Eddington, Arthur Stanley and Davidson, Charles Rundle - A Determination of the Deflection of Light by the Sun's Gravitational Field, from Observations Made at the Total Eclipse of 2951919.pdf:PDF
-      \endverb
     \endentry
     \entry{Eddington1921}{article}{}
       \name{author}{1}{}{%
-        {{hash=2693038413e48e3756c127fb9a6baebb}{%
+        {{un=0,uniquepart=base,hash=2693038413e48e3756c127fb9a6baebb}{%
            family={Eddington},
            familyi={E\bibinitperiod},
            given={Arthur\bibnamedelima Stanley},
-           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{2693038413e48e3756c127fb9a6baebb}
       \strng{fullhash}{2693038413e48e3756c127fb9a6baebb}
@@ -484,11 +484,12 @@
     \endentry
     \entry{Eddington1921a}{article}{}
       \name{author}{1}{}{%
-        {{hash=2693038413e48e3756c127fb9a6baebb}{%
+        {{un=0,uniquepart=base,hash=2693038413e48e3756c127fb9a6baebb}{%
            family={Eddington},
            familyi={E\bibinitperiod},
            given={Arthur\bibnamedelima Stanley},
-           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{2693038413e48e3756c127fb9a6baebb}
       \strng{fullhash}{2693038413e48e3756c127fb9a6baebb}
@@ -517,11 +518,12 @@
     \endentry
     \entry{Eddington1923}{book}{}
       \name{author}{1}{}{%
-        {{hash=2693038413e48e3756c127fb9a6baebb}{%
+        {{un=0,uniquepart=base,hash=2693038413e48e3756c127fb9a6baebb}{%
            family={Eddington},
            familyi={E\bibinitperiod},
            given={Arthur\bibnamedelima Stanley},
-           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
       }
       \list{location}{1}{%
         {Cambridge}%
@@ -549,11 +551,12 @@
     \endentry
     \entry{Eddington1925}{book}{}
       \name{author}{1}{}{%
-        {{hash=2693038413e48e3756c127fb9a6baebb}{%
+        {{un=0,uniquepart=base,hash=2693038413e48e3756c127fb9a6baebb}{%
            family={Eddington},
            familyi={E\bibinitperiod},
            given={Arthur\bibnamedelima Stanley},
-           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
       }
       \name{editor}{2}{}{%
         {{hash=3b4cd0acbeaeb79cb6295499882f05bb}{%
@@ -597,45 +600,14 @@
       \field{pages}{187\bibrangedash 218}
       \range{pages}{32}
     \endentry
-    \entry{Ehrenfest1907}{article}{}
-      \name{author}{1}{}{%
-        {{hash=4c383aa847612a68bc23ea45e466d451}{%
-           family={Ehrenfest},
-           familyi={E\bibinitperiod},
-           given={Paul},
-           giveni={P\bibinitperiod}}}%
-      }
-      \strng{namehash}{4c383aa847612a68bc23ea45e466d451}
-      \strng{fullhash}{4c383aa847612a68bc23ea45e466d451}
-      \strng{bibnamehash}{4c383aa847612a68bc23ea45e466d451}
-      \strng{authorbibnamehash}{4c383aa847612a68bc23ea45e466d451}
-      \strng{authornamehash}{4c383aa847612a68bc23ea45e466d451}
-      \strng{authorfullhash}{4c383aa847612a68bc23ea45e466d451}
-      \field{sortinit}{E}
-      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{An\-na\-len der Phy\-sik}
-      \field{langid}{german}
-      \field{month}{4}
-      \field{number}{6}
-      \field{series}{4}
-      \field{title}{Die Translation deformierbarer Elektronen und der Flächensatz}
-      \field{volume}{23}
-      \field{year}{1907}
-      \field{dateera}{ce}
-      \field{pages}{204\bibrangedash 205}
-      \range{pages}{2}
-    \endentry
     \entry{Einstein1914a}{sb}{}
       \name{author}{1}{}{%
-        {{hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
+        {{un=0,uniquepart=base,hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
            family={Einstein},
            familyi={E\bibinitperiod},
            given={Albert},
-           giveni={A\bibinitperiod}}}%
+           giveni={A\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{3ebf53e52a3ce84f0ffb8553200a6a63}
       \strng{fullhash}{3ebf53e52a3ce84f0ffb8553200a6a63}
@@ -662,11 +634,12 @@
     \endentry
     \entry{Einstein1916}{article}{}
       \name{author}{1}{}{%
-        {{hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
+        {{un=0,uniquepart=base,hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
            family={Einstein},
            familyi={E\bibinitperiod},
            given={Albert},
-           giveni={A\bibinitperiod}}}%
+           giveni={A\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{3ebf53e52a3ce84f0ffb8553200a6a63}
       \strng{fullhash}{3ebf53e52a3ce84f0ffb8553200a6a63}
@@ -695,11 +668,12 @@
     \endentry
     \entry{Einstein1918b}{sb}{}
       \name{author}{1}{}{%
-        {{hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
+        {{un=0,uniquepart=base,hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
            family={Einstein},
            familyi={E\bibinitperiod},
            given={Albert},
-           giveni={A\bibinitperiod}}}%
+           giveni={A\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{3ebf53e52a3ce84f0ffb8553200a6a63}
       \strng{fullhash}{3ebf53e52a3ce84f0ffb8553200a6a63}
@@ -725,11 +699,12 @@
     \endentry
     \entry{Einstein1919c}{unpublished}{}
       \name{author}{1}{}{%
-        {{hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
+        {{un=0,uniquepart=base,hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
            family={Einstein},
            familyi={E\bibinitperiod},
            given={Albert},
-           giveni={A\bibinitperiod}}}%
+           giveni={A\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{3ebf53e52a3ce84f0ffb8553200a6a63}
       \strng{fullhash}{3ebf53e52a3ce84f0ffb8553200a6a63}
@@ -754,11 +729,12 @@
     \endentry
     \entry{Einstein1919a}{sb}{}
       \name{author}{1}{}{%
-        {{hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
+        {{un=0,uniquepart=base,hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
            family={Einstein},
            familyi={E\bibinitperiod},
            given={Albert},
-           giveni={A\bibinitperiod}}}%
+           giveni={A\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{3ebf53e52a3ce84f0ffb8553200a6a63}
       \strng{fullhash}{3ebf53e52a3ce84f0ffb8553200a6a63}
@@ -786,11 +762,12 @@
     \endentry
     \entry{Einstein1921}{sb}{}
       \name{author}{1}{}{%
-        {{hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
+        {{un=0,uniquepart=base,hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
            family={Einstein},
            familyi={E\bibinitperiod},
            given={Albert},
-           giveni={A\bibinitperiod}}}%
+           giveni={A\bibinitperiod},
+           givenun=0}}%
       }
       \list{location}{1}{%
         {Berlin}%
@@ -857,11 +834,12 @@
     \endentry
     \entry{Einstein1921c}{sb}{}
       \name{author}{1}{}{%
-        {{hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
+        {{un=0,uniquepart=base,hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
            family={Einstein},
            familyi={E\bibinitperiod},
            given={Albert},
-           giveni={A\bibinitperiod}}}%
+           giveni={A\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{3ebf53e52a3ce84f0ffb8553200a6a63}
       \strng{fullhash}{3ebf53e52a3ce84f0ffb8553200a6a63}
@@ -892,11 +870,12 @@
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{1}{}{%
-        {{hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
+        {{un=0,uniquepart=base,hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
            family={Einstein},
            familyi={E\bibinitperiod},
            given={Albert},
-           giveni={A\bibinitperiod}}}%
+           giveni={A\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{0b6cb0887771f6d0d2c71039fa471889}
       \strng{fullhash}{0b6cb0887771f6d0d2c71039fa471889}
@@ -924,11 +903,12 @@
     \endentry
     \entry{Einstein1923}{incollection}{}
       \name{author}{1}{}{%
-        {{hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
+        {{un=0,uniquepart=base,hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
            family={Einstein},
            familyi={E\bibinitperiod},
            given={Albert},
-           giveni={A\bibinitperiod}}}%
+           giveni={A\bibinitperiod},
+           givenun=0}}%
       }
       \name{editor}{1}{}{%
         {{hash=044bdb37f8dd528bb03119a96b849795}{%
@@ -972,11 +952,12 @@
     \endentry
     \entry{Einstein1923c}{article}{}
       \name{author}{1}{}{%
-        {{hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
+        {{un=0,uniquepart=base,hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
            family={Einstein},
            familyi={E\bibinitperiod},
            given={Albert},
-           giveni={A\bibinitperiod}}}%
+           giveni={A\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{3ebf53e52a3ce84f0ffb8553200a6a63}
       \strng{fullhash}{3ebf53e52a3ce84f0ffb8553200a6a63}
@@ -1006,11 +987,12 @@
     \endentry
     \entry{Einstein1923e}{sb}{}
       \name{author}{1}{}{%
-        {{hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
+        {{un=0,uniquepart=base,hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
            family={Einstein},
            familyi={E\bibinitperiod},
            given={Albert},
-           giveni={A\bibinitperiod}}}%
+           giveni={A\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{3ebf53e52a3ce84f0ffb8553200a6a63}
       \strng{fullhash}{3ebf53e52a3ce84f0ffb8553200a6a63}
@@ -1038,11 +1020,12 @@
     \endentry
     \entry{Einstein1923d}{sb}{}
       \name{author}{1}{}{%
-        {{hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
+        {{un=0,uniquepart=base,hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
            family={Einstein},
            familyi={E\bibinitperiod},
            given={Albert},
-           giveni={A\bibinitperiod}}}%
+           giveni={A\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{3ebf53e52a3ce84f0ffb8553200a6a63}
       \strng{fullhash}{3ebf53e52a3ce84f0ffb8553200a6a63}
@@ -1071,11 +1054,12 @@
     \endentry
     \entry{Einstein1924}{article}{}
       \name{author}{1}{}{%
-        {{hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
+        {{un=0,uniquepart=base,hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
            family={Einstein},
            familyi={E\bibinitperiod},
            given={Albert},
-           giveni={A\bibinitperiod}}}%
+           giveni={A\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{3ebf53e52a3ce84f0ffb8553200a6a63}
       \strng{fullhash}{3ebf53e52a3ce84f0ffb8553200a6a63}
@@ -1102,11 +1086,12 @@
     \endentry
     \entry{Einstein1925a}{sb}{}
       \name{author}{1}{}{%
-        {{hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
+        {{un=0,uniquepart=base,hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
            family={Einstein},
            familyi={E\bibinitperiod},
            given={Albert},
-           giveni={A\bibinitperiod}}}%
+           giveni={A\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{3ebf53e52a3ce84f0ffb8553200a6a63}
       \strng{fullhash}{3ebf53e52a3ce84f0ffb8553200a6a63}
@@ -1136,11 +1121,12 @@
     \endentry
     \entry{Einstein1925}{article}{}
       \name{author}{1}{}{%
-        {{hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
+        {{un=0,uniquepart=base,hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
            family={Einstein},
            familyi={E\bibinitperiod},
            given={Albert},
-           giveni={A\bibinitperiod}}}%
+           giveni={A\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{3ebf53e52a3ce84f0ffb8553200a6a63}
       \strng{fullhash}{3ebf53e52a3ce84f0ffb8553200a6a63}
@@ -1168,11 +1154,12 @@
     \endentry
     \entry{Einstein1926}{incollectionr}{}
       \name{author}{1}{}{%
-        {{hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
+        {{un=0,uniquepart=base,hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
            family={Einstein},
            familyi={E\bibinitperiod},
            given={Albert},
-           giveni={A\bibinitperiod}}}%
+           giveni={A\bibinitperiod},
+           givenun=0}}%
       }
       \name{editor}{1}{}{%
         {{hash=cd21ccf6705628d5593fc14b9fdbf048}{%
@@ -1216,11 +1203,12 @@
     \endentry
     \entry{Einstein1928b}{article}{}
       \name{author}{1}{}{%
-        {{hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
+        {{un=0,uniquepart=base,hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
            family={Einstein},
            familyi={E\bibinitperiod},
            given={Albert},
-           giveni={A\bibinitperiod}}}%
+           giveni={A\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{3ebf53e52a3ce84f0ffb8553200a6a63}
       \strng{fullhash}{3ebf53e52a3ce84f0ffb8553200a6a63}
@@ -1236,6 +1224,7 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{addendum}{\reprcpae{16}{152}}
       \field{journaltitle}{Revue philosophique de la France et de l'étranger}
       \field{langid}{french}
       \field{title}{A propos de `La Déduction Relativiste' de M.~Émile Meyerson [\cite{Meyerson1925}]}
@@ -1247,11 +1236,12 @@
     \endentry
     \entry{Einstein19282}{sb}{}
       \name{author}{1}{}{%
-        {{hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
+        {{un=0,uniquepart=base,hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
            family={Einstein},
            familyi={E\bibinitperiod},
            given={Albert},
-           giveni={A\bibinitperiod}}}%
+           giveni={A\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{3ebf53e52a3ce84f0ffb8553200a6a63}
       \strng{fullhash}{3ebf53e52a3ce84f0ffb8553200a6a63}
@@ -1279,11 +1269,12 @@
     \endentry
     \entry{Einstein1928d}{article}{}
       \name{author}{1}{}{%
-        {{hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
+        {{un=0,uniquepart=base,hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
            family={Einstein},
            familyi={E\bibinitperiod},
            given={Albert},
-           giveni={A\bibinitperiod}}}%
+           giveni={A\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{3ebf53e52a3ce84f0ffb8553200a6a63}
       \strng{fullhash}{3ebf53e52a3ce84f0ffb8553200a6a63}
@@ -1311,11 +1302,12 @@
     \endentry
     \entry{Einstein19281}{sb}{}
       \name{author}{1}{}{%
-        {{hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
+        {{un=0,uniquepart=base,hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
            family={Einstein},
            familyi={E\bibinitperiod},
            given={Albert},
-           giveni={A\bibinitperiod}}}%
+           giveni={A\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{3ebf53e52a3ce84f0ffb8553200a6a63}
       \strng{fullhash}{3ebf53e52a3ce84f0ffb8553200a6a63}
@@ -1343,11 +1335,12 @@
     \endentry
     \entry{Einstein1929-2-3}{newspaper}{}
       \name{author}{1}{}{%
-        {{hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
+        {{un=0,uniquepart=base,hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
            family={Einstein},
            familyi={E\bibinitperiod},
            given={Albert},
-           giveni={A\bibinitperiod}}}%
+           giveni={A\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{3ebf53e52a3ce84f0ffb8553200a6a63}
       \strng{fullhash}{3ebf53e52a3ce84f0ffb8553200a6a63}
@@ -1373,11 +1366,12 @@
     \endentry
     \entry{Einstein1929-2-4}{newspaper}{}
       \name{author}{1}{}{%
-        {{hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
+        {{un=0,uniquepart=base,hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
            family={Einstein},
            familyi={E\bibinitperiod},
            given={Albert},
-           giveni={A\bibinitperiod}}}%
+           giveni={A\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{3ebf53e52a3ce84f0ffb8553200a6a63}
       \strng{fullhash}{3ebf53e52a3ce84f0ffb8553200a6a63}
@@ -1403,11 +1397,12 @@
     \endentry
     \entry{Einstein1929}{incollectionr}{}
       \name{author}{1}{}{%
-        {{hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
+        {{un=0,uniquepart=base,hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
            family={Einstein},
            familyi={E\bibinitperiod},
            given={Albert},
-           giveni={A\bibinitperiod}}}%
+           giveni={A\bibinitperiod},
+           givenun=0}}%
       }
       \name{editor}{1}{}{%
         {{hash=f49f6e20dc39037172d302a6b638f3c9}{%
@@ -1451,11 +1446,12 @@
     \endentry
     \entry{Einstein1929b}{sb}{}
       \name{author}{1}{}{%
-        {{hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
+        {{un=0,uniquepart=base,hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
            family={Einstein},
            familyi={E\bibinitperiod},
            given={Albert},
-           giveni={A\bibinitperiod}}}%
+           giveni={A\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{3ebf53e52a3ce84f0ffb8553200a6a63}
       \strng{fullhash}{3ebf53e52a3ce84f0ffb8553200a6a63}
@@ -1483,11 +1479,12 @@
     \endentry
     \entry{Einstein1930b}{article}{}
       \name{author}{1}{}{%
-        {{hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
+        {{un=0,uniquepart=base,hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
            family={Einstein},
            familyi={E\bibinitperiod},
            given={Albert},
-           giveni={A\bibinitperiod}}}%
+           giveni={A\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{3ebf53e52a3ce84f0ffb8553200a6a63}
       \strng{fullhash}{3ebf53e52a3ce84f0ffb8553200a6a63}
@@ -1514,11 +1511,12 @@
     \endentry
     \entry{Einstein1930a}{article}{}
       \name{author}{1}{}{%
-        {{hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
+        {{un=0,uniquepart=base,hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
            family={Einstein},
            familyi={E\bibinitperiod},
            given={Albert},
-           giveni={A\bibinitperiod}}}%
+           giveni={A\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{3ebf53e52a3ce84f0ffb8553200a6a63}
       \strng{fullhash}{3ebf53e52a3ce84f0ffb8553200a6a63}
@@ -1545,11 +1543,12 @@
     \endentry
     \entry{Einstein1930}{article}{}
       \name{author}{1}{}{%
-        {{hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
+        {{un=0,uniquepart=base,hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
            family={Einstein},
            familyi={E\bibinitperiod},
            given={Albert},
-           giveni={A\bibinitperiod}}}%
+           giveni={A\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{3ebf53e52a3ce84f0ffb8553200a6a63}
       \strng{fullhash}{3ebf53e52a3ce84f0ffb8553200a6a63}
@@ -1577,11 +1576,12 @@
     \endentry
     \entry{Einstein1930h}{article}{}
       \name{author}{1}{}{%
-        {{hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
+        {{un=0,uniquepart=base,hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
            family={Einstein},
            familyi={E\bibinitperiod},
            given={Albert},
-           giveni={A\bibinitperiod}}}%
+           giveni={A\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{3ebf53e52a3ce84f0ffb8553200a6a63}
       \strng{fullhash}{3ebf53e52a3ce84f0ffb8553200a6a63}
@@ -1609,11 +1609,12 @@
     \endentry
     \entry{Einstein1930i}{article}{}
       \name{author}{1}{}{%
-        {{hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
+        {{un=0,uniquepart=base,hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
            family={Einstein},
            familyi={E\bibinitperiod},
            given={Albert},
-           giveni={A\bibinitperiod}}}%
+           giveni={A\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{3ebf53e52a3ce84f0ffb8553200a6a63}
       \strng{fullhash}{3ebf53e52a3ce84f0ffb8553200a6a63}
@@ -1629,7 +1630,8 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Annales de l'Institut Henri Poincaré}
+      \field{journaltitle}{{A}nnales de l'Institut {H}enri {P}oincaré}
+      \field{langid}{french}
       \field{number}{1}
       \field{title}{Théorie unitaire du champ physique}
       \field{volume}{1}
@@ -1640,11 +1642,12 @@
     \endentry
     \entry{Einstein1932b}{article}{}
       \name{author}{1}{}{%
-        {{hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
+        {{un=0,uniquepart=base,hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
            family={Einstein},
            familyi={E\bibinitperiod},
            given={Albert},
-           giveni={A\bibinitperiod}}}%
+           giveni={A\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{3ebf53e52a3ce84f0ffb8553200a6a63}
       \strng{fullhash}{3ebf53e52a3ce84f0ffb8553200a6a63}
@@ -1671,11 +1674,12 @@
     \endentry
     \entry{Einstein1933}{book}{}
       \name{author}{1}{}{%
-        {{hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
+        {{un=0,uniquepart=base,hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
            family={Einstein},
            familyi={E\bibinitperiod},
            given={Albert},
-           giveni={A\bibinitperiod}}}%
+           giveni={A\bibinitperiod},
+           givenun=0}}%
       }
       \list{location}{1}{%
         {Oxford}%
@@ -1706,11 +1710,12 @@
     \endentry
     \entry{Einstein1933b}{aea}{}
       \name{author}{1}{}{%
-        {{hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
+        {{un=0,uniquepart=base,hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
            family={Einstein},
            familyi={E\bibinitperiod},
            given={Albert},
-           giveni={A\bibinitperiod}}}%
+           giveni={A\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{3ebf53e52a3ce84f0ffb8553200a6a63}
       \strng{fullhash}{3ebf53e52a3ce84f0ffb8553200a6a63}
@@ -1732,59 +1737,14 @@
       \field{year}{1933}
       \field{dateera}{ce}
     \endentry
-    \entry{Einstein1944b}{incollectionr}{}
-      \name{author}{1}{}{%
-        {{hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
-           family={Einstein},
-           familyi={E\bibinitperiod},
-           given={Albert},
-           giveni={A\bibinitperiod}}}%
-      }
-      \name{editor}{1}{}{%
-        {{hash=8f686a01aa39d455bf35cc2b1b5e0bdf}{%
-           family={Schilpp},
-           familyi={S\bibinitperiod},
-           given={Paul\bibnamedelima Arthur},
-           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Evanston}%
-      }
-      \list{publisher}{1}{%
-        {Library of Living Philosophers}%
-      }
-      \strng{namehash}{3ebf53e52a3ce84f0ffb8553200a6a63}
-      \strng{fullhash}{3ebf53e52a3ce84f0ffb8553200a6a63}
-      \strng{bibnamehash}{3ebf53e52a3ce84f0ffb8553200a6a63}
-      \strng{authorbibnamehash}{3ebf53e52a3ce84f0ffb8553200a6a63}
-      \strng{authornamehash}{3ebf53e52a3ce84f0ffb8553200a6a63}
-      \strng{authorfullhash}{3ebf53e52a3ce84f0ffb8553200a6a63}
-      \strng{editorbibnamehash}{8f686a01aa39d455bf35cc2b1b5e0bdf}
-      \strng{editornamehash}{8f686a01aa39d455bf35cc2b1b5e0bdf}
-      \strng{editorfullhash}{8f686a01aa39d455bf35cc2b1b5e0bdf}
-      \field{extraname}{32}
-      \field{sortinit}{E}
-      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{The Philosophy of Bertrand Russell}
-      \strng{crossref}{Schilpp1944}
-      \field{langid}{english}
-      \field{title}{Remarks on {Bertrand Russell's} Theory of Knowledge}
-      \field{year}{1944}
-      \field{dateera}{ce}
-      \field{pages}{277\bibrangedash 291}
-      \range{pages}{15}
-    \endentry
     \entry{Einstein1945}{article}{}
       \name{author}{1}{}{%
-        {{hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
+        {{un=0,uniquepart=base,hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
            family={Einstein},
            familyi={E\bibinitperiod},
            given={Albert},
-           giveni={A\bibinitperiod}}}%
+           giveni={A\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{3ebf53e52a3ce84f0ffb8553200a6a63}
       \strng{fullhash}{3ebf53e52a3ce84f0ffb8553200a6a63}
@@ -1792,7 +1752,7 @@
       \strng{authorbibnamehash}{3ebf53e52a3ce84f0ffb8553200a6a63}
       \strng{authornamehash}{3ebf53e52a3ce84f0ffb8553200a6a63}
       \strng{authorfullhash}{3ebf53e52a3ce84f0ffb8553200a6a63}
-      \field{extraname}{33}
+      \field{extraname}{32}
       \field{sortinit}{E}
       \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
       \field{extradatescope}{labelyear}
@@ -1809,24 +1769,23 @@
       \field{dateera}{ce}
       \field{pages}{578\bibrangedash 584}
       \range{pages}{7}
-      \verb{file}
-      \verb :Einstein, Albert - A Generalization of the Relativistic Theory of Gravitation.pdf:PDF
-      \endverb
     \endentry
     \entry{Einstein1949a}{incollection}{}
       \name{author}{1}{}{%
-        {{hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
+        {{un=0,uniquepart=base,hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
            family={Einstein},
            familyi={E\bibinitperiod},
            given={Albert},
-           giveni={A\bibinitperiod}}}%
+           giveni={A\bibinitperiod},
+           givenun=0}}%
       }
       \name{editor}{1}{}{%
-        {{hash=8f686a01aa39d455bf35cc2b1b5e0bdf}{%
+        {{un=0,uniquepart=base,hash=8f686a01aa39d455bf35cc2b1b5e0bdf}{%
            family={Schilpp},
            familyi={S\bibinitperiod},
            given={Paul\bibnamedelima Arthur},
-           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
       }
       \list{location}{1}{%
         {Evanston, Ill.}%
@@ -1843,7 +1802,7 @@
       \strng{editorbibnamehash}{8f686a01aa39d455bf35cc2b1b5e0bdf}
       \strng{editornamehash}{8f686a01aa39d455bf35cc2b1b5e0bdf}
       \strng{editorfullhash}{8f686a01aa39d455bf35cc2b1b5e0bdf}
-      \field{extraname}{34}
+      \field{extraname}{33}
       \field{sortinit}{E}
       \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
       \field{extradate}{1}
@@ -1860,17 +1819,15 @@
       \field{dateera}{ce}
       \field{pages}{665\bibrangedash 688}
       \range{pages}{24}
-      \verb{file}
-      \verb : Schilpp, Paul Arthur (ed.) - Albert Einstein, Philosopher-Scientist.pdf:PDF;:Schilpp, Paul Arthur (ed.) - Albert Einstein, Philosopher-Scientist.pdf:PDF
-      \endverb
     \endentry
     \entry{Einstein1949f}{aea}{}
       \name{author}{1}{}{%
-        {{hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
+        {{un=0,uniquepart=base,hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
            family={Einstein},
            familyi={E\bibinitperiod},
            given={Albert},
-           giveni={A\bibinitperiod}}}%
+           giveni={A\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{3ebf53e52a3ce84f0ffb8553200a6a63}
       \strng{fullhash}{3ebf53e52a3ce84f0ffb8553200a6a63}
@@ -1878,7 +1835,7 @@
       \strng{authorbibnamehash}{3ebf53e52a3ce84f0ffb8553200a6a63}
       \strng{authornamehash}{3ebf53e52a3ce84f0ffb8553200a6a63}
       \strng{authorfullhash}{3ebf53e52a3ce84f0ffb8553200a6a63}
-      \field{extraname}{35}
+      \field{extraname}{34}
       \field{sortinit}{E}
       \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
       \field{extradate}{2}
@@ -1891,17 +1848,15 @@
       \field{title}{Unpub. Reply to H. Reichenbach}
       \field{year}{1949}
       \field{dateera}{ce}
-      \verb{file}
-      \verb :/Users/marco/odrive/Dropbox/EPP/Unp/Catalogue/2058.pdf:PDF
-      \endverb
     \endentry
     \entry{CPAE}{book}{skipbib=true}
       \name{author}{1}{}{%
-        {{hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
+        {{un=0,uniquepart=base,hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
            family={Einstein},
            familyi={E\bibinitperiod},
            given={Albert},
-           giveni={A\bibinitperiod}}}%
+           giveni={A\bibinitperiod},
+           givenun=0}}%
       }
       \true{moreeditor}
       \name{editor}{1}{}{%
@@ -1926,7 +1881,7 @@
       \strng{editorbibnamehash}{1a2af6bc5303664cc72a69e5e6822ef2}
       \strng{editornamehash}{1a2af6bc5303664cc72a69e5e6822ef2}
       \strng{editorfullhash}{1a2af6bc5303664cc72a69e5e6822ef2}
-      \field{extraname}{36}
+      \field{extraname}{35}
       \field{sortinit}{E}
       \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
       \field{extradatescope}{labelyear}
@@ -1944,16 +1899,18 @@
     \endentry
     \entry{Einstein1955-07}{article}{}
       \name{author}{2}{}{%
-        {{hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
+        {{un=0,uniquepart=base,hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
            family={Einstein},
            familyi={E\bibinitperiod},
            given={Albert},
-           giveni={A\bibinitperiod}}}%
-        {{hash=460e7a1eb5e1a392b4e82ca8576ff097}{%
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=460e7a1eb5e1a392b4e82ca8576ff097}{%
            family={Kaufman},
            familyi={K\bibinitperiod},
            given={Bruria},
-           giveni={B\bibinitperiod}}}%
+           giveni={B\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{cb6092db296984c0a99e00f5aa4908c3}
       \strng{fullhash}{cb6092db296984c0a99e00f5aa4908c3}
@@ -1980,22 +1937,21 @@
       \verb{doi}
       \verb 10.2307/2007103
       \endverb
-      \verb{file}
-      \verb :/Users/marco/odrive/Dropbox/FullTextAuthors/Einstein/1955-01 - Einstein, Albert and Kaufman, Bruria - A New Form of the General Relativistic field Equations.pdf:PDF
-      \endverb
     \endentry
     \entry{Einstein1931}{sb}{}
       \name{author}{2}{}{%
-        {{hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
+        {{un=0,uniquepart=base,hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
            family={Einstein},
            familyi={E\bibinitperiod},
            given={Albert},
-           giveni={A\bibinitperiod}}}%
-        {{hash=c443d5306432c82b60fcb6e17c46442b}{%
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c443d5306432c82b60fcb6e17c46442b}{%
            family={Mayer},
            familyi={M\bibinitperiod},
            given={Walther},
-           giveni={W\bibinitperiod}}}%
+           giveni={W\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{8e29b0de7d8721cbc7e2555e1658dbeb}
       \strng{fullhash}{8e29b0de7d8721cbc7e2555e1658dbeb}
@@ -2021,16 +1977,18 @@
     \endentry
     \entry{Einstein1932c}{sb}{}
       \name{author}{2}{}{%
-        {{hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
+        {{un=0,uniquepart=base,hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
            family={Einstein},
            familyi={E\bibinitperiod},
            given={Albert},
-           giveni={A\bibinitperiod}}}%
-        {{hash=c443d5306432c82b60fcb6e17c46442b}{%
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c443d5306432c82b60fcb6e17c46442b}{%
            family={Mayer},
            familyi={M\bibinitperiod},
            given={Walther},
-           giveni={W\bibinitperiod}}}%
+           giveni={W\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{8e29b0de7d8721cbc7e2555e1658dbeb}
       \strng{fullhash}{8e29b0de7d8721cbc7e2555e1658dbeb}
@@ -2056,16 +2014,18 @@
     \endentry
     \entry{Einstein1933c}{article}{}
       \name{author}{2}{}{%
-        {{hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
+        {{un=0,uniquepart=base,hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
            family={Einstein},
            familyi={E\bibinitperiod},
            given={Albert},
-           giveni={A\bibinitperiod}}}%
-        {{hash=c443d5306432c82b60fcb6e17c46442b}{%
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c443d5306432c82b60fcb6e17c46442b}{%
            family={Mayer},
            familyi={M\bibinitperiod},
            given={Walther},
-           giveni={W\bibinitperiod}}}%
+           giveni={W\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{8e29b0de7d8721cbc7e2555e1658dbeb}
       \strng{fullhash}{8e29b0de7d8721cbc7e2555e1658dbeb}
@@ -2092,16 +2052,18 @@
     \endentry
     \entry{Einstein1933d}{article}{}
       \name{author}{2}{}{%
-        {{hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
+        {{un=0,uniquepart=base,hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
            family={Einstein},
            familyi={E\bibinitperiod},
            given={Albert},
-           giveni={A\bibinitperiod}}}%
-        {{hash=c443d5306432c82b60fcb6e17c46442b}{%
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c443d5306432c82b60fcb6e17c46442b}{%
            family={Mayer},
            familyi={M\bibinitperiod},
            given={Walther},
-           giveni={W\bibinitperiod}}}%
+           giveni={W\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{8e29b0de7d8721cbc7e2555e1658dbeb}
       \strng{fullhash}{8e29b0de7d8721cbc7e2555e1658dbeb}
@@ -2128,16 +2090,18 @@
     \endentry
     \entry{Einstein1934b}{article}{}
       \name{author}{2}{}{%
-        {{hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
+        {{un=0,uniquepart=base,hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
            family={Einstein},
            familyi={E\bibinitperiod},
            given={Albert},
-           giveni={A\bibinitperiod}}}%
-        {{hash=c443d5306432c82b60fcb6e17c46442b}{%
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c443d5306432c82b60fcb6e17c46442b}{%
            family={Mayer},
            familyi={M\bibinitperiod},
            given={Walther},
-           giveni={W\bibinitperiod}}}%
+           giveni={W\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{8e29b0de7d8721cbc7e2555e1658dbeb}
       \strng{fullhash}{8e29b0de7d8721cbc7e2555e1658dbeb}
@@ -2163,16 +2127,18 @@
     \endentry
     \entry{Einstein1945-04}{article}{}
       \name{author}{2}{}{%
-        {{hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
+        {{un=0,uniquepart=base,hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
            family={Einstein},
            familyi={E\bibinitperiod},
            given={Albert},
-           giveni={A\bibinitperiod}}}%
-        {{hash=41830f3574765ab2e89acbf3619589da}{%
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=41830f3574765ab2e89acbf3619589da}{%
            family={Straus},
            familyi={S\bibinitperiod},
            given={Ernst\bibnamedelima G.},
-           giveni={E\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+           giveni={E\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
       }
       \list{publisher}{1}{%
         {American Physical Society ({APS})}%
@@ -2201,17 +2167,15 @@
       \verb{doi}
       \verb 10.1103/revmodphys.17.120
       \endverb
-      \verb{file}
-      \verb :Einstein, Albert and Straus, Ernst G. - The Influence of the Expansion of Space on the Gravitation fields Surrounding the Individual Stars.pdf:PDF
-      \endverb
     \endentry
     \entry{Elsbach1924}{book}{}
       \name{author}{1}{}{%
-        {{hash=8bd7f452d0a229012855ac90d72b217e}{%
+        {{un=0,uniquepart=base,hash=8bd7f452d0a229012855ac90d72b217e}{%
            family={Elsbach},
            familyi={E\bibinitperiod},
            given={Alfred\bibnamedelima Coppel},
-           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
       }
       \list{location}{1}{%
         {Berlin}%
@@ -2231,7 +2195,6 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{addendum}{\reprcpae{14}{321}}
       \field{langid}{german}
       \field{subtitle}{Untersuchungen über das Verhältnis der modernen Erkenntnistheorie zur Relativitätstheorie}
       \field{title}{{K}ant und {E}instein}
@@ -2240,11 +2203,12 @@
     \endentry
     \entry{Frank1947}{book}{}
       \name{author}{1}{}{%
-        {{hash=5cfab282dc9ba8c859a002b7523fd98b}{%
+        {{un=0,uniquepart=base,hash=5cfab282dc9ba8c859a002b7523fd98b}{%
            family={Frank},
            familyi={F\bibinitperiod},
            given={Philipp},
-           giveni={P\bibinitperiod}}}%
+           giveni={P\bibinitperiod},
+           givenun=0}}%
       }
       \list{location}{1}{%
         {New York}%
@@ -2269,17 +2233,15 @@
       \field{title}{Einstein}
       \field{year}{1947}
       \field{dateera}{ce}
-      \verb{file}
-      \verb :Frank, Philipp - Einstein. His Life and Times.pdf:PDF
-      \endverb
     \endentry
     \entry{Freundlich1920}{article}{}
       \name{author}{1}{}{%
-        {{hash=4e561f1f55755071646e090f3c503b82}{%
+        {{un=0,uniquepart=base,hash=4e561f1f55755071646e090f3c503b82}{%
            family={Freundlich},
            familyi={F\bibinitperiod},
            given={Erwin},
-           giveni={E\bibinitperiod}}}%
+           giveni={E\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{4e561f1f55755071646e090f3c503b82}
       \strng{fullhash}{4e561f1f55755071646e090f3c503b82}
@@ -2306,11 +2268,12 @@
     \endentry
     \entry{Friedman2001}{book}{}
       \name{author}{1}{}{%
-        {{hash=f1d3f37756c0c44c598929e728a13f39}{%
+        {{un=0,uniquepart=base,hash=f1d3f37756c0c44c598929e728a13f39}{%
            family={Friedman},
            familyi={F\bibinitperiod},
            given={Michael},
-           giveni={M\bibinitperiod}}}%
+           giveni={M\bibinitperiod},
+           givenun=0}}%
       }
       \list{location}{1}{%
         {Stanford, Calif.}%
@@ -2339,11 +2302,12 @@
     \endentry
     \entry{Giovanelli2014a}{article}{}
       \name{author}{1}{}{%
-        {{hash=7ea053d5298b777cdea4d4b369a6ad92}{%
+        {{un=0,uniquepart=base,hash=7ea053d5298b777cdea4d4b369a6ad92}{%
            family={Giovanelli},
            familyi={G\bibinitperiod},
            given={Marco},
-           giveni={M\bibinitperiod}}}%
+           giveni={M\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{7ea053d5298b777cdea4d4b369a6ad92}
       \strng{fullhash}{7ea053d5298b777cdea4d4b369a6ad92}
@@ -2377,11 +2341,12 @@
     \endentry
     \entry{Giovanelli2016d}{article}{}
       \name{author}{1}{}{%
-        {{hash=7ea053d5298b777cdea4d4b369a6ad92}{%
+        {{un=0,uniquepart=base,hash=7ea053d5298b777cdea4d4b369a6ad92}{%
            family={Giovanelli},
            familyi={G\bibinitperiod},
            given={Marco},
-           giveni={M\bibinitperiod}}}%
+           giveni={M\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{7ea053d5298b777cdea4d4b369a6ad92}
       \strng{fullhash}{7ea053d5298b777cdea4d4b369a6ad92}
@@ -2412,16 +2377,14 @@
       \endverb
       \keyw{pra,dfg,erc,er,to}
     \endentry
-    \entry{Giovanelli2018}{thesis}{}
+    \entry{Giovanelli2018a}{article}{}
       \name{author}{1}{}{%
-        {{hash=7ea053d5298b777cdea4d4b369a6ad92}{%
+        {{un=0,uniquepart=base,hash=7ea053d5298b777cdea4d4b369a6ad92}{%
            family={Giovanelli},
            familyi={G\bibinitperiod},
            given={Marco},
-           giveni={M\bibinitperiod}}}%
-      }
-      \list{institution}{1}{%
-        {Universität Tübingen}%
+           giveni={M\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{7ea053d5298b777cdea4d4b369a6ad92}
       \strng{fullhash}{7ea053d5298b777cdea4d4b369a6ad92}
@@ -2436,20 +2399,71 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{subtitle}{Einstein on Rods and Clocks in Relativity Theory}
-      \field{title}{`{W}hat is Truth?'}
-      \field{type}{Habilitation}
+      \field{journaltitle}{{European Journal for the Philosophy of Science}}
+      \field{langid}{english}
+      \field{number}{3}
+      \field{subtitle}{Émile {M}eyerson and {E}instein's Late Rationalistic Realism}
+      \field{title}{`{P}hysics Is a Kind of Metaphysics'}
+      \field{volume}{8}
       \field{year}{2018}
       \field{dateera}{ce}
-      \keyw{habil}
+      \field{pages}{783\bibrangedash 829}
+      \range{pages}{47}
+      \verb{doi}
+      \verb 10.1007/s13194-018-0211-y
+      \endverb
+      \verb{file}
+      \verb :Giovanelli, Marco -`Physics Is a Kind of Metaphysics'. Emile Meyerson and Einstein's Late Rationalistic Realism.pdf:PDF;:Giovanelli, Marco - `Physics Is a Kind of Metaphysics'. Emile Meyerson and Einstein's Late Rationalistic Realism.pdf:PDF;Giovanelli%2C%20Marco%20-%60Physics%20Is%20a%20Kind%20of%20Metaphysics%27.%20Emile%20Meyerson%20and%20Einstein%27s%20Late%20Rationalistic%20Realism.pdf?dl=0:https\://www.dropbox.com/s/o1g0jlrhd1bisp0/Giovanelli%2C%20Marco%20-%60Physics%20Is%20a%20Kind%20of%20Metaphysics%27.%20Emile%20Meyerson%20and%20Einstein%27s%20Late%20Rationalistic%20Realism.pdf?dl=0:PDF
+      \endverb
+      \keyw{pra,dfg,erc,er,to}
     \endentry
-    \entry{Giovanelli2020}{incollection}{}
+    \entry{Giovanelli2020a}{article}{}
       \name{author}{1}{}{%
-        {{hash=7ea053d5298b777cdea4d4b369a6ad92}{%
+        {{un=0,uniquepart=base,hash=7ea053d5298b777cdea4d4b369a6ad92}{%
            family={Giovanelli},
            familyi={G\bibinitperiod},
            given={Marco},
-           giveni={M\bibinitperiod}}}%
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7ea053d5298b777cdea4d4b369a6ad92}
+      \strng{fullhash}{7ea053d5298b777cdea4d4b369a6ad92}
+      \strng{bibnamehash}{7ea053d5298b777cdea4d4b369a6ad92}
+      \strng{authorbibnamehash}{7ea053d5298b777cdea4d4b369a6ad92}
+      \strng{authornamehash}{7ea053d5298b777cdea4d4b369a6ad92}
+      \strng{authorfullhash}{7ea053d5298b777cdea4d4b369a6ad92}
+      \field{extraname}{4}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Studies in History and Philosophy of Science. {P}art {B}: {S}tudies in History and Philosophy of Mo\-dern Phy\-sics}
+      \field{langid}{english}
+      \field{subtitle}{On {E}instein's Distinction between Constructive and Principle Theories}
+      \field{title}{`{L}ike Thermodynamics before {B}oltzmann'}
+      \field{volume}{71}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{pages}{118\bibrangedash 157}
+      \range{pages}{40}
+      \verb{doi}
+      \verb 10.1016/j.shpsb.2020.02.005
+      \endverb
+      \verb{file}
+      \verb :Giovanelli, Marco - `Like Thermodynamics before Boltzmann'.pdf:PDF
+      \endverb
+      \keyw{pra}
+    \endentry
+    \entry{Giovanelli2020}{incollection}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7ea053d5298b777cdea4d4b369a6ad92}{%
+           family={Giovanelli},
+           familyi={G\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
       }
       \name{editor}{2}{}{%
         {{hash=157de744f7dda815ab0e378f46c90287}{%
@@ -2479,7 +2493,7 @@
       \strng{editorbibnamehash}{8fa4bdbd59f1edbd04e3c96a95ab9e92}
       \strng{editornamehash}{8fa4bdbd59f1edbd04e3c96a95ab9e92}
       \strng{editorfullhash}{8fa4bdbd59f1edbd04e3c96a95ab9e92}
-      \field{extraname}{4}
+      \field{extraname}{5}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
@@ -2489,7 +2503,7 @@
       \field{booksubtitle}{Logical Empiricism and the Natural Sciences}
       \field{booktitle}{From Philosophy of Nature to Physics}
       \field{isbn}{978-1-138-36735-7}
-      \field{subtitle}{The Untranslated {A}ppendix to Reichenbach's \textit{Philosophie der Raum-Zeit-Lehre}}
+      \field{subtitle}{The Untranslated {A}ppendix to {R}eichenbach's \textit{Philosophie der Raum-Zeit-Lehre}}
       \field{title}{`{G}eometrization of Physics' vs.\ `Physicalization of Geometry'}
       \field{year}{2021}
       \field{dateera}{ce}
@@ -2502,11 +2516,12 @@
     \endentry
     \entry{Giovanelli2022}{article}{}
       \name{author}{1}{}{%
-        {{hash=7ea053d5298b777cdea4d4b369a6ad92}{%
+        {{un=0,uniquepart=base,hash=7ea053d5298b777cdea4d4b369a6ad92}{%
            family={Giovanelli},
            familyi={G\bibinitperiod},
            given={Marco},
-           giveni={M\bibinitperiod}}}%
+           giveni={M\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{7ea053d5298b777cdea4d4b369a6ad92}
       \strng{fullhash}{7ea053d5298b777cdea4d4b369a6ad92}
@@ -2514,7 +2529,7 @@
       \strng{authorbibnamehash}{7ea053d5298b777cdea4d4b369a6ad92}
       \strng{authornamehash}{7ea053d5298b777cdea4d4b369a6ad92}
       \strng{authorfullhash}{7ea053d5298b777cdea4d4b369a6ad92}
-      \field{extraname}{5}
+      \field{extraname}{6}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
@@ -2522,17 +2537,24 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Synthese}
-      \field{title}{Geometrization vs.\ Unification. The Reichenbach--Einstein Quarrel about the \german{Fernparallelismus} Field Theory}
+      \field{number}{3}
+      \field{title}{Geometrization vs.\ Unification. {T}he {R}eichenbach--{E}instein Quarrel about the \textit{Fernparallelismus} Field Theory}
+      \field{volume}{200}
       \field{year}{2022}
       \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.1007/s11229-022-03531-2
+      \endverb
+      \keyw{pra}
     \endentry
     \entry{Goenner2004}{article}{}
       \name{author}{1}{}{%
-        {{hash=eefda045c9e0f10c847d57da610e873d}{%
+        {{un=0,uniquepart=base,hash=eefda045c9e0f10c847d57da610e873d}{%
            family={Goenner},
            familyi={G\bibinitperiod},
            given={Hubert\bibnamedelimb F.\bibnamedelimi M.},
-           giveni={H\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+           giveni={H\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{eefda045c9e0f10c847d57da610e873d}
       \strng{fullhash}{eefda045c9e0f10c847d57da610e873d}
@@ -2556,16 +2578,66 @@
     \endentry
     \entry{Goldstein2003}{incollection}{}
       \name{author}{2}{}{%
-        {{hash=db5dca5f02a949f8abd319032aaccff3}{%
+        {{un=0,uniquepart=base,hash=db5dca5f02a949f8abd319032aaccff3}{%
            family={Goldstein},
            familyi={G\bibinitperiod},
            given={Catherine},
-           giveni={C\bibinitperiod}}}%
-        {{hash=ace150570953b4e83f18e51530dfe111}{%
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ace150570953b4e83f18e51530dfe111}{%
            family={Ritter},
            familyi={R\bibinitperiod},
            given={Jim},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{8}{}{%
+        {{hash=ff10b2c1288568bd4d8e1bfbc86bfd8b}{%
+           family={Renn},
+           familyi={R\bibinitperiod},
+           given={Jürgen},
            giveni={J\bibinitperiod}}}%
+        {{hash=2bf05c310c86e8fb367a8d16be9d9b9e}{%
+           family={Divarci},
+           familyi={D\bibinitperiod},
+           given={Lindy},
+           giveni={L\bibinitperiod}}}%
+        {{hash=438871d28c643d07146b5f659d32885a}{%
+           family={Schröter},
+           familyi={S\bibinitperiod},
+           given={Petra},
+           giveni={P\bibinitperiod}}}%
+        {{hash=e28cc3e6f7f6ef55fcce6814f02de871}{%
+           family={Ashtekar},
+           familyi={A\bibinitperiod},
+           given={Abhay},
+           giveni={A\bibinitperiod}}}%
+        {{hash=00f9b8f6bba99328965ebca80938477e}{%
+           family={Cohen},
+           familyi={C\bibinitperiod},
+           given={Robert\bibnamedelima S.},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=0ebf1006f134bbfd4bfb5cf4fb834b22}{%
+           family={Howard},
+           familyi={H\bibinitperiod},
+           given={Don},
+           giveni={D\bibinitperiod}}}%
+        {{hash=ca6290487ac11ec54cf258d40ba8f169}{%
+           family={Sarkar},
+           familyi={S\bibinitperiod},
+           given={Sahotra},
+           giveni={S\bibinitperiod}}}%
+        {{hash=5c4fd084ae2e5fc521e035996f280d20}{%
+           family={Shimony},
+           familyi={S\bibinitperiod},
+           given={Abner},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Dordrecht}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
       }
       \strng{namehash}{b6bad690906a858a661ea728de92be7d}
       \strng{fullhash}{b6bad690906a858a661ea728de92be7d}
@@ -2573,12 +2645,17 @@
       \strng{authorbibnamehash}{b6bad690906a858a661ea728de92be7d}
       \strng{authornamehash}{b6bad690906a858a661ea728de92be7d}
       \strng{authorfullhash}{b6bad690906a858a661ea728de92be7d}
+      \strng{editorbibnamehash}{fa2152b04cd734be04fdbc4494da06ae}
+      \strng{editornamehash}{450e083f98ec65e35e799272827f294a}
+      \strng{editorfullhash}{fa2152b04cd734be04fdbc4494da06ae}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{booksubtitle}{Festschrift in Honor of {John Stachel}}
+      \field{booktitle}{Revisiting the Foundations of Relativistic Physics}
       \field{langid}{english}
       \field{subtitle}{Sounding Unified Theories 1920--1930}
       \field{title}{The Varieties of Unity}
@@ -2586,17 +2663,15 @@
       \field{dateera}{ce}
       \field{pages}{93\bibrangedash 149}
       \range{pages}{57}
-      \verb{file}
-      \verb :Goldstein, Catherine and Ritter, Jim - The Varieties of Unity.pdf:PDF
-      \endverb
     \endentry
     \entry{Haas1920}{article}{}
       \name{author}{1}{}{%
-        {{hash=5c7d3e63f87dfd934dbbd2b38f962d41}{%
+        {{un=0,uniquepart=base,hash=5c7d3e63f87dfd934dbbd2b38f962d41}{%
            family={Haas},
            familyi={H\bibinitperiod},
            given={Arthur},
-           giveni={A\bibinitperiod}}}%
+           giveni={A\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{5c7d3e63f87dfd934dbbd2b38f962d41}
       \strng{fullhash}{5c7d3e63f87dfd934dbbd2b38f962d41}
@@ -2622,16 +2697,18 @@
     \endentry
     \entry{Hecht1982}{article}{}
       \name{author}{2}{}{%
-        {{hash=80944a15081e0e369b124f21286da4bc}{%
+        {{un=0,uniquepart=base,hash=80944a15081e0e369b124f21286da4bc}{%
            family={Hecht},
            familyi={H\bibinitperiod},
            given={Hartmut},
-           giveni={H\bibinitperiod}}}%
-        {{hash=96e344540c448669b20aa50b6d86b476}{%
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=96e344540c448669b20aa50b6d86b476}{%
            family={Hoffmann},
            familyi={H\bibinitperiod},
            given={Dieter},
-           giveni={D\bibinitperiod}}}%
+           giveni={D\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{26c2684ed94e6099399e9e6d2ba4b8a8}
       \strng{fullhash}{26c2684ed94e6099399e9e6d2ba4b8a8}
@@ -2656,11 +2733,12 @@
     \endentry
     \entry{Hentschel1982}{article}{}
       \name{author}{1}{}{%
-        {{hash=4ac0c15896d38c353e810015718f887a}{%
+        {{un=0,uniquepart=base,hash=4ac0c15896d38c353e810015718f887a}{%
            family={Hentschel},
            familyi={H\bibinitperiod},
            given={Klaus},
-           giveni={K\bibinitperiod}}}%
+           giveni={K\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{4ac0c15896d38c353e810015718f887a}
       \strng{fullhash}{4ac0c15896d38c353e810015718f887a}
@@ -2683,13 +2761,92 @@
       \field{pages}{295\bibrangedash 324}
       \range{pages}{30}
     \endentry
+    \entry{Janssen2014a}{collection}{}
+      \name{editor}{2}{}{%
+        {{un=0,uniquepart=base,hash=b7619ff4bf487cbc4cf6e60d09c28613}{%
+           family={Janssen},
+           familyi={J\bibinitperiod},
+           given={Michel},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b6f66ae24e31c177db5948856c8fdaf4}{%
+           family={Lehner},
+           familyi={L\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{801f0e3a514879a46d8724576ecbd0d7}
+      \strng{fullhash}{801f0e3a514879a46d8724576ecbd0d7}
+      \strng{bibnamehash}{801f0e3a514879a46d8724576ecbd0d7}
+      \strng{editorbibnamehash}{801f0e3a514879a46d8724576ecbd0d7}
+      \strng{editornamehash}{801f0e3a514879a46d8724576ecbd0d7}
+      \strng{editorfullhash}{801f0e3a514879a46d8724576ecbd0d7}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{The {Cambridge} Companion to {E}instein}
+      \field{year}{2014}
+      \field{dateera}{ce}
+    \endentry
+    \entry{Kox2005}{collection}{}
+      \name{editor}{2}{}{%
+        {{un=0,uniquepart=base,hash=d355f54d74febc352b029fd0b16319d3}{%
+           family={Kox},
+           familyi={K\bibinitperiod},
+           given={A.\bibnamedelimi J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=43a4e8865e8c1d8621dd00b77118e2e2}{%
+           family={Eisenstaedt},
+           familyi={E\bibinitperiod},
+           given={Jean},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Boston}%
+      }
+      \list{publisher}{1}{%
+        {Birk\-häus\-er}%
+      }
+      \strng{namehash}{e32b27bc7ca4a9dab07153587440814a}
+      \strng{fullhash}{e32b27bc7ca4a9dab07153587440814a}
+      \strng{bibnamehash}{e32b27bc7ca4a9dab07153587440814a}
+      \strng{editorbibnamehash}{e32b27bc7ca4a9dab07153587440814a}
+      \strng{editornamehash}{e32b27bc7ca4a9dab07153587440814a}
+      \strng{editorfullhash}{e32b27bc7ca4a9dab07153587440814a}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{number}{11}
+      \field{series}{Einstein Studies}
+      \field{title}{The Universe of General Relativity}
+      \field{year}{2005}
+      \field{dateera}{ce}
+    \endentry
     \entry{Lehmkuhl2014}{article}{}
       \name{author}{1}{}{%
-        {{hash=1cc454abb449b7c89fe79cdf2c17ca31}{%
+        {{un=0,uniquepart=base,hash=1cc454abb449b7c89fe79cdf2c17ca31}{%
            family={Lehmkuhl},
            familyi={L\bibinitperiod},
            given={Dennis},
-           giveni={D\bibinitperiod}}}%
+           giveni={D\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{1cc454abb449b7c89fe79cdf2c17ca31}
       \strng{fullhash}{1cc454abb449b7c89fe79cdf2c17ca31}
@@ -2715,11 +2872,12 @@
     \endentry
     \entry{Lehmkuhl2017}{incollection}{}
       \name{author}{1}{}{%
-        {{hash=1cc454abb449b7c89fe79cdf2c17ca31}{%
+        {{un=0,uniquepart=base,hash=1cc454abb449b7c89fe79cdf2c17ca31}{%
            family={Lehmkuhl},
            familyi={L\bibinitperiod},
            given={Dennis},
-           giveni={D\bibinitperiod}}}%
+           giveni={D\bibinitperiod},
+           givenun=0}}%
       }
       \list{publisher}{1}{%
         {Springer New York}%
@@ -2749,11 +2907,12 @@
     \endentry
     \entry{Levi-Civita1916}{article}{}
       \name{author}{1}{}{%
-        {{hash=b1322d43aca45cbe5cca292121d87ca5}{%
+        {{un=0,uniquepart=base,hash=b1322d43aca45cbe5cca292121d87ca5}{%
            family={Levi-Civita},
            familyi={L\bibinithyphendelim C\bibinitperiod},
            given={Tullio},
-           giveni={T\bibinitperiod}}}%
+           giveni={T\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{b1322d43aca45cbe5cca292121d87ca5}
       \strng{fullhash}{b1322d43aca45cbe5cca292121d87ca5}
@@ -2779,11 +2938,12 @@
     \endentry
     \entry{Meyerson1925}{book}{}
       \name{author}{1}{}{%
-        {{hash=7b6607e6cf1818066d3ff7af9843ba6d}{%
+        {{un=0,uniquepart=base,hash=7b6607e6cf1818066d3ff7af9843ba6d}{%
            family={Meyerson},
            familyi={M\bibinitperiod},
            given={Émile},
-           giveni={É\bibinitperiod}}}%
+           giveni={É\bibinitperiod},
+           givenun=0}}%
       }
       \list{location}{1}{%
         {Paris}%
@@ -2807,17 +2967,15 @@
       \field{title}{La déduction relativiste}
       \field{year}{1925}
       \field{dateera}{ce}
-      \verb{file}
-      \verb :Meyerson, Emile - La deduction relativiste.pdf:PDF
-      \endverb
     \endentry
     \entry{Padovani2009}{article}{}
       \name{author}{1}{}{%
-        {{hash=3595a31a06523ca88c32d373a8caf8a6}{%
+        {{un=0,uniquepart=base,hash=3595a31a06523ca88c32d373a8caf8a6}{%
            family={Padovani},
            familyi={P\bibinitperiod},
            given={Flavia},
-           giveni={F\bibinitperiod}}}%
+           giveni={F\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{3595a31a06523ca88c32d373a8caf8a6}
       \strng{fullhash}{3595a31a06523ca88c32d373a8caf8a6}
@@ -2847,11 +3005,12 @@
     \endentry
     \entry{Pais1982}{book}{}
       \name{author}{1}{}{%
-        {{hash=c9682c4f89e36ee303705d94765d22f1}{%
+        {{un=0,uniquepart=base,hash=c9682c4f89e36ee303705d94765d22f1}{%
            family={Pais},
            familyi={P\bibinitperiod},
            given={Abraham},
-           giveni={A\bibinitperiod}}}%
+           giveni={A\bibinitperiod},
+           givenun=0}}%
       }
       \list{location}{1}{%
         {New York}%
@@ -2907,17 +3066,15 @@
       \field{title}{Relativitätstheorie}
       \field{year}{1921}
       \field{dateera}{ce}
-      \verb{file}
-      \verb :Pauli, Wolfgang - Relativit\"{a}stheorie (Book).pdf:PDF
-      \endverb
     \endentry
     \entry{Pauli1921}{incollectionr}{}
       \name{author}{1}{}{%
-        {{hash=092601d1e9e8519accb07c37a0611492}{%
+        {{un=0,uniquepart=base,hash=092601d1e9e8519accb07c37a0611492}{%
            family={Pauli},
            familyi={P\bibinitperiod},
            given={Wolfgang},
-           giveni={W\bibinitperiod}}}%
+           giveni={W\bibinitperiod},
+           givenun=0}}%
       }
       \name{editor}{1}{}{%
         {{hash=cfcf3605c121f8e68a735a2f46902528}{%
@@ -2961,11 +3118,12 @@
     \endentry
     \entry{Pauli1926}{article}{}
       \name{author}{1}{}{%
-        {{hash=092601d1e9e8519accb07c37a0611492}{%
+        {{un=0,uniquepart=base,hash=092601d1e9e8519accb07c37a0611492}{%
            family={Pauli},
            familyi={P\bibinitperiod},
            given={Wolfgang},
-           giveni={W\bibinitperiod}}}%
+           giveni={W\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{092601d1e9e8519accb07c37a0611492}
       \strng{fullhash}{092601d1e9e8519accb07c37a0611492}
@@ -2988,17 +3146,15 @@
       \field{dateera}{ce}
       \field{pages}{273\bibrangedash 274}
       \range{pages}{2}
-      \verb{file}
-      \verb :Pauli, Wolfgang - Rev of Eddington 1925.pdf:PDF
-      \endverb
     \endentry
     \entry{Pauli1958}{book}{}
       \name{author}{1}{}{%
-        {{hash=092601d1e9e8519accb07c37a0611492}{%
+        {{un=0,uniquepart=base,hash=092601d1e9e8519accb07c37a0611492}{%
            family={Pauli},
            familyi={P\bibinitperiod},
            given={Wolfgang},
-           giveni={W\bibinitperiod}}}%
+           giveni={W\bibinitperiod},
+           givenun=0}}%
       }
       \list{location}{1}{%
         {London}%
@@ -3023,17 +3179,15 @@
       \field{title}{Theory of Relativity}
       \field{year}{1958}
       \field{dateera}{ce}
-      \verb{file}
-      \verb :Pauli, Wolfgang - Theory of Relativity.pdf:PDF
-      \endverb
     \endentry
     \entry{WPWB}{book}{skipbib=true}
       \name{author}{1}{}{%
-        {{hash=092601d1e9e8519accb07c37a0611492}{%
+        {{un=0,uniquepart=base,hash=092601d1e9e8519accb07c37a0611492}{%
            family={Pauli},
            familyi={P\bibinitperiod},
            given={Wolfgang},
-           giveni={W\bibinitperiod}}}%
+           giveni={W\bibinitperiod},
+           givenun=0}}%
       }
       \name{editor}{1}{}{%
         {{hash=d03ecf7614d5c0f67291b937f821f9ac}{%
@@ -3078,11 +3232,12 @@
     \endentry
     \entry{Reichenbach1916}{book}{}
       \name{author}{1}{}{%
-        {{hash=ad994bf69d3fd0b889b84fe3fcff8237}{%
+        {{un=0,uniquepart=base,hash=ad994bf69d3fd0b889b84fe3fcff8237}{%
            family={{Reichenbach}},
            familyi={R\bibinitperiod},
            given={Hans},
-           giveni={H\bibinitperiod}}}%
+           giveni={H\bibinitperiod},
+           givenun=0}}%
       }
       \list{location}{1}{%
         {Leipzig}%
@@ -3110,11 +3265,12 @@
     \endentry
     \entry{Reichenbach1920}{article}{}
       \name{author}{1}{}{%
-        {{hash=ad994bf69d3fd0b889b84fe3fcff8237}{%
+        {{un=0,uniquepart=base,hash=ad994bf69d3fd0b889b84fe3fcff8237}{%
            family={{Reichenbach}},
            familyi={R\bibinitperiod},
            given={Hans},
-           giveni={H\bibinitperiod}}}%
+           giveni={H\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{ad994bf69d3fd0b889b84fe3fcff8237}
       \strng{fullhash}{ad994bf69d3fd0b889b84fe3fcff8237}
@@ -3141,11 +3297,12 @@
     \endentry
     \entry{Reichenbach1920a}{book}{}
       \name{author}{1}{}{%
-        {{hash=ad994bf69d3fd0b889b84fe3fcff8237}{%
+        {{un=0,uniquepart=base,hash=ad994bf69d3fd0b889b84fe3fcff8237}{%
            family={{Reichenbach}},
            familyi={R\bibinitperiod},
            given={Hans},
-           giveni={H\bibinitperiod}}}%
+           giveni={H\bibinitperiod},
+           givenun=0}}%
       }
       \list{location}{1}{%
         {Berlin}%
@@ -3175,11 +3332,12 @@
     \endentry
     \entry{Reichenbach1921d}{article}{}
       \name{author}{1}{}{%
-        {{hash=ad994bf69d3fd0b889b84fe3fcff8237}{%
+        {{un=0,uniquepart=base,hash=ad994bf69d3fd0b889b84fe3fcff8237}{%
            family={{Reichenbach}},
            familyi={R\bibinitperiod},
            given={Hans},
-           giveni={H\bibinitperiod}}}%
+           giveni={H\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{ad994bf69d3fd0b889b84fe3fcff8237}
       \strng{fullhash}{ad994bf69d3fd0b889b84fe3fcff8237}
@@ -3206,11 +3364,12 @@
     \endentry
     \entry{Reichenbach1921}{article}{}
       \name{author}{1}{}{%
-        {{hash=ad994bf69d3fd0b889b84fe3fcff8237}{%
+        {{un=0,uniquepart=base,hash=ad994bf69d3fd0b889b84fe3fcff8237}{%
            family={{Reichenbach}},
            familyi={R\bibinitperiod},
            given={Hans},
-           giveni={H\bibinitperiod}}}%
+           giveni={H\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{ad994bf69d3fd0b889b84fe3fcff8237}
       \strng{fullhash}{ad994bf69d3fd0b889b84fe3fcff8237}
@@ -3240,11 +3399,12 @@
     \endentry
     \entry{Reichenbach1922a}{article}{}
       \name{author}{1}{}{%
-        {{hash=ad994bf69d3fd0b889b84fe3fcff8237}{%
+        {{un=0,uniquepart=base,hash=ad994bf69d3fd0b889b84fe3fcff8237}{%
            family={{Reichenbach}},
            familyi={R\bibinitperiod},
            given={Hans},
-           giveni={H\bibinitperiod}}}%
+           giveni={H\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{ad994bf69d3fd0b889b84fe3fcff8237}
       \strng{fullhash}{ad994bf69d3fd0b889b84fe3fcff8237}
@@ -3274,11 +3434,12 @@
     \endentry
     \entry{Reichenbach1922}{article}{}
       \name{author}{1}{}{%
-        {{hash=ad994bf69d3fd0b889b84fe3fcff8237}{%
+        {{un=0,uniquepart=base,hash=ad994bf69d3fd0b889b84fe3fcff8237}{%
            family={Reichenbach},
            familyi={R\bibinitperiod},
            given={Hans},
-           giveni={H\bibinitperiod}}}%
+           giveni={H\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{ad994bf69d3fd0b889b84fe3fcff8237}
       \strng{fullhash}{ad994bf69d3fd0b889b84fe3fcff8237}
@@ -3305,11 +3466,12 @@
     \endentry
     \entry{Reichenbach1924}{book}{}
       \name{author}{1}{}{%
-        {{hash=ad994bf69d3fd0b889b84fe3fcff8237}{%
+        {{un=0,uniquepart=base,hash=ad994bf69d3fd0b889b84fe3fcff8237}{%
            family={{Reichenbach}},
            familyi={R\bibinitperiod},
            given={Hans},
-           giveni={H\bibinitperiod}}}%
+           giveni={H\bibinitperiod},
+           givenun=0}}%
       }
       \list{location}{1}{%
         {Vieweg}%
@@ -3338,11 +3500,12 @@
     \endentry
     \entry{Reichenbach1925}{article}{}
       \name{author}{1}{}{%
-        {{hash=ad994bf69d3fd0b889b84fe3fcff8237}{%
+        {{un=0,uniquepart=base,hash=ad994bf69d3fd0b889b84fe3fcff8237}{%
            family={Reichenbach},
            familyi={R\bibinitperiod},
            given={Hans},
-           giveni={H\bibinitperiod}}}%
+           giveni={H\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{ad994bf69d3fd0b889b84fe3fcff8237}
       \strng{fullhash}{ad994bf69d3fd0b889b84fe3fcff8237}
@@ -3370,11 +3533,12 @@
     \endentry
     \entry{Reichenbach1926d}{article}{}
       \name{author}{1}{}{%
-        {{hash=ad994bf69d3fd0b889b84fe3fcff8237}{%
+        {{un=0,uniquepart=base,hash=ad994bf69d3fd0b889b84fe3fcff8237}{%
            family={{Reichenbach}},
            familyi={R\bibinitperiod},
            given={Hans},
-           giveni={H\bibinitperiod}}}%
+           giveni={H\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{ad994bf69d3fd0b889b84fe3fcff8237}
       \strng{fullhash}{ad994bf69d3fd0b889b84fe3fcff8237}
@@ -3401,11 +3565,12 @@
     \endentry
     \entry{Reichenbach1926f}{unpublished}{}
       \name{author}{1}{}{%
-        {{hash=ad994bf69d3fd0b889b84fe3fcff8237}{%
+        {{un=0,uniquepart=base,hash=ad994bf69d3fd0b889b84fe3fcff8237}{%
            family={Reichenbach},
            familyi={R\bibinitperiod},
            given={Hans},
-           giveni={H\bibinitperiod}}}%
+           giveni={H\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{ad994bf69d3fd0b889b84fe3fcff8237}
       \strng{fullhash}{ad994bf69d3fd0b889b84fe3fcff8237}
@@ -3429,11 +3594,12 @@
     \endentry
     \entry{Reichenbach1928}{book}{}
       \name{author}{1}{}{%
-        {{hash=ad994bf69d3fd0b889b84fe3fcff8237}{%
+        {{un=0,uniquepart=base,hash=ad994bf69d3fd0b889b84fe3fcff8237}{%
            family={{Reichenbach}},
            familyi={R\bibinitperiod},
            given={Hans},
-           giveni={H\bibinitperiod}}}%
+           giveni={H\bibinitperiod},
+           givenun=0}}%
       }
       \list{location}{2}{%
         {Berlin}%
@@ -3464,11 +3630,12 @@
     \endentry
     \entry{Reichenbach1928a}{newspaper}{}
       \name{author}{1}{}{%
-        {{hash=ad994bf69d3fd0b889b84fe3fcff8237}{%
+        {{un=0,uniquepart=base,hash=ad994bf69d3fd0b889b84fe3fcff8237}{%
            family={{Reichenbach}},
            familyi={R\bibinitperiod},
            given={Hans},
-           giveni={H\bibinitperiod}}}%
+           giveni={H\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{ad994bf69d3fd0b889b84fe3fcff8237}
       \strng{fullhash}{ad994bf69d3fd0b889b84fe3fcff8237}
@@ -3494,11 +3661,12 @@
     \endentry
     \entry{Reichenbach1928b}{unpublished}{}
       \name{author}{1}{}{%
-        {{hash=ad994bf69d3fd0b889b84fe3fcff8237}{%
+        {{un=0,uniquepart=base,hash=ad994bf69d3fd0b889b84fe3fcff8237}{%
            family={Reichenbach},
            familyi={R\bibinitperiod},
            given={Hans},
-           giveni={H\bibinitperiod}}}%
+           giveni={H\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{ad994bf69d3fd0b889b84fe3fcff8237}
       \strng{fullhash}{ad994bf69d3fd0b889b84fe3fcff8237}
@@ -3520,13 +3688,79 @@
       \field{year}{1928}
       \field{dateera}{ce}
     \endentry
-    \entry{Reichenbach1929}{incollection}{}
+    \entry{Reichenbach1929b}{article}{}
       \name{author}{1}{}{%
-        {{hash=ad994bf69d3fd0b889b84fe3fcff8237}{%
+        {{un=0,uniquepart=base,hash=ad994bf69d3fd0b889b84fe3fcff8237}{%
            family={{Reichenbach}},
            familyi={R\bibinitperiod},
            given={Hans},
-           giveni={H\bibinitperiod}}}%
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ad994bf69d3fd0b889b84fe3fcff8237}
+      \strng{fullhash}{ad994bf69d3fd0b889b84fe3fcff8237}
+      \strng{bibnamehash}{ad994bf69d3fd0b889b84fe3fcff8237}
+      \strng{authorbibnamehash}{ad994bf69d3fd0b889b84fe3fcff8237}
+      \strng{authornamehash}{ad994bf69d3fd0b889b84fe3fcff8237}
+      \strng{authorfullhash}{ad994bf69d3fd0b889b84fe3fcff8237}
+      \field{extraname}{15}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Zeitschrift für Angewandte Chemie}
+      \field{langid}{german}
+      \field{number}{5}
+      \field{title}{Die neue Theorie {E}insteins über die Verschmelzung von Gravitation und Elektrizität}
+      \field{volume}{42}
+      \field{year}{1929}
+      \field{dateera}{ce}
+      \field{pages}{121\bibrangedash 123}
+      \range{pages}{3}
+    \endentry
+    \entry{Reichenbach1929c}{newspaper}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ad994bf69d3fd0b889b84fe3fcff8237}{%
+           family={{Reichenbach}},
+           familyi={R\bibinitperiod},
+           given={Hans},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ad994bf69d3fd0b889b84fe3fcff8237}
+      \strng{fullhash}{ad994bf69d3fd0b889b84fe3fcff8237}
+      \strng{bibnamehash}{ad994bf69d3fd0b889b84fe3fcff8237}
+      \strng{authorbibnamehash}{ad994bf69d3fd0b889b84fe3fcff8237}
+      \strng{authornamehash}{ad994bf69d3fd0b889b84fe3fcff8237}
+      \strng{authorfullhash}{ad994bf69d3fd0b889b84fe3fcff8237}
+      \field{extraname}{16}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{\autocap{E}ngl.\ trans.\ as `Einstein's New Theory', in \cite{Reichenbach1978}, \VD{1}{26}}
+      \field{day}{25}
+      \field{journaltitle}{Vossische Zeitung}
+      \field{langid}{german}
+      \field{month}{1}
+      \field{title}{{E}insteins neue Theorie}
+      \field{year}{1929}
+      \field{dateera}{ce}
+    \endentry
+    \entry{Reichenbach1929}{incollection}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ad994bf69d3fd0b889b84fe3fcff8237}{%
+           family={{Reichenbach}},
+           familyi={R\bibinitperiod},
+           given={Hans},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
       }
       \name{editor}{2}{}{%
         {{hash=2dbcc9292058929452d300f632adc6b4}{%
@@ -3555,71 +3789,6 @@
       \strng{editorbibnamehash}{79cac217f98b2b9dc8dadc06c735df15}
       \strng{editornamehash}{79cac217f98b2b9dc8dadc06c735df15}
       \strng{editorfullhash}{79cac217f98b2b9dc8dadc06c735df15}
-      \field{extraname}{15}
-      \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
-      \field{extradate}{1}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Handbuch der Physik}
-      \field{edition}{2}
-      \field{langid}{german}
-      \field{maintitle}{Ziele und Wege der physikalischen Erkenntnis}
-      \field{title}{Allgemeine Grundlagen der Physik}
-      \field{volume}{4}
-      \field{year}{1929}
-      \field{dateera}{ce}
-      \field{pages}{1\bibrangedash 80}
-      \range{pages}{80}
-    \endentry
-    \entry{Reichenbach1929b}{article}{}
-      \name{author}{1}{}{%
-        {{hash=ad994bf69d3fd0b889b84fe3fcff8237}{%
-           family={{Reichenbach}},
-           familyi={R\bibinitperiod},
-           given={Hans},
-           giveni={H\bibinitperiod}}}%
-      }
-      \strng{namehash}{ad994bf69d3fd0b889b84fe3fcff8237}
-      \strng{fullhash}{ad994bf69d3fd0b889b84fe3fcff8237}
-      \strng{bibnamehash}{ad994bf69d3fd0b889b84fe3fcff8237}
-      \strng{authorbibnamehash}{ad994bf69d3fd0b889b84fe3fcff8237}
-      \strng{authornamehash}{ad994bf69d3fd0b889b84fe3fcff8237}
-      \strng{authorfullhash}{ad994bf69d3fd0b889b84fe3fcff8237}
-      \field{extraname}{16}
-      \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
-      \field{extradate}{2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Zeitschrift für Angewandte Chemie}
-      \field{langid}{german}
-      \field{number}{5}
-      \field{title}{Die neue Theorie {E}insteins über die Verschmelzung von Gravitation und Elektrizität}
-      \field{volume}{42}
-      \field{year}{1929}
-      \field{dateera}{ce}
-      \field{pages}{121\bibrangedash 123}
-      \range{pages}{3}
-    \endentry
-    \entry{Reichenbach1929c}{newspaper}{}
-      \name{author}{1}{}{%
-        {{hash=ad994bf69d3fd0b889b84fe3fcff8237}{%
-           family={{Reichenbach}},
-           familyi={R\bibinitperiod},
-           given={Hans},
-           giveni={H\bibinitperiod}}}%
-      }
-      \strng{namehash}{ad994bf69d3fd0b889b84fe3fcff8237}
-      \strng{fullhash}{ad994bf69d3fd0b889b84fe3fcff8237}
-      \strng{bibnamehash}{ad994bf69d3fd0b889b84fe3fcff8237}
-      \strng{authorbibnamehash}{ad994bf69d3fd0b889b84fe3fcff8237}
-      \strng{authornamehash}{ad994bf69d3fd0b889b84fe3fcff8237}
-      \strng{authorfullhash}{ad994bf69d3fd0b889b84fe3fcff8237}
       \field{extraname}{17}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
@@ -3628,22 +3797,24 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{addendum}{\autocap{E}ngl.\ trans.\ as `Einstein's New Theory', in \cite[\VD{1}{26}]{Reichenbach1978}}
-      \field{day}{25}
-      \field{journaltitle}{Vossische Zeitung}
+      \field{booktitle}{Handbuch der Physik}
+      \field{edition}{2}
       \field{langid}{german}
-      \field{month}{1}
-      \field{title}{{E}instein's neue Theorie}
+      \field{title}{Ziele und Wege der physikalischen Erkenntnis}
+      \field{volume}{4}
       \field{year}{1929}
       \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 80}
+      \range{pages}{80}
     \endentry
     \entry{Reichenbach1929a}{article}{}
       \name{author}{1}{}{%
-        {{hash=ad994bf69d3fd0b889b84fe3fcff8237}{%
+        {{un=0,uniquepart=base,hash=ad994bf69d3fd0b889b84fe3fcff8237}{%
            family={{Reichenbach}},
            familyi={R\bibinitperiod},
            given={Hans},
-           giveni={H\bibinitperiod}}}%
+           giveni={H\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{ad994bf69d3fd0b889b84fe3fcff8237}
       \strng{fullhash}{ad994bf69d3fd0b889b84fe3fcff8237}
@@ -3669,54 +3840,22 @@
       \field{pages}{683\bibrangedash 689}
       \range{pages}{7}
     \endentry
-    \entry{Reichenbach1944}{book}{}
-      \name{author}{1}{}{%
-        {{hash=ad994bf69d3fd0b889b84fe3fcff8237}{%
-           family={{Reichenbach}},
-           familyi={R\bibinitperiod},
-           given={Hans},
-           giveni={H\bibinitperiod}}}%
-      }
-      \list{location}{3}{%
-        {Berkely}%
-        {Los Angeles}%
-        {London}%
-      }
-      \list{publisher}{1}{%
-        {University of California Press}%
-      }
-      \strng{namehash}{ad994bf69d3fd0b889b84fe3fcff8237}
-      \strng{fullhash}{ad994bf69d3fd0b889b84fe3fcff8237}
-      \strng{bibnamehash}{ad994bf69d3fd0b889b84fe3fcff8237}
-      \strng{authorbibnamehash}{ad994bf69d3fd0b889b84fe3fcff8237}
-      \strng{authornamehash}{ad994bf69d3fd0b889b84fe3fcff8237}
-      \strng{authorfullhash}{ad994bf69d3fd0b889b84fe3fcff8237}
-      \field{extraname}{19}
-      \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{langid}{english}
-      \field{title}{Philosophical Foundations Of Quantum Mechanics}
-      \field{year}{1944}
-      \field{dateera}{ce}
-    \endentry
     \entry{Reichenbach1949}{incollection}{}
       \name{author}{1}{}{%
-        {{hash=ad994bf69d3fd0b889b84fe3fcff8237}{%
+        {{un=0,uniquepart=base,hash=ad994bf69d3fd0b889b84fe3fcff8237}{%
            family={{Reichenbach}},
            familyi={R\bibinitperiod},
            given={Hans},
-           giveni={H\bibinitperiod}}}%
+           giveni={H\bibinitperiod},
+           givenun=0}}%
       }
       \name{editor}{1}{}{%
-        {{hash=8f686a01aa39d455bf35cc2b1b5e0bdf}{%
+        {{un=0,uniquepart=base,hash=8f686a01aa39d455bf35cc2b1b5e0bdf}{%
            family={Schilpp},
            familyi={S\bibinitperiod},
            given={Paul\bibnamedelima Arthur},
-           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
       }
       \list{location}{1}{%
         {Evanston, M.}%
@@ -3733,7 +3872,7 @@
       \strng{editorbibnamehash}{8f686a01aa39d455bf35cc2b1b5e0bdf}
       \strng{editornamehash}{8f686a01aa39d455bf35cc2b1b5e0bdf}
       \strng{editorfullhash}{8f686a01aa39d455bf35cc2b1b5e0bdf}
-      \field{extraname}{20}
+      \field{extraname}{19}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
@@ -3749,17 +3888,15 @@
       \field{dateera}{ce}
       \field{pages}{289\bibrangedash 311}
       \range{pages}{23}
-      \verb{file}
-      \verb : Schilpp, Paul Arthur (ed.) - Albert Einstein, Philosopher-Scientist.pdf:PDF;:Schilpp, Paul Arthur (ed.) - Albert Einstein, Philosopher-Scientist.pdf:PDF
-      \endverb
     \endentry
     \entry{Reichenbach1958}{book}{}
       \name{author}{1}{}{%
-        {{hash=ad994bf69d3fd0b889b84fe3fcff8237}{%
+        {{un=0,uniquepart=base,hash=ad994bf69d3fd0b889b84fe3fcff8237}{%
            family={{Reichenbach}},
            familyi={R\bibinitperiod},
            given={Hans},
-           giveni={H\bibinitperiod}}}%
+           giveni={H\bibinitperiod},
+           givenun=0}}%
       }
       \name{editor}{1}{}{%
         {{hash=4de9129221555b3f2da3a3d7268d0666}{%
@@ -3798,7 +3935,7 @@
       \strng{translatorbibnamehash}{77b5344f71dd5fe57e7234e9ca984af9}
       \strng{translatornamehash}{77b5344f71dd5fe57e7234e9ca984af9}
       \strng{translatorfullhash}{77b5344f71dd5fe57e7234e9ca984af9}
-      \field{extraname}{21}
+      \field{extraname}{20}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
@@ -3812,11 +3949,12 @@
     \endentry
     \entry{Reichenbach1969}{book}{}
       \name{author}{1}{}{%
-        {{hash=ad994bf69d3fd0b889b84fe3fcff8237}{%
+        {{un=0,uniquepart=base,hash=ad994bf69d3fd0b889b84fe3fcff8237}{%
            family={Reichenbach},
            familyi={R\bibinitperiod},
            given={Hans},
-           giveni={H\bibinitperiod}}}%
+           giveni={H\bibinitperiod},
+           givenun=0}}%
       }
       \name{editor}{1}{}{%
         {{hash=4de9129221555b3f2da3a3d7268d0666}{%
@@ -3860,7 +3998,7 @@
       \strng{translatorbibnamehash}{4de9129221555b3f2da3a3d7268d0666}
       \strng{translatornamehash}{4de9129221555b3f2da3a3d7268d0666}
       \strng{translatorfullhash}{4de9129221555b3f2da3a3d7268d0666}
-      \field{extraname}{22}
+      \field{extraname}{21}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
@@ -3874,11 +4012,12 @@
     \endentry
     \entry{Reichenbach1977}{book}{}
       \name{author}{1}{}{%
-        {{hash=ad994bf69d3fd0b889b84fe3fcff8237}{%
+        {{un=0,uniquepart=base,hash=ad994bf69d3fd0b889b84fe3fcff8237}{%
            family={{Reichenbach}},
            familyi={R\bibinitperiod},
            given={Hans},
-           giveni={H\bibinitperiod}}}%
+           giveni={H\bibinitperiod},
+           givenun=0}}%
       }
       \name{editor}{2}{}{%
         {{hash=1b4696d3b2b6b8fed946ff7e50cf9522}{%
@@ -3908,7 +4047,7 @@
       \strng{editorbibnamehash}{805a018f72e8b12bdfa90378a12acb95}
       \strng{editornamehash}{805a018f72e8b12bdfa90378a12acb95}
       \strng{editorfullhash}{805a018f72e8b12bdfa90378a12acb95}
-      \field{extraname}{23}
+      \field{extraname}{22}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
@@ -3922,11 +4061,12 @@
     \endentry
     \entry{Reichenbach1978}{book}{}
       \name{author}{1}{}{%
-        {{hash=ad994bf69d3fd0b889b84fe3fcff8237}{%
+        {{un=0,uniquepart=base,hash=ad994bf69d3fd0b889b84fe3fcff8237}{%
            family={{Reichenbach}},
            familyi={R\bibinitperiod},
            given={Hans},
-           giveni={H\bibinitperiod}}}%
+           giveni={H\bibinitperiod},
+           givenun=0}}%
       }
       \name{editor}{1}{}{%
         {{hash=4de9129221555b3f2da3a3d7268d0666}{%
@@ -3960,7 +4100,7 @@
       \strng{translatorbibnamehash}{4de9129221555b3f2da3a3d7268d0666}
       \strng{translatornamehash}{4de9129221555b3f2da3a3d7268d0666}
       \strng{translatorfullhash}{4de9129221555b3f2da3a3d7268d0666}
-      \field{extraname}{24}
+      \field{extraname}{23}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
@@ -3977,11 +4117,12 @@
     \endentry
     \entry{Reichenbach2006}{book}{}
       \name{author}{1}{}{%
-        {{hash=ad994bf69d3fd0b889b84fe3fcff8237}{%
+        {{un=0,uniquepart=base,hash=ad994bf69d3fd0b889b84fe3fcff8237}{%
            family={Reichenbach},
            familyi={R\bibinitperiod},
            given={Hans},
-           giveni={H\bibinitperiod}}}%
+           giveni={H\bibinitperiod},
+           givenun=0}}%
       }
       \name{editor}{2}{}{%
         {{hash=63a3bf98121f06f634a90be6d891ac4b}{%
@@ -4011,7 +4152,7 @@
       \strng{editorbibnamehash}{69dc8ff6ca5fc7756abc7825b55bcc25}
       \strng{editornamehash}{69dc8ff6ca5fc7756abc7825b55bcc25}
       \strng{editorfullhash}{69dc8ff6ca5fc7756abc7825b55bcc25}
-      \field{extraname}{25}
+      \field{extraname}{24}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
@@ -4026,11 +4167,12 @@
     \endentry
     \entry{Ryckman1995}{article}{}
       \name{author}{1}{}{%
-        {{hash=1bd46d0bafee85d8802ea4de6667d24a}{%
+        {{un=0,uniquepart=base,hash=1bd46d0bafee85d8802ea4de6667d24a}{%
            family={Ryckman},
            familyi={R\bibinitperiod},
            given={Thomas},
-           giveni={T\bibinitperiod}}}%
+           giveni={T\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{1bd46d0bafee85d8802ea4de6667d24a}
       \strng{fullhash}{1bd46d0bafee85d8802ea4de6667d24a}
@@ -4054,17 +4196,15 @@
       \field{dateera}{ce}
       \field{pages}{831\bibrangedash 870}
       \range{pages}{40}
-      \verb{file}
-      \verb :Ryckman, Thomas - Weyl, Reichenbach and the Epistemology of Geometry (1).pdf:PDF
-      \endverb
     \endentry
     \entry{Ryckman1996}{incollectionr}{}
       \name{author}{1}{}{%
-        {{hash=1bd46d0bafee85d8802ea4de6667d24a}{%
+        {{un=0,uniquepart=base,hash=1bd46d0bafee85d8802ea4de6667d24a}{%
            family={Ryckman},
            familyi={R\bibinitperiod},
            given={Thomas},
-           giveni={T\bibinitperiod}}}%
+           giveni={T\bibinitperiod},
+           givenun=0}}%
       }
       \name{editor}{1}{}{%
         {{hash=13e9c6cf8de8b15045fcd0023370d4aa}{%
@@ -4106,23 +4246,26 @@
     \endentry
     \entry{Ryckman2014}{incollection}{}
       \name{author}{1}{}{%
-        {{hash=1bd46d0bafee85d8802ea4de6667d24a}{%
+        {{un=0,uniquepart=base,hash=1bd46d0bafee85d8802ea4de6667d24a}{%
            family={Ryckman},
            familyi={R\bibinitperiod},
            given={Thomas},
-           giveni={T\bibinitperiod}}}%
+           giveni={T\bibinitperiod},
+           givenun=0}}%
       }
       \name{editor}{2}{}{%
-        {{hash=b7619ff4bf487cbc4cf6e60d09c28613}{%
+        {{un=0,uniquepart=base,hash=b7619ff4bf487cbc4cf6e60d09c28613}{%
            family={Janssen},
            familyi={J\bibinitperiod},
            given={Michel},
-           giveni={M\bibinitperiod}}}%
-        {{hash=b6f66ae24e31c177db5948856c8fdaf4}{%
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b6f66ae24e31c177db5948856c8fdaf4}{%
            family={Lehner},
            familyi={L\bibinitperiod},
            given={Christoph},
-           giveni={C\bibinitperiod}}}%
+           giveni={C\bibinitperiod},
+           givenun=0}}%
       }
       \list{location}{1}{%
         {Cambridge}%
@@ -4147,6 +4290,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{The {Cambridge} Companion to {E}instein}
+      \strng{crossref}{Janssen2014a}
       \field{langid}{english}
       \field{subtitle}{{E}instein and the `The Truly Valuable' in {K}ant}
       \field{title}{`{A} Believing Rationalist'}
@@ -4154,17 +4298,15 @@
       \field{dateera}{ce}
       \field{pages}{377\bibrangedash 397}
       \range{pages}{21}
-      \verb{file}
-      \verb :Ryckman, Thomas - Janssen, Michel \& Lehner, Christoph (ed.) - `A Believing Rationalist' Einstein and `The Truly Valuable' in Kant.pdf:PDF
-      \endverb
     \endentry
     \entry{Ryckman2017}{book}{}
       \name{author}{1}{}{%
-        {{hash=1bd46d0bafee85d8802ea4de6667d24a}{%
+        {{un=0,uniquepart=base,hash=1bd46d0bafee85d8802ea4de6667d24a}{%
            family={Ryckman},
            familyi={R\bibinitperiod},
            given={Thomas},
-           giveni={T\bibinitperiod}}}%
+           giveni={T\bibinitperiod},
+           givenun=0}}%
       }
       \list{location}{1}{%
         {New York}%
@@ -4189,29 +4331,29 @@
       \field{title}{Einstein}
       \field{year}{2017}
       \field{dateera}{ce}
-      \verb{file}
-      \verb :Ryckman, Thomas - Einstein.pdf:PDF
-      \endverb
     \endentry
     \entry{Rynasiewicz2005}{incollection}{}
       \name{author}{1}{}{%
-        {{hash=8aaea7cab65d42f3c782c32297bbbdb1}{%
+        {{un=0,uniquepart=base,hash=8aaea7cab65d42f3c782c32297bbbdb1}{%
            family={Rynasiewicz},
            familyi={R\bibinitperiod},
            given={Robert},
-           giveni={R\bibinitperiod}}}%
+           giveni={R\bibinitperiod},
+           givenun=0}}%
       }
       \name{editor}{2}{}{%
-        {{hash=d355f54d74febc352b029fd0b16319d3}{%
+        {{un=0,uniquepart=base,hash=d355f54d74febc352b029fd0b16319d3}{%
            family={Kox},
            familyi={K\bibinitperiod},
            given={A.\bibnamedelimi J.},
-           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=43a4e8865e8c1d8621dd00b77118e2e2}{%
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=43a4e8865e8c1d8621dd00b77118e2e2}{%
            family={Eisenstaedt},
            familyi={E\bibinitperiod},
            given={Jean},
-           giveni={J\bibinitperiod}}}%
+           giveni={J\bibinitperiod},
+           givenun=0}}%
       }
       \list{location}{1}{%
         {Boston}%
@@ -4235,6 +4377,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{The Universe of General Relativity}
+      \strng{crossref}{Kox2005}
       \field{langid}{english}
       \field{number}{11}
       \field{series}{Einstein Studies}
@@ -4243,17 +4386,15 @@
       \field{dateera}{ce}
       \field{pages}{137\bibrangedash 156}
       \range{pages}{20}
-      \verb{file}
-      \verb :/Users/marco/odrive/Dropbox/FullTextAuthors/einstein studies/Kox, A. J. \& Eisenstaedt, Jean (ed.) - The Universe of General Relativity.pdf:PDF
-      \endverb
     \endentry
     \entry{Sauer2006}{article}{}
       \name{author}{1}{}{%
-        {{hash=9ce9432734126b9056f1550d20a9d7ec}{%
+        {{un=0,uniquepart=base,hash=9ce9432734126b9056f1550d20a9d7ec}{%
            family={Sauer},
            familyi={S\bibinitperiod},
            given={Tilman},
-           giveni={T\bibinitperiod}}}%
+           giveni={T\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{9ce9432734126b9056f1550d20a9d7ec}
       \strng{fullhash}{9ce9432734126b9056f1550d20a9d7ec}
@@ -4278,29 +4419,29 @@
       \field{dateera}{ce}
       \field{pages}{399\bibrangedash 439}
       \range{pages}{41}
-      \verb{file}
-      \verb :Sauer, Tilman - Field Equations in Teleparallel Space Time. Einstein's Fernparallelismus Approach toward Unified field Theory.pdf:PDF
-      \endverb
     \endentry
     \entry{Sauer2014}{incollection}{}
       \name{author}{1}{}{%
-        {{hash=9ce9432734126b9056f1550d20a9d7ec}{%
+        {{un=0,uniquepart=base,hash=9ce9432734126b9056f1550d20a9d7ec}{%
            family={Sauer},
            familyi={S\bibinitperiod},
            given={Tilman},
-           giveni={T\bibinitperiod}}}%
+           giveni={T\bibinitperiod},
+           givenun=0}}%
       }
       \name{editor}{2}{}{%
-        {{hash=b7619ff4bf487cbc4cf6e60d09c28613}{%
+        {{un=0,uniquepart=base,hash=b7619ff4bf487cbc4cf6e60d09c28613}{%
            family={Janssen},
            familyi={J\bibinitperiod},
            given={Michel},
-           giveni={M\bibinitperiod}}}%
-        {{hash=b6f66ae24e31c177db5948856c8fdaf4}{%
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b6f66ae24e31c177db5948856c8fdaf4}{%
            family={Lehner},
            familyi={L\bibinitperiod},
            given={Christoph},
-           giveni={C\bibinitperiod}}}%
+           giveni={C\bibinitperiod},
+           givenun=0}}%
       }
       \list{location}{1}{%
         {Cambridge}%
@@ -4325,23 +4466,22 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{The {Cambridge} Companion to {E}instein}
+      \strng{crossref}{Janssen2014a}
       \field{langid}{english}
       \field{title}{{E}instein's Unified Field Theory Program}
       \field{year}{2014}
       \field{dateera}{ce}
       \field{pages}{281\bibrangedash 305}
       \range{pages}{25}
-      \verb{file}
-      \verb :Sauer, Tilman - Einsteins Unified field Theory Program.pdf:PDF
-      \endverb
     \endentry
     \entry{Schilpp1944}{collection}{}
       \name{editor}{1}{}{%
-        {{hash=8f686a01aa39d455bf35cc2b1b5e0bdf}{%
+        {{un=0,uniquepart=base,hash=8f686a01aa39d455bf35cc2b1b5e0bdf}{%
            family={Schilpp},
            familyi={S\bibinitperiod},
            given={Paul\bibnamedelima Arthur},
-           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
       }
       \list{location}{1}{%
         {Evanston}%
@@ -4369,11 +4509,12 @@
     \endentry
     \entry{Schilpp1949}{collection}{}
       \name{editor}{1}{}{%
-        {{hash=8f686a01aa39d455bf35cc2b1b5e0bdf}{%
+        {{un=0,uniquepart=base,hash=8f686a01aa39d455bf35cc2b1b5e0bdf}{%
            family={Schilpp},
            familyi={S\bibinitperiod},
            given={Paul\bibnamedelima Arthur},
-           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
       }
       \list{location}{1}{%
         {Evanston, M.}%
@@ -4399,17 +4540,15 @@
       \field{title}{{A}lbert {E}instein}
       \field{year}{1949}
       \field{dateera}{ce}
-      \verb{file}
-      \verb : Schilpp, Paul Arthur (ed.) - Albert Einstein, Philosopher-Scientist.pdf:PDF;:Schilpp, Paul Arthur (ed.) - Albert Einstein, Philosopher-Scientist.pdf:PDF
-      \endverb
     \endentry
     \entry{Schlick1918}{book}{}
       \name{author}{1}{}{%
-        {{hash=8779ab8c910672c2f2c4cf54d2285b65}{%
+        {{un=0,uniquepart=base,hash=8779ab8c910672c2f2c4cf54d2285b65}{%
            family={Schlick},
            familyi={S\bibinitperiod},
            given={Moritz},
-           giveni={M\bibinitperiod}}}%
+           giveni={M\bibinitperiod},
+           givenun=0}}%
       }
       \list{location}{1}{%
         {Berlin}%
@@ -4439,11 +4578,12 @@
     \endentry
     \entry{Schlick2006}{book}{}
       \name{author}{1}{}{%
-        {{hash=8779ab8c910672c2f2c4cf54d2285b65}{%
+        {{un=0,uniquepart=base,hash=8779ab8c910672c2f2c4cf54d2285b65}{%
            family={Schlick},
            familyi={S\bibinitperiod},
            given={Moritz},
-           giveni={M\bibinitperiod}}}%
+           giveni={M\bibinitperiod},
+           givenun=0}}%
       }
       \name{editor}{2}{}{%
         {{hash=7289cb0a57071389fa30a18275149005}{%
@@ -4495,11 +4635,12 @@
     \endentry
     \entry{Schouten1922}{article}{}
       \name{author}{1}{}{%
-        {{hash=c3fa0c5f1d0ce4ff8d4a29fa9f9b5622}{%
+        {{un=0,uniquepart=base,hash=c3fa0c5f1d0ce4ff8d4a29fa9f9b5622}{%
            family={Schouten},
            familyi={S\bibinitperiod},
            given={Jan\bibnamedelima Arnoldus},
-           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{c3fa0c5f1d0ce4ff8d4a29fa9f9b5622}
       \strng{fullhash}{c3fa0c5f1d0ce4ff8d4a29fa9f9b5622}
@@ -4524,11 +4665,12 @@
     \endentry
     \entry{Seelig1960}{book}{}
       \name{author}{1}{}{%
-        {{hash=fc6718eadd9f37e6e04fe4545148ddbf}{%
+        {{un=0,uniquepart=base,hash=fc6718eadd9f37e6e04fe4545148ddbf}{%
            family={Seelig},
            familyi={S\bibinitperiod},
            given={Carl},
-           giveni={C\bibinitperiod}}}%
+           giveni={C\bibinitperiod},
+           givenun=0}}%
       }
       \list{location}{1}{%
         {Vienna}%
@@ -4556,11 +4698,12 @@
     \endentry
     \entry{Einstein1972}{collection}{}
       \name{editor}{1}{}{%
-        {{hash=e63a2aa9597f2624a53397e205eb96f3}{%
+        {{un=0,uniquepart=base,hash=e63a2aa9597f2624a53397e205eb96f3}{%
            family={Speziali},
            familyi={S\bibinitperiod},
            given={Pierre},
-           giveni={P\bibinitperiod}}}%
+           giveni={P\bibinitperiod},
+           givenun=0}}%
       }
       \list{location}{1}{%
         {Paris}%
@@ -4597,14 +4740,15 @@
     \endentry
     \entry{Tonnelat1966}{book}{}
       \name{author}{1}{}{%
-        {{hash=9413ebdc2dbddc1085e0654e84f54f0c}{%
+        {{un=0,uniquepart=base,hash=9413ebdc2dbddc1085e0654e84f54f0c}{%
            family={Tonnelat},
            familyi={T\bibinitperiod},
            given={Marie\bibnamedelima Antoinette},
-           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
       }
       \list{location}{1}{%
-        {New York, Ny [u.a.]}%
+        {New York et al}%
       }
       \list{publisher}{1}{%
         {Gordon \& Breach}%
@@ -4625,17 +4769,15 @@
       \field{title}{Einstein's Unified Field Theory}
       \field{year}{1966}
       \field{dateera}{ce}
-      \verb{file}
-      \verb :Tonnelat, Marie Antoinette - Einstein's Unified Field Theory.pdf:PDF
-      \endverb
     \endentry
     \entry{Verhaegh2020a}{article}{}
       \name{author}{1}{}{%
-        {{hash=9b0a4aa24d8f5efba2a53c0747688c56}{%
+        {{un=0,uniquepart=base,hash=9b0a4aa24d8f5efba2a53c0747688c56}{%
            family={Verhaegh},
            familyi={V\bibinitperiod},
            given={Sander},
-           giveni={S\bibinitperiod}}}%
+           giveni={S\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{9b0a4aa24d8f5efba2a53c0747688c56}
       \strng{fullhash}{9b0a4aa24d8f5efba2a53c0747688c56}
@@ -4651,17 +4793,18 @@
       \field{labeltitlesource}{title}
       \field{addendum}{\autocap{f}orthcoming}
       \field{journaltitle}{Journal for the History of Analytical Philosophy}
-      \field{title}{Coming to America: Carnap, Reichenbach, and the Great Intellectual Migration. \rom{2}: Hans Reichenbach}
+      \field{title}{Coming to {A}merica: {C}arnap, {R}eichenbach, and the Great Intellectual Migration. \rom{2}: {H}ans {R}eichenbach}
       \field{year}{2020}
       \field{dateera}{ce}
     \endentry
     \entry{Vizgin1994}{book}{}
       \name{author}{1}{}{%
-        {{hash=d4389d7a9f0756c88bb895e84e27d248}{%
+        {{un=0,uniquepart=base,hash=d4389d7a9f0756c88bb895e84e27d248}{%
            family={Vizgin},
            familyi={V\bibinitperiod},
            given={Vladimir\bibnamedelima Pavlovich},
-           giveni={V\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+           giveni={V\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
       }
       \name{translator}{1}{}{%
         {{hash=5ed6fabd88047cf213101b8fc5898396}{%
@@ -4700,11 +4843,12 @@
     \endentry
     \entry{Weyl1918a}{sb}{}
       \name{author}{1}{}{%
-        {{hash=53a04b0452e82d11dbbb27d1587aac8a}{%
+        {{un=0,uniquepart=base,hash=53a04b0452e82d11dbbb27d1587aac8a}{%
            family={Weyl},
            familyi={W\bibinitperiod},
            given={Hermann},
-           giveni={H\bibinitperiod}}}%
+           giveni={H\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{53a04b0452e82d11dbbb27d1587aac8a}
       \strng{fullhash}{53a04b0452e82d11dbbb27d1587aac8a}
@@ -4732,11 +4876,12 @@
     \endentry
     \entry{Weyl1918}{book}{}
       \name{author}{1}{}{%
-        {{hash=53a04b0452e82d11dbbb27d1587aac8a}{%
+        {{un=0,uniquepart=base,hash=53a04b0452e82d11dbbb27d1587aac8a}{%
            family={Weyl},
            familyi={W\bibinitperiod},
            given={Hermann},
-           giveni={H\bibinitperiod}}}%
+           giveni={H\bibinitperiod},
+           givenun=0}}%
       }
       \list{location}{1}{%
         {Berlin}%
@@ -4767,11 +4912,12 @@
     \endentry
     \entry{Weyl1918b}{article}{}
       \name{author}{1}{}{%
-        {{hash=53a04b0452e82d11dbbb27d1587aac8a}{%
+        {{un=0,uniquepart=base,hash=53a04b0452e82d11dbbb27d1587aac8a}{%
            family={Weyl},
            familyi={W\bibinitperiod},
            given={Hermann},
-           giveni={H\bibinitperiod}}}%
+           giveni={H\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{53a04b0452e82d11dbbb27d1587aac8a}
       \strng{fullhash}{53a04b0452e82d11dbbb27d1587aac8a}
@@ -4801,11 +4947,12 @@
     \endentry
     \entry{Weyl1919a}{article}{}
       \name{author}{1}{}{%
-        {{hash=53a04b0452e82d11dbbb27d1587aac8a}{%
+        {{un=0,uniquepart=base,hash=53a04b0452e82d11dbbb27d1587aac8a}{%
            family={Weyl},
            familyi={W\bibinitperiod},
            given={Hermann},
-           giveni={H\bibinitperiod}}}%
+           giveni={H\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{53a04b0452e82d11dbbb27d1587aac8a}
       \strng{fullhash}{53a04b0452e82d11dbbb27d1587aac8a}
@@ -4835,11 +4982,12 @@
     \endentry
     \entry{Weyl1919}{book}{}
       \name{author}{1}{}{%
-        {{hash=53a04b0452e82d11dbbb27d1587aac8a}{%
+        {{un=0,uniquepart=base,hash=53a04b0452e82d11dbbb27d1587aac8a}{%
            family={Weyl},
            familyi={W\bibinitperiod},
            given={Hermann},
-           giveni={H\bibinitperiod}}}%
+           giveni={H\bibinitperiod},
+           givenun=0}}%
       }
       \list{location}{1}{%
         {Berlin}%
@@ -4871,11 +5019,12 @@
     \endentry
     \entry{Weyl1920}{article}{}
       \name{author}{1}{}{%
-        {{hash=53a04b0452e82d11dbbb27d1587aac8a}{%
+        {{un=0,uniquepart=base,hash=53a04b0452e82d11dbbb27d1587aac8a}{%
            family={Weyl},
            familyi={W\bibinitperiod},
            given={Hermann},
-           giveni={H\bibinitperiod}}}%
+           giveni={H\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{53a04b0452e82d11dbbb27d1587aac8a}
       \strng{fullhash}{53a04b0452e82d11dbbb27d1587aac8a}
@@ -4903,11 +5052,12 @@
     \endentry
     \entry{Weyl1920a}{article}{}
       \name{author}{1}{}{%
-        {{hash=53a04b0452e82d11dbbb27d1587aac8a}{%
+        {{un=0,uniquepart=base,hash=53a04b0452e82d11dbbb27d1587aac8a}{%
            family={Weyl},
            familyi={W\bibinitperiod},
            given={Hermann},
-           giveni={H\bibinitperiod}}}%
+           giveni={H\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{53a04b0452e82d11dbbb27d1587aac8a}
       \strng{fullhash}{53a04b0452e82d11dbbb27d1587aac8a}
@@ -4936,11 +5086,12 @@
     \endentry
     \entry{Weyl1921f}{article}{}
       \name{author}{1}{}{%
-        {{hash=53a04b0452e82d11dbbb27d1587aac8a}{%
+        {{un=0,uniquepart=base,hash=53a04b0452e82d11dbbb27d1587aac8a}{%
            family={Weyl},
            familyi={W\bibinitperiod},
            given={Hermann},
-           giveni={H\bibinitperiod}}}%
+           giveni={H\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{53a04b0452e82d11dbbb27d1587aac8a}
       \strng{fullhash}{53a04b0452e82d11dbbb27d1587aac8a}
@@ -4967,11 +5118,12 @@
     \endentry
     \entry{Weyl1921b}{article}{}
       \name{author}{1}{}{%
-        {{hash=53a04b0452e82d11dbbb27d1587aac8a}{%
+        {{un=0,uniquepart=base,hash=53a04b0452e82d11dbbb27d1587aac8a}{%
            family={Weyl},
            familyi={W\bibinitperiod},
            given={Hermann},
-           giveni={H\bibinitperiod}}}%
+           giveni={H\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{53a04b0452e82d11dbbb27d1587aac8a}
       \strng{fullhash}{53a04b0452e82d11dbbb27d1587aac8a}
@@ -5001,11 +5153,12 @@
     \endentry
     \entry{Weyl1921d}{article}{}
       \name{author}{1}{}{%
-        {{hash=53a04b0452e82d11dbbb27d1587aac8a}{%
+        {{un=0,uniquepart=base,hash=53a04b0452e82d11dbbb27d1587aac8a}{%
            family={Weyl},
            familyi={W\bibinitperiod},
            given={Hermann},
-           giveni={H\bibinitperiod}}}%
+           giveni={H\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{53a04b0452e82d11dbbb27d1587aac8a}
       \strng{fullhash}{53a04b0452e82d11dbbb27d1587aac8a}
@@ -5035,11 +5188,12 @@
     \endentry
     \entry{Weyl1921}{book}{}
       \name{author}{1}{}{%
-        {{hash=53a04b0452e82d11dbbb27d1587aac8a}{%
+        {{un=0,uniquepart=base,hash=53a04b0452e82d11dbbb27d1587aac8a}{%
            family={Weyl},
            familyi={W\bibinitperiod},
            given={Hermann},
-           giveni={H\bibinitperiod}}}%
+           giveni={H\bibinitperiod},
+           givenun=0}}%
       }
       \list{location}{1}{%
         {Berlin}%
@@ -5070,11 +5224,12 @@
     \endentry
     \entry{Weyl1921e}{article}{}
       \name{author}{1}{}{%
-        {{hash=53a04b0452e82d11dbbb27d1587aac8a}{%
+        {{un=0,uniquepart=base,hash=53a04b0452e82d11dbbb27d1587aac8a}{%
            family={Weyl},
            familyi={W\bibinitperiod},
            given={Hermann},
-           giveni={H\bibinitperiod}}}%
+           giveni={H\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{53a04b0452e82d11dbbb27d1587aac8a}
       \strng{fullhash}{53a04b0452e82d11dbbb27d1587aac8a}
@@ -5103,11 +5258,12 @@
     \endentry
     \entry{Weyl1921a}{sb}{}
       \name{author}{1}{}{%
-        {{hash=53a04b0452e82d11dbbb27d1587aac8a}{%
+        {{un=0,uniquepart=base,hash=53a04b0452e82d11dbbb27d1587aac8a}{%
            family={Weyl},
            familyi={W\bibinitperiod},
            given={Hermann},
-           giveni={H\bibinitperiod}}}%
+           giveni={H\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{53a04b0452e82d11dbbb27d1587aac8a}
       \strng{fullhash}{53a04b0452e82d11dbbb27d1587aac8a}
@@ -5137,11 +5293,12 @@
     \endentry
     \entry{Weyl1923}{book}{}
       \name{author}{1}{}{%
-        {{hash=53a04b0452e82d11dbbb27d1587aac8a}{%
+        {{un=0,uniquepart=base,hash=53a04b0452e82d11dbbb27d1587aac8a}{%
            family={Weyl},
            familyi={W\bibinitperiod},
            given={Hermann},
-           giveni={H\bibinitperiod}}}%
+           giveni={H\bibinitperiod},
+           givenun=0}}%
       }
       \list{location}{1}{%
         {Berlin}%
@@ -5170,11 +5327,12 @@
     \endentry
     \entry{Weyl1924}{article}{}
       \name{author}{1}{}{%
-        {{hash=53a04b0452e82d11dbbb27d1587aac8a}{%
+        {{un=0,uniquepart=base,hash=53a04b0452e82d11dbbb27d1587aac8a}{%
            family={Weyl},
            familyi={W\bibinitperiod},
            given={Hermann},
-           giveni={H\bibinitperiod}}}%
+           giveni={H\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{53a04b0452e82d11dbbb27d1587aac8a}
       \strng{fullhash}{53a04b0452e82d11dbbb27d1587aac8a}
@@ -5200,11 +5358,12 @@
     \endentry
     \entry{Weyl1929c}{article}{}
       \name{author}{1}{}{%
-        {{hash=53a04b0452e82d11dbbb27d1587aac8a}{%
+        {{un=0,uniquepart=base,hash=53a04b0452e82d11dbbb27d1587aac8a}{%
            family={Weyl},
            familyi={W\bibinitperiod},
            given={Hermann},
-           giveni={H\bibinitperiod}}}%
+           giveni={H\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{53a04b0452e82d11dbbb27d1587aac8a}
       \strng{fullhash}{53a04b0452e82d11dbbb27d1587aac8a}
@@ -5232,11 +5391,12 @@
     \endentry
     \entry{Weyl1931}{article}{}
       \name{author}{1}{}{%
-        {{hash=53a04b0452e82d11dbbb27d1587aac8a}{%
+        {{un=0,uniquepart=base,hash=53a04b0452e82d11dbbb27d1587aac8a}{%
            family={Weyl},
            familyi={W\bibinitperiod},
            given={Hermann},
-           giveni={H\bibinitperiod}}}%
+           giveni={H\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{53a04b0452e82d11dbbb27d1587aac8a}
       \strng{fullhash}{53a04b0452e82d11dbbb27d1587aac8a}
@@ -5263,11 +5423,12 @@
     \endentry
     \entry{Weyl1968}{book}{}
       \name{author}{1}{}{%
-        {{hash=53a04b0452e82d11dbbb27d1587aac8a}{%
+        {{un=0,uniquepart=base,hash=53a04b0452e82d11dbbb27d1587aac8a}{%
            family={Weyl},
            familyi={W\bibinitperiod},
            given={Hermann},
-           giveni={H\bibinitperiod}}}%
+           giveni={H\bibinitperiod},
+           givenun=0}}%
       }
       \name{editor}{1}{}{%
         {{hash=af74d026477cddc3c67552147d6d8f89}{%
@@ -5306,23 +5467,26 @@
     \endentry
     \entry{Wuensch2005}{incollection}{}
       \name{author}{1}{}{%
-        {{hash=a1d0dd7a3acae2a406c3171f5ed51322}{%
+        {{un=0,uniquepart=base,hash=a1d0dd7a3acae2a406c3171f5ed51322}{%
            family={Wünsch},
            familyi={W\bibinitperiod},
            given={Daniela},
-           giveni={D\bibinitperiod}}}%
+           giveni={D\bibinitperiod},
+           givenun=0}}%
       }
       \name{editor}{2}{}{%
-        {{hash=d355f54d74febc352b029fd0b16319d3}{%
+        {{un=0,uniquepart=base,hash=d355f54d74febc352b029fd0b16319d3}{%
            family={Kox},
            familyi={K\bibinitperiod},
            given={A.\bibnamedelimi J.},
-           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=43a4e8865e8c1d8621dd00b77118e2e2}{%
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=43a4e8865e8c1d8621dd00b77118e2e2}{%
            family={Eisenstaedt},
            familyi={E\bibinitperiod},
            given={Jean},
-           giveni={J\bibinitperiod}}}%
+           giveni={J\bibinitperiod},
+           givenun=0}}%
       }
       \list{location}{1}{%
         {Boston}%
@@ -5346,6 +5510,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{The Universe of General Relativity}
+      \strng{crossref}{Kox2005}
       \field{langid}{english}
       \field{number}{11}
       \field{series}{Einstein Studies}
@@ -5354,11 +5519,9 @@
       \field{dateera}{ce}
       \field{pages}{277\bibrangedash 302}
       \range{pages}{26}
-      \verb{file}
-      \verb :/Users/marco/odrive/Dropbox/FullTextAuthors/einstein studies/Kox, A. J. \& Eisenstaedt, Jean (ed.) - The Universe of General Relativity.pdf:PDF
-      \endverb
     \endentry
   \enddatalist
+  \missing{[}
 \endrefsection
 \endinput
 

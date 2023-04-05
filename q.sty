@@ -1,4 +1,10 @@
 \usepackage{xparse}
+\renewcommand{\cite}{\autocite}
+\newcommand{\origins}[1]{\textins{\german{#1}}}
+\newcommand{\originsg}[1]{\textins{\german{#1}}}
+\newcommand{\originsf}[1]{\textins{\french{#1}}}
+\newcommand{\originsi}[1]{\textins{\italian{#1}}}
+\newcommand{\origg}[1]{(\german{#1})\xspace}
 
 
 \newcommand{\p}[1]{{[p.\ #1]}}
@@ -40,7 +46,10 @@
 
 
 %\NewDocumentCommand\citeptr{momo}{(\cite[#2]{#1}; tr.~\cite*[#4]{#3})\xspace}
+\newcommand{\citep}{\parencite}
 \newcommand{\citepp}{\parencites}
+\newcommand{\citet}{\textcite}
+%\newcommand{\citet}{\textcite}
 
 \newcommand{\citetitlep}[1]{\citetitle{#1} \parencite{#1}\xspace}
 \newcommand{\citetitleb}[1]{\citetitle{#1} \textnormal{[\cite{#1}]}}
@@ -130,10 +139,10 @@
 \newcommand{\citeat}[1]{\citeauthor{#1}, \citetitle{#1}, \citeyear{#1}}
 \newcommand{\footciteat}[1]{\footnote{\citeauthor{#1}, \citetitle{#1}, \citeyear{#1}}}
 
-\newcommand*{\repr}[2]{\autocap{r}epr.\ in \cite[#2]{#1}}
-\newcommand*{\postumin}[2]{\autocap{p}ub.\ post.\ in \cite[#2]{#1}}
-\newcommand*{\postumas}[1]{\autocap{p}ub.\ post.\ as \cite{#1}}
-\newcommand*{\repras}[2]{\autocap{r}epr.\ as \cite[#2]{#1}}
+\newcommand*{\repr}[2]{\autocap{r}epr.\ in \autocite[#2]{#1}}
+\newcommand*{\postumin}[2]{\autocap{p}ub.\ post.\ in \autocite[#2]{#1}}
+\newcommand*{\postumas}[1]{\autocap{p}ub.\ post.\ as \autocite{#1}}
+\newcommand*{\repras}[2]{\autocap{r}epr.\ as \autocite[#2]{#1}}
 %\newcommand*{\repri}{\autocap{r}epr.\ in }
 \newcommand*{\pub}[1]{\autocap{p}ub.\ in #1}
 \newcommand*{\reprcpae}[2]{\repr{CPAE}{\VD{#1}{#2}}}
@@ -161,64 +170,55 @@
 \newcommand{\scare}[1]{\@ifnextchar.{\enquote*{#1.}\@gobble}{\@ifnextchar,{\enquote*{#1,}\@gobble}{\enquote*{#1}\xspace}}}
 \makeatother
 
+\newcommand{\s}{\scare}
+
+\renewcommand*{\mkcitation}[1]{ #1}
+%\renewcommand*{\mkccitation}[1]{ #1}
+\renewcommand\mkblockquote[4]{\footnotesize#1#2.\xspace#3#4}
+\renewcommand{\mktextquote}[6]{#1#2#4#3#6}
+
 
 \makeatletter
-\newcommand{\qp}[1]{\@ifnextchar,{\blockquote{#1,}\@gobble}{\blockquote{#1}\xspace}}
-\makeatother
-
-\makeatletter
-\newcommand{\qtp}[2]{\@ifnextchar,{\blockquote{#1,}\@gobble}{\blockquote{#1}\xspace}}
-\makeatother
-
-\newcommand{\qblock}[1]{<blockquote>#1</blockquote>}
-
-\makeatletter
-
-\NewDocumentCommand\q{mooo}{%
+\NewDocumentCommand\q{moo}{%
 %
-\IfNoValueTF {#2}%
-   {\@ifnextchar,{\blockquote{#1,}\@gobble}{\blockquote{#1} \hide{#2}}}%
-   {%
-   \blockquote[{\cite[#2][#3]{#4}}]{#1}}
-   \xspace}
-\makeatother
-\makeatletter
-%quote with original and translation
-\NewDocumentCommand\qt{mmooooo}{%
-%
-\IfNoValueTF {#5}%
-   {\@ifnextchar,{\blockquote{#1,}\@gobble}{\blockquote{#1} \hide{#2}}}%	
+\IfNoValueTF {#3}%
+   {\@ifnextchar,{\blockquote{#1,}\@gobble}{\blockquote{#1}\hide{#2}}}%	
    {%
   \IfNoValueTF {#2}%
-  {\blockquote[{\cite[#3][#4]{#5}}]{#1}}
+  {\blockquote[{#3}]{#1}\hide{#2}}
    %
-{\IfNoValueTF {#6}%
-{\blockquote[{\cite[#3][#4]{#5}}]{#1} \hide{#2}}%
-{\blockquote[{\cite[#3][#4]{#5}; tr.~\cite*[#6]{#7}}]{#1} \hide{#2}}%
+{\IfNoValueTF {#3}%
+{\blockquote[{#3}]{#1}\hide{#2}}%
+{\blockquote[{#3}]{#1}\hide{#2}}%
 }
-}  
-\xspace}
+}
+\unspace}
+
+
+
+
+\NewDocumentCommand\qt{mmo}{%
+%
+\IfNoValueTF {#3}%
+   {\@ifnextchar,{\blockquote{#1,}\@gobble}{\blockquote{#1}\hide{#2}}}%	
+   {%
+  \IfNoValueTF {#2}%
+  {\blockquote[{#3}]{#1}\hide{#2}}
+   %
+{\IfNoValueTF {#3}%
+{\blockquote[{#3}]{#1}\hide{#2}}%
+{\blockquote[{#3}]{#1}\hide{#2}}%
+}
+}
+\unspace}
+
+%%%%%%%%
+
 
 \makeatletter
 \newcommand{\ff}{ff\@ifnextchar.{}{.}}
 \newcommand{\f}{f\@ifnextchar.{}{.}}
 \makeatother
-
-\NewDocumentCommand\qh{mmooooo}{%
-%
-\IfNoValueTF {#5}%
-   {\blockquote{#1} \hide{#2}}%
-   {%
-  \IfNoValueTF {#2}%
-  {\blockquote[{\cite[#3][#4]{#5}}]{#1}}
-   %
-{\IfNoValueTF {#6}%
-{\blockquote[{\cite[#3][#4]{#5}}]{#1} \hide{#2}}%
-{\blockquote[{\cite[#3][#4]{#5}; tr.~\cite*[#6]{#7}}]{#1} \hide{#2}}%
-}
-}  
-\unspace}
-
 
 
 \newcommand{\Ap}{Appendix\xspace}
@@ -306,9 +306,9 @@
 
 
 
-\NewDocumentCommand\CPAE{mm}{\cite[Vol.\ #1, Doc.\ #2]{CPAE}}
+\NewDocumentCommand\CPAE{mm}{\cite[\VD{#1}{#2}]{CPAE}}
 \NewDocumentCommand\CPAEs{mm}{\cite[Vol.\ #1, Docs.\ #2]{CPAE}}
-\NewDocumentCommand\CPAEp{mm}{(\cite[Vol.\ #1, Doc.\ #2]{CPAE})}
+\NewDocumentCommand\CPAEp{mm}{(\cite[\VD{#1}{#2}]{CPAE})}
 \NewDocumentCommand\CPAEsp{mm}{(\cite[Vol.\ #1, Docs.\ #2]{CPAE})}
 
 \NewDocumentCommand\CPAEpage{mm}{\cite[\VP{#1}{#2}]{CPAE}}
@@ -335,6 +335,7 @@
 \NewDocumentCommand\SVP{mmm}{Ser.\ #1, Vol.\ #2, #3}
 \NewDocumentCommand\VDP{mmm}{Vol.\ #1, Doc.\ #2, #3}
 \NewDocumentCommand\VD{mm}{Vol.\ #1, Doc.\ #2}
+\NewDocumentCommand\VDs{mm}{Vol.\ #1, Docs.\ #2}
 \NewDocumentCommand\VA{mm}{Vol.\ #1, Abs.\ #2}
 \NewDocumentCommand\VDD{mm}{Vol.\ #1, Docs.\ #2}
 \NewDocumentCommand\Vp{mm}{Vol.\ #1, #2}
@@ -658,6 +659,22 @@
 {(#1 to #2,  \shortmoam\formatdate{#3}{#4}{#5}; \cite[Doc.\ #6]{WPWB})}%
 } %
 \unspace}
+
+
+\DeclareDocumentCommand\letteras{mmmmmo}{%
+{\IfNoValueTF {#6}%
+{#1 to #2,  \shortmoam\formatdate{#3}{#4}{#5}}%
+{#1 to #2,  \shortmoam\formatdate{#3}{#4}{#5}; \cite[\VD{1}{#6}]{ASWB}}%
+} %
+\unspace}
+
+
+\DeclareDocumentCommand\letterasp{mmmmmo}{%
+{(\IfNoValueTF {#6}%
+{#1 to #2,  \shortmoam\formatdate{#3}{#4}{#5}}%
+{#1 to #2,  \shortmoam\formatdate{#3}{#4}{#5}; \cite[\VD{1}{#6}]{ASWB}}%
+} %
+\unspace)}
 
 
 

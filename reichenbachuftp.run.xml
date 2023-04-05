@@ -54,16 +54,17 @@
       <file>biblatex-dm.cfg</file>
       <file>blx-compat.def</file>
       <file>biblatex.def</file>
-      <file>blx-natbib.def</file>
-      <file>standard.bbx</file>
-      <file>authoryear.bbx</file>
-      <file>authoryear-comp.bbx</file>
-      <file>authoryear-comp.cbx</file>
+      <file>chicago-authordate.bbx</file>
+      <file>chicago-dates-common.cbx</file>
+      <file>chicago-authordate.cbx</file>
       <file>biblatex.cfg</file>
       <file>english.lbx</file>
       <file>american.lbx</file>
+      <file>cms-american.lbx</file>
       <file>french.lbx</file>
+      <file>cms-french.lbx</file>
       <file>german.lbx</file>
+      <file>cms-german.lbx</file>
     </requires>
   </internal>
   <external package="biblatex" priority="5" active="0">
@@ -87,6 +88,7 @@
     <requires type="editable">
       <file>biblatex.bib</file>
       <file>cvb.bib</file>
+      <file>cvbconf.bib</file>
     </requires>
   </external>
 </requests>

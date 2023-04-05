@@ -1,22 +1,29 @@
-[1] Config.pm:311> INFO - This is Biber 2.16
+[0] Config.pm:311> INFO - This is Biber 2.16
 [1] Config.pm:314> INFO - Logfile is 'reichenbachuftp.blg'
-[173] biber-darwin:340> INFO - === Wed Mar  2, 2022, 09:12:35
-[208] Biber.pm:415> INFO - Reading 'reichenbachuftp.bcf'
-[775] Biber.pm:952> INFO - Found 145 citekeys in bib section 0
-[853] Biber.pm:4340> INFO - Processing section 0
-[876] Biber.pm:4531> INFO - Looking for bibtex format file 'biblatex.bib' for section 0
-[1384] bibtex.pm:1689> INFO - LaTeX decoding ...
-[10812] bibtex.pm:1494> INFO - Found BibTeX data source '/Users/marco/Library/texmf/bibtex/bib/Biblatex/biblatex.bib'
-[12157] Biber.pm:4531> INFO - Looking for bibtex format file 'cvb.bib' for section 0
-[12394] bibtex.pm:1689> INFO - LaTeX decoding ...
-[12517] bibtex.pm:1494> INFO - Found BibTeX data source '/Users/marco/Library/texmf/bibtex/bib/Biblatex/cvb.bib'
-[13059] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[13059] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[13059] Biber.pm:4168> INFO - Sorting list 'shorthand:shorthand/global//global/global' of type 'list' with template 'shorthand' and locale 'en-US'
-[13059] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[13569] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[13569] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[13569] Biber.pm:4168> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[13569] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[13902] bbl.pm:654> INFO - Writing 'reichenbachuftp.bbl' with encoding 'UTF-8'
-[14032] bbl.pm:757> INFO - Output to reichenbachuftp.bbl
+[322] biber-darwin:340> INFO - === Wed Apr  5, 2023, 13:09:42
+[420] Biber.pm:415> INFO - Reading 'reichenbachuftp.bcf'
+[1875] Biber.pm:952> INFO - Found 146 citekeys in bib section 0
+[2002] Biber.pm:4340> INFO - Processing section 0
+[2069] Biber.pm:4531> INFO - Looking for bibtex format file 'biblatex.bib' for section 0
+[3295] bibtex.pm:1689> INFO - LaTeX decoding ...
+[13256] bibtex.pm:1494> INFO - Found BibTeX data source '/Users/marco/Library/texmf/bibtex/bib/Biblatex/biblatex.bib'
+[14393] Biber.pm:4531> INFO - Looking for bibtex format file 'cvb.bib' for section 0
+[14595] bibtex.pm:1689> INFO - LaTeX decoding ...
+[14671] bibtex.pm:1494> INFO - Found BibTeX data source '/Users/marco/Library/texmf/bibtex/bib/Biblatex/cvb.bib'
+[14748] Biber.pm:4531> INFO - Looking for bibtex format file 'cvbconf.bib' for section 0
+[14893] bibtex.pm:1689> INFO - LaTeX decoding ...
+[14926] bibtex.pm:1494> INFO - Found BibTeX data source '/Users/marco/Library/texmf/bibtex/bib/Biblatex/cvbconf.bib'
+[14931] Utils.pm:395> WARN - I didn't find a database entry for '[' (section 0)
+[15318] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[15319] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[15319] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'level = 4' with 'level = 2'
+[15319] Biber.pm:4168> INFO - Sorting list 'shorthand:shorthand/global//global/global' of type 'list' with template 'shorthand' and locale 'en-US'
+[15319] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[15551] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[15552] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[15552] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'level = 4' with 'level = 2'
+[15552] Biber.pm:4168> INFO - Sorting list 'cms/global//global/global' of type 'entry' with template 'cms' and locale 'en-US'
+[15552] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[15709] bbl.pm:654> INFO - Writing 'reichenbachuftp.bbl' with encoding 'UTF-8'
+[15802] bbl.pm:757> INFO - Output to reichenbachuftp.bbl
+[15802] Biber.pm:128> INFO - WARNINGS: 1
